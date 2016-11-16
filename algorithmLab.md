@@ -11,3 +11,15 @@
 ### n
 
 n is not arr.size(), is hi - lo + 1
+
+### zero
+
+```cpp
+return kth > 0 ? ... : 0;
+```
+
+### arr.size() < r
+
+```cpp
+return kth > 0 ? arr[kth - 1] : 0;
+```

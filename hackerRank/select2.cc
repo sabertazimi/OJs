@@ -118,9 +118,9 @@ static int _select2(vector<int> &arr, int kth, int lo, int hi) {
 int select2(vector<int> arr, int kth) {
     if ((int)arr.size() <= r) {
         insertionSort(arr, 0, arr.size() - 1);
-        return arr[kth];
+        return kth > 0 ? arr[kth - 1] : 0;
     } else {
-        return arr[_select2(arr, kth, 0, arr.size() - 1)];
+        return kth > 0 ? arr[_select2(arr, kth, 0, arr.size() - 1)] : 0;
     }
 }
 

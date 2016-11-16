@@ -2,8 +2,9 @@
 # Makefile
 # sabertazimi, 2016-11-13 17:29
 #
+#
 
-PATH=hackerRank
+OJNAME=hackerRank
 PROG=select2
 
 CC=g++
@@ -12,19 +13,19 @@ DEBUG=gdb
 RM=rm -fr
 
 all:
-	$(CC) -o $(PATH)/$(PROG).out $(CFLAGS) $(PATH)/$(PROG).cc
+	$(CC) -o $(OJNAME)/$(PROG).out $(CFLAGS) $(OJNAME)/$(PROG).cc
 
 .PHONY=run clean debug
 
 run:
-	./$(PATH)/$(PROG).out
+	./$(OJNAME)/$(PROG).out
 
 clean:
 	$(RM) ./*.out
 	$(RM) .gdb_history
 
 debug:
-	$(DEBUG) $(PATH)/$(PROG).out -q -ex "b $(PATH)/$(PROG).cc:1" -ex "r"
+	$(DEBUG) $(OJNAME)/$(PROG).out -q -ex "b $(OJNAME)/$(PROG).cc:1" -ex "r"
 
 # vim:ft=make
 #
