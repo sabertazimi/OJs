@@ -4,8 +4,8 @@
 #
 #
 
-OJNAME=hackerRank
-PROG=select2
+OJNAME=ccf/201312
+PROG=interesting_number
 
 CC=g++
 CFLAGS=-g -Wall -Wextra
