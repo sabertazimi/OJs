@@ -5,7 +5,7 @@
 #
 
 OJNAME=ccf/201312
-PROG=interesting_number
+PROG=stuck_maze
 
 CC=g++
 CFLAGS=-g -Wall -Wextra
