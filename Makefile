@@ -4,10 +4,8 @@
 #
 #
 
-# OJNAME=ccf/201312
-# PROG=stuck_maze
-OJNAME=basic
-PROG=sudoku
+OJNAME=ccf/201312
+PROG=stuck_maze
 
 CC=g++
 CFLAGS=-g -Wall -Wextra
