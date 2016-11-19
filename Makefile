@@ -4,8 +4,8 @@
 #
 #
 
-OJNAME=ccf/201312
-PROG=stuck_maze
+OJNAME=ccf/201403
+PROG=inverse_number
 
 CC=g++
 CFLAGS=-g -Wall -Wextra
@@ -21,7 +21,7 @@ run:
 	./$(OJNAME)/$(PROG).out
 
 clean:
-	$(RM) ./*.out
+	$(foreach filename, $(shell find . -name "*.out"), $(RM) $(filename);)
 	$(RM) .gdb_history
 
 debug:
