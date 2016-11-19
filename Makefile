@@ -5,7 +5,7 @@
 #
 
 OJNAME=ccf/201403
-PROG=inverse_number
+PROG=windows
 
 CC=g++
 CFLAGS=-g -Wall -Wextra
