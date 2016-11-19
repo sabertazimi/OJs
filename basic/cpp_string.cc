@@ -9,6 +9,12 @@
 #include <string>
 #include <sstream>
 
+/*
+ * stringstream
+ * 1. split: 将分隔符先替换为 ' ', 即可使用 stringstream 不断读取分割字段
+ * 2. 格式转换
+ */
+
 using namespace std;
 
 void getline_stringstream(void) {
