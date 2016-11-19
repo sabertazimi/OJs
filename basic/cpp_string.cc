@@ -27,6 +27,21 @@ void getline_stringstream(void) {
     }
 }
 
+#include <cstring>
+
+void split(void) {
+    char s[] = "a, b*c, d";
+    const char *sep = ".*";
+
+    char *p;
+    p = strtok(s, sep);
+
+    while (p) {
+        cout << p;
+        p = strtok(NULL, sep);
+    }
+}
+
 int main(void) {
     getline_stringstream();
     return 0;
