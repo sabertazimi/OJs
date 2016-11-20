@@ -57,7 +57,7 @@ int bfs(queue<Node> &sp, int n, int k) {
                     cost += next.step * mp[next.x][next.y];
                     finished++;
 
-                    if (finished > k) {
+                    if (finished >= k) {
                         return cost;
                     }
                 }

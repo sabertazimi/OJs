@@ -22,7 +22,7 @@ run:
 
 clean:
 	$(foreach filename, $(shell find . -name "*.out"), $(RM) $(filename);)
-	$(RM) .gdb_history
+	$(foreach filename, $(shell find . -name ".gdb_history"), $(RM) $(filename);)
 
 debug:
 	$(DEBUG) $(OJNAME)/$(PROG).out -q -ex "b $(OJNAME)/$(PROG).cc:1" -ex "r"
