@@ -4,7 +4,7 @@
 #
 #
 
-OJNAME=ccf/201403
+OJNAME=ccf/201409
 PROG=cpu
 
 CC=g++
