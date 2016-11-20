@@ -5,7 +5,7 @@
 #
 
 OJNAME=ccf/201409
-PROG=painting
+PROG=kmp
 
 CC=g++
 CFLAGS=-g -Wall -Wextra
