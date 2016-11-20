@@ -5,7 +5,7 @@
 #
 
 OJNAME=ccf/201409
-PROG=kmp
+PROG=best_takeout
 
 CC=g++
 CFLAGS=-g -Wall -Wextra
