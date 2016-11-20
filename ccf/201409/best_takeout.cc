@@ -35,13 +35,15 @@ static int mv[4][2] = {
     0, 1        // right
 };
 
-int bfs(queue<Node> &sp, int n, int k) {
-    Node prev;
+///> bfs queue
+queue<Node> sp;
+
+int bfs(int n, int k) {
     int finished = 0;
     long long cost = 0;
 
     while (!sp.empty()) {
-        prev = sp.front();
+        Node prev = sp.front();
         sp.pop();
 
         for (int i = 0; i < 4; i++) {
@@ -50,7 +52,7 @@ int bfs(queue<Node> &sp, int n, int k) {
             next.y += mv[i][1];
             next.step++;
 
-            if (!vis[next.x][next.y] && next.x >=1 && next.x <= n && next.y >= 1 && next.y <= n) {
+            if (!vis[next.x][next.y] && next.x >= 1 && next.x <= n && next.y >= 1 && next.y <= n) {
                 vis[next.x][next.y] = true;
 
                 if (mp[next.x][next.y]) {
@@ -62,20 +64,18 @@ int bfs(queue<Node> &sp, int n, int k) {
                     }
                 }
 
-                sp.push(Node(next.x, next.y, next.step));
+                sp.push(next);
             }
         }
     }
 
-    return 0;
+    return -1;
 }
 
 int main(void) {
     int n, m, k, d;
     int x, y, z;
 
-    ///> bfs queue
-    queue<Node> sp;
 
     cin >> n >> m >> k >> d;
 
@@ -87,7 +87,7 @@ int main(void) {
 
     for (int i = 0; i < k; i++) {
         cin >> x >> y >> z;
-        mp[x][y] = z;
+        mp[x][y] += z;
     }
 
     for (int i = 0; i < d; i++) {
@@ -95,7 +95,7 @@ int main(void) {
         vis[x][y] = true;
     }
 
-    cout << bfs(sp, n, k) << endl;
+    cout << bfs(n, k) << endl;
 
     return 0;
 }
