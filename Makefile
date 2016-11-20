@@ -5,7 +5,7 @@
 #
 
 OJNAME=ccf/201409
-PROG=cpu
+PROG=adjacent
 
 CC=g++
 CFLAGS=-g -Wall -Wextra
