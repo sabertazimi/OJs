@@ -33,7 +33,6 @@ int main(void) {
     }
 
     cout << cnt << endl;
+
     return 0;
 }
-
-
