@@ -31,8 +31,8 @@ int main(void) {
     }
 
     int sum = 0;
-    for (int i = 1; i <= 102; i++) {
-        for (int j = 1; j <= 102; j++) {
+    for (int i = 0; i < 102; i++) {
+        for (int j = 0; j < 102; j++) {
             if (board[i][j]) {
                 sum++;
             }
