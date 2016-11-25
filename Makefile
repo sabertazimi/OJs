@@ -4,8 +4,10 @@
 #
 #
 
-OJNAME=ccf/201409
-PROG=best_takeout
+# OJNAME=ccf/201409
+# PROG=best_takeout
+OJNAME=hust
+PROG=dijkstra
 
 CC=g++
 CFLAGS=-g -Wall -Wextra
