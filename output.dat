@@ -1,0 +1,37 @@
+round: 1
+map: 
+0	30	40	15	
+x	0	40	x	
+x	x	0	20	
+x	x	x	0	
+shortest paths:
+0 - 1: 0-1	30
+0 - 2: 0-2	40
+0 - 3: 0-3	15
+
+round: 2
+map: 
+0	20	50	30	x	x	x	
+x	0	25	x	x	70	x	
+x	x	0	40	25	50	x	
+x	x	x	0	55	x	x	
+x	x	x	x	0	10	70	
+x	x	x	x	x	0	50	
+x	x	x	x	x	x	0	
+shortest paths:
+0 - 1: 0-1	20
+0 - 2: 0-1-2	45
+0 - 3: 0-3	30
+0 - 4: 0-1-2-4	70
+0 - 5: 0-1-2-4-5	80
+0 - 6: 0-1-2-4-5-6	130
+
+round: 3
+map: 
+0	30	x	
+x	0	40	
+x	x	0	
+shortest paths:
+0 - 1: 0-1	30
+0 - 2: 0-1-2	70
+

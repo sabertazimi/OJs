@@ -23,3 +23,8 @@ return kth > 0 ? ... : 0;
 ```cpp
 return kth > 0 ? arr[kth - 1] : 0;
 ```
+
+### -1 edges
+
+*   If distance of edge is '-1', '<' or '>' won't work correctly
+*   solution: use 'if' to judge distance of edge is infinite(-1) whether or not, and make it become the far most(largest)

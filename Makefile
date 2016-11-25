@@ -12,6 +12,7 @@ PROG=dijkstra
 CC=g++
 CFLAGS=-g -Wall -Wextra
 DEBUG=gdb
+BREAK_LINE=52
 RM=rm -fr
 
 all:
@@ -27,7 +28,7 @@ clean:
 	$(foreach filename, $(shell find . -name ".gdb_history"), $(RM) $(filename);)
 
 debug:
-	$(DEBUG) $(OJNAME)/$(PROG).out -q -ex "b $(OJNAME)/$(PROG).cc:1" -ex "r"
+	$(DEBUG) $(OJNAME)/$(PROG).out -q -ex "b $(OJNAME)/$(PROG).cc:$(BREAK_LINE)" -ex "r"
 
 # vim:ft=make
 #
