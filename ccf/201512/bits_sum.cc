@@ -14,16 +14,18 @@
 
 using namespace std;
 
-int main(void) {
-    int n;
-    cin >> n;
+int
+main (void)
+{
+  int n;
+  cin >> n;
 
-    int sum = 0;
-    while (n) {
-        sum += n % 10;
-        n /= 10;
+  int sum = 0;
+  while (n)
+    {
+      sum += n % 10;
+      n /= 10;
     }
 
-    return 0;
+  return 0;
 }
-
