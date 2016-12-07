@@ -14,25 +14,26 @@
 
 using namespace std;
 
-int main(void) {
-    int n;
-    cin >> n;
+int main(void)
+{
+	int n;
+	cin >> n;
 
-    int num;
-    int pairs = 0;
-    map<int, int> mp;
+	int num;
+	int pairs = 0;
+	map < int, int >mp;
 
-    for (int i = 0; i < n; i++) {
-        cin >> num;
+	for (int i = 0; i < n; i++) {
+		cin >> num;
 
-        if (mp.find(abs(num)) == mp.end()) {
-            mp[abs(num)] = 1;
-        } else {
-            pairs++;
-        }
-    }
+		if (mp.find(abs(num)) == mp.end()) {
+			mp[abs(num)] = 1;
+		} else {
+			pairs++;
+		}
+	}
 
-    cout << pairs << endl;
+	cout << pairs << endl;
 
-    return 0;
+	return 0;
 }

@@ -14,31 +14,32 @@
 
 using namespace std;
 
-void match(string str, string key, bool sensitive) {
-    string tmp = str;
+void match(string str, string key, bool sensitive)
+{
+	string tmp = str;
 
-    if (!sensitive) {
-        transform(str.begin(), str.end(), tmp.begin(), ::tolower);
-        transform(key.begin(), key.end(), key.begin(), ::tolower);
-    }
+	if (!sensitive) {
+		transform(str.begin(), str.end(), tmp.begin(),::tolower);
+		transform(key.begin(), key.end(), key.begin(),::tolower);
+	}
 
-    if (tmp.find(key) != string::npos) {
-        cout << str << endl;
-    }
+	if (tmp.find(key) != string::npos) {
+		cout << str << endl;
+	}
 }
 
+int main(void)
+{
+	string key, str;
+	bool sensitive;
+	int n;
 
-int main(void) {
-    string key, str;
-    bool sensitive;
-    int n;
+	cin >> key >> sensitive >> n;
 
-    cin >> key >> sensitive >> n;
+	for (int i = 0; i < n; i++) {
+		cin >> str;
+		match(str, key, sensitive);
+	}
 
-    for (int i = 0; i < n; i++) {
-        cin >> str;
-        match(str, key, sensitive);
-    }
-
-    return 0;
+	return 0;
 }

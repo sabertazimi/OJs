@@ -24,6 +24,7 @@ run:
 	./$(OJNAME)/$(PROG).out
 
 clean:
+	$(foreach filename, $(shell find . -name "*~"), $(RM) $(filename);)
 	$(foreach filename, $(shell find . -name "*.out"), $(RM) $(filename);)
 	$(foreach filename, $(shell find . -name ".gdb_history"), $(RM) $(filename);)
 

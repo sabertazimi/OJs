@@ -15,87 +15,89 @@ using namespace std;
 
 ///> node def
 class Node {
-public:
-    int x, y;
-    int step;
-    Node(int x = 0, int y = 0, int step = 0) {
-        this->x = x;
-        this->y = y;
-        this->step = step;
-    }
-};
+ public:
+	int x, y;
+	int step;
+	 Node(int x = 0, int y = 0, int step = 0) {
+		this->x = x;
+		this->y = y;
+		this->step = step;
+}};
 
 ///> matrix def(nodes, not edges)
 static int mp[1001][1001] = { 0 };
 static bool vis[1001][1001] = { 0 };
+
 static int mv[4][2] = {
-    -1, 0,      // up
-    1, 0,       // down
-    0, -1,      // left
-    0, 1        // right
+	-1, 0,			// up
+	1, 0,			// down
+	0, -1,			// left
+	0, 1			// right
 };
 
 ///> bfs queue
-queue<Node> sp;
+queue < Node > sp;
 
-int bfs(int n, int k) {
-    int finished = 0;
-    long long cost = 0;
+int bfs(int n, int k)
+{
+	int finished = 0;
+	long long cost = 0;
 
-    while (!sp.empty()) {
-        Node prev = sp.front();
-        sp.pop();
+	while (!sp.empty()) {
+		Node prev = sp.front();
+		sp.pop();
 
-        for (int i = 0; i < 4; i++) {
-            Node next = prev;
-            next.x += mv[i][0];
-            next.y += mv[i][1];
-            next.step++;
+		for (int i = 0; i < 4; i++) {
+			Node next = prev;
+			next.x += mv[i][0];
+			next.y += mv[i][1];
+			next.step++;
 
-            if (!vis[next.x][next.y] && next.x >= 1 && next.x <= n && next.y >= 1 && next.y <= n) {
-                vis[next.x][next.y] = true;
+			if (!vis[next.x][next.y] && next.x >= 1 && next.x <= n
+			    && next.y >= 1 && next.y <= n) {
+				vis[next.x][next.y] = true;
 
-                if (mp[next.x][next.y]) {
-                    cost += next.step * mp[next.x][next.y];
-                    finished++;
+				if (mp[next.x][next.y]) {
+					cost += next.step * mp[next.x][next.y];
+					finished++;
 
-                    if (finished >= k) {
-                        return cost;
-                    }
-                }
+					if (finished >= k) {
+						return cost;
+					}
+				}
 
-                sp.push(next);
-            }
-        }
-    }
+				sp.push(next);
+			}
+		}
+	}
 
-    return -1;
+	return -1;
 }
 
-int main(void) {
-    int n, m, k, d;
-    int x, y, z;
+int main(void)
+{
+	int n, m, k, d;
+	int x, y, z;
 
+	cin >> n >> m >> k >> d;
 
-    cin >> n >> m >> k >> d;
+	for (int i = 0; i < m; i++) {
+		cin >> x >> y;
+		vis[x][y] = true;
+		sp.push(Node(x, y, 0));
+	}
 
-    for (int i = 0; i < m; i++) {
-        cin >> x >> y;
-        vis[x][y] = true;
-        sp.push(Node(x, y, 0));
-    }
+	for (int i = 0; i < k; i++) {
+		cin >> x >> y >> z;
+		mp[x][y] += z;
+	}
 
-    for (int i = 0; i < k; i++) {
-        cin >> x >> y >> z;
-        mp[x][y] += z;
-    }
+	for (int i = 0; i < d; i++) {
+		cin >> x >> y;
+		vis[x][y] = true;
+	}
 
-    for (int i = 0; i < d; i++) {
-        cin >> x >> y;
-        vis[x][y] = true;
-    }
+	cout << bfs(n, k) << endl;
 
-    cout << bfs(n, k) << endl;
-
-    return 0;
+	return 0;
 }
