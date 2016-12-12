@@ -5,12 +5,12 @@
 #
 
 OJNAME=uva
-PROG=1592_Database
+PROG=1593_alignment_of_code
 
 CC=g++
 CFLAGS=-g -Wall -Wextra
 DEBUG=gdb
-BREAK_LINE=52
+BREAK_LINE=66
 RM=rm -fr
 
 all:

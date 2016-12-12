@@ -11,14 +11,17 @@
 #include <cstdio>
 #include <iostream>
 #include <sstream>
+#include <fstream>
 #include <string>
 #include <vector>
 #include <map>
 
 using namespace std;
 
-typedef pair<int,int> PII;
+#define LOCAL
+#undef LOCAL
 
+typedef pair<int,int> PII;
 
 const int maxr = 10000 + 5;
 const int maxc = 10 + 5;
@@ -60,13 +63,17 @@ void find(void) {
     cout << "YES" << endl;
 }
 
-
 int main(void) {
+#ifdef LOCAL
+    freopen("input.dat", "r", stdin);
+#endif
+
     string s;
 
     while(getline(cin, s)) {
         stringstream ss(s);
         if(!(ss >> n >> m)) break;
+
         cnt = 0;
         id.clear();
 
