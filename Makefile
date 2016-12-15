@@ -5,12 +5,12 @@
 #
 
 OJNAME=uva
-PROG=10935_throwing_cards_away
+PROG=10391_compound_words
 
 CC=g++
 CFLAGS=-g -Wall -Wextra
 DEBUG=gdb
-BREAK_LINE=66
+BREAK_LINE=55
 RM=rm -fr
 
 all:
