@@ -15,7 +15,18 @@
 
 using namespace std;
 
+#define LOCAL
+#undef LOCAL
+
+#ifdef LOCAL
+    #include <fstream>
+#endif
+
 int main(void) {
+#ifdef LOCAL
+    freopen("input.dat", "r", stdin);
+#endif
+
     string line;
     vector < vector<string> > ret;
     int mx[256] = {};
@@ -47,7 +58,7 @@ int main(void) {
         // pre character position
         int pos = 0;
 
-        for (int j = 0; j < (int)v.size(); i++) {
+        for (int j = 0; j < (int)v.size(); j++) {
             while (pos < mx[j]) {
                 cout << ' ';
                 pos++;

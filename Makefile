@@ -5,7 +5,7 @@
 #
 
 OJNAME=uva
-PROG=1593_alignment_of_code
+PROG=1594_ducci_sequence
 
 CC=g++
 CFLAGS=-g -Wall -Wextra
@@ -27,7 +27,8 @@ clean:
 	$(foreach filename, $(shell find . -name ".gdb_history"), $(RM) $(filename);)
 
 debug:
-	$(DEBUG) $(OJNAME)/$(PROG).out -q -ex "b $(OJNAME)/$(PROG).cc:$(BREAK_LINE)" -ex "r"
+	$(DEBUG) $(OJNAME)/$(PROG).out -q -ex "b $(OJNAME)/$(PROG).cc:$(BREAK_LINE)" -ex "r input.dat"
+# $(DEBUG) $(OJNAME)/$(PROG).out -q -ex "b $(OJNAME)/$(PROG).cc:$(BREAK_LINE)" -ex "r"
 
 # vim:ft=make
 #
