@@ -5,7 +5,7 @@
 #
 
 OJNAME=uva
-PROG=10391_compound_words
+PROG=1595_symmetry
 
 CC=g++
 CFLAGS=-g -Wall -Wextra
