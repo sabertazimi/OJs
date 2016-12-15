@@ -5,7 +5,7 @@
 #
 
 OJNAME=uva
-PROG=1594_ducci_sequence
+PROG=10935_throwing_cards_away
 
 CC=g++
 CFLAGS=-g -Wall -Wextra
