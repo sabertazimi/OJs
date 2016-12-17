@@ -4,8 +4,8 @@
 #
 #
 
-OJNAME=uva
-PROG=1595_symmetry
+OJNAME=hust
+PROG=dijkstra
 
 CC=g++
 CFLAGS=-g -Wall -Wextra

@@ -23,13 +23,6 @@
 
 using namespace std;
 
-#ifdef LOCAL
-ifstream fin("input.dat");
-ofstream fout("output.dat");
-streambuf *cinbackup;
-streambuf *coutbackup;
-#endif
-
 class Node {
 public:
     int dist;
@@ -149,19 +142,13 @@ void outputPaths(vector<Node *> &nodes, int **edges, int n) {
 
 int main(void) {
 #ifdef LOCAL
-    cinbackup = cin.rdbuf(fin.rdbuf());
-    coutbackup = cout.rdbuf(fout.rdbuf());
+    freopen("input.dat", "r", stdin);
 #endif
 
-    int r;      ///< number of rounds
-    cin >> r;
+    int n;  ///< number of nodes
+    int m;  ///< number of edges
 
-    for (int i = 0; i < r; i++) {
-        int n;  ///< number of nodes
-        int m;  ///< number of edges
-
-        cin >> n >> m;
-
+    while (cin >> n >> m) {
         vector<Node *> nodes(n);
         int **edges = (int **)malloc(sizeof(int *) * n);
 
@@ -172,7 +159,6 @@ int main(void) {
         dijkstra(nodes, edges);
 
         // print shortest paths
-        cout << "round: " << i + 1 << endl;
         outputPaths(nodes, edges, n);
         cout << endl;
 
@@ -187,13 +173,6 @@ int main(void) {
         }
         delete edges;
     }
-
-#ifdef LOCAL
-    cin.rdbuf(cinbackup);
-    cout.rdbuf(coutbackup);
-    fin.close();
-    fout.close();
-#endif
 
     return 0;
 }
