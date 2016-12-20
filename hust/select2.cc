@@ -17,6 +17,13 @@ using namespace std;
 #define DEBUG
 // #undef DEBUG
 
+#define LOCAL
+// #undef LOCAL
+
+#ifdef LOCAL
+#include <fstream>
+#endif
+
 static int r = 3;      ///< separte array into groups, each group-array contains r elements
 
 /// \brief insertion sort algorithm implementation
@@ -55,13 +62,17 @@ static int partition(vector<int> &arr, int lo, int hi) {
 }
 
 /// \brief group select algorithm implementation(iteration version)
+///
+/// move median of array to arr[lo], invoke partition(arr, lo, hi) take median as guard.
+/// then take spot as reuturn value of partition, judge result with relationship between spot-lo+1 and kth to
+/// decide to return or search left-part of arr or right-part of arr.
+///
 /// \param arr array with non-repeating elements and size bigger than r
 /// \param kth expect the kth largest element in array
 /// \param lo  lowest limit of array
 /// \param hi  highest limit of array
 /// \return index of kth element
 static int _select2(vector<int> &arr, int kth, int lo, int hi) {
-
     while (1) {
         int n  = hi - lo + 1;       ///< number of elements locating in lo:hi range
 
@@ -125,38 +136,48 @@ int select2(vector<int> arr, int kth) {
 }
 
 int main(void) {
+#ifdef LOCAL
+    freopen("input.dat", "r", stdin);
+#endif
+
     int n, kth;
-    cin >> n;
+    vector<int> arr;
+    vector<int> brr;
 
-    vector<int> arr(n);
-    vector<int> brr(n);
+    while (cin >> n) {
+        for (int i = 0; i < n; i++) {
+            int v;
+            cin >> v;
+            arr.push_back(v);
+            brr.push_back(v);
+        }
 
-    for (int i = 0; i < n; i++) {
-        cin >> arr[i];
-        brr[i] = arr[i];
-    }
-
-    insertionSort(brr, 0, brr.size() - 1);
+        insertionSort(brr, 0, brr.size() - 1);
 
 #ifdef DEBUG
-    for (int i = 0; i < (int)brr.size() - 1; i++) {
-        cout << brr[i] << " ";
-    }
-    cout << brr[brr.size() - 1] << endl;
+        cout << "[sorted] ";
+        for (int i = 0; i < (int)brr.size() - 1; i++) {
+            cout << brr[i] << " ";
+        }
+        cout << brr[brr.size() - 1] << endl;
 #endif // DEBUG
 
-    do {
-        cin >> kth;
-        cout << "[unsorted] the " << kth << " largest element = " << select2(arr, kth) << endl;
+        do {
+            cin >> kth;
+            cout << "[unsorted] the " << kth << " largest element = " << select2(arr, kth) << endl;
 
-    #ifdef DEBUG
-        for (int i = 0; i < (int)arr.size() - 1; i++) {
-            cout << arr[i] << " ";
-        }
-        cout << arr[arr.size() - 1] << endl;
-    #endif // DEBUG
+#ifdef DEBUG
+            for (int i = 0; i < (int)arr.size() - 1; i++) {
+                cout << arr[i] << " ";
+            }
+            cout << arr[arr.size() - 1] << endl;
+#endif // DEBUG
 
-    } while (kth > 0);
+        } while (kth < (int)arr.size());
+
+        arr.clear();
+        brr.clear();
+    }
 
     return 0;
 }

@@ -15,6 +15,13 @@
 
 using namespace std;
 
+#define LOCAL
+// #undef LOCAL
+
+#ifdef LOCAL
+#include <fstream>
+#endif
+
 /// \brief partition algorithm implementation
 /// \param arr array
 /// \param lo  lowest limit of array
@@ -90,21 +97,29 @@ void quickSort(vector<int> &arr) {
 }
 
 int main(void) {
+#ifdef LOCAL
+    freopen("input.dat", "r", stdin);
+#endif
+
     int n;
-    cin >> n;
+    vector<int> arr;
 
-    vector<int> arr(n);
+    while (cin >> n) {
+        for (int i = 0; i < n; i++) {
+            int v;
+            cin >> v;
+            arr.push_back(v);
+        }
 
-    for (int i = 0; i < n; i++) {
-        cin >> arr[i];
+        quickSort(arr);
+
+        for (int i = 0; i < (int)arr.size() - 1; i++) {
+            cout << arr[i] << ' ';
+        }
+        cout << arr[arr.size() - 1] << endl;
+
+        arr.clear();
     }
-
-    quickSort(arr);
-
-    for (int i = 0; i < (int)arr.size() - 1; i++) {
-        cout << arr[i] << ' ';
-    }
-    cout << arr[arr.size() - 1] << endl;
 
     return 0;
 }

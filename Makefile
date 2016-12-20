@@ -5,7 +5,7 @@
 #
 
 OJNAME=hust
-PROG=dijkstra
+PROG=quicksort5
 
 CC=g++
 CFLAGS=-g -Wall -Wextra
