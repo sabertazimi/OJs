@@ -31,27 +31,26 @@ int path[NODE_MAX][NODE_MAX];
 void print(void) {
     cout << "edge: " << endl;
 
-    for(int i = 0;i < n; i++) {
-        for(int j = i+1; j < n; j++) {
+    for (int i = 0; i < n; i++) {
+        for (int j = i+1; j < n; j++) {
             if (i != j) {
                 cout << i << "->" << j << ": " << edge[i][j] << endl;
             }
         }
     }
 
-    /* while (start != end){ */
-    /*     cout << start << "->"; */
-    /*     start = path[start][end]; */
-    /* } */
-    /* cout << end << endl; */
-
     cout << "path: " << endl;
 
     for (int i = 0; i < n; i++) {
-        for (int j = 0; j < n; j++) {
-            cout << path[i][j] << " ";
+        for (int j = i+1; j < n; j++) {
+            int start = i, end = j;
+            while (start != end){
+                cout << start << "->";
+                start = path[start][end];
+            }
+            cout << end << endl;
+
         }
-        cout << endl;
     }
 }
 

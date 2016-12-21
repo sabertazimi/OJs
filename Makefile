@@ -5,7 +5,7 @@
 #
 
 OJNAME=hust
-PROG=queens
+PROG=floyd
 
 CC=g++
 CFLAGS=-g -Wall -Wextra

@@ -24,7 +24,7 @@ using namespace std;
 #include <fstream>
 #endif
 
-static int r = 3;      ///< separte array into groups, each group-array contains r elements
+static int r = 5;      ///< separte array into groups, each group-array contains r elements
 
 /// \brief insertion sort algorithm implementation
 /// \param arr array
