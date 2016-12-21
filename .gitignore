@@ -35,7 +35,3 @@ CMakeLists.txt
 
 # git files
 large.files
-
-# ms docs
-*.doc
-*.docx
