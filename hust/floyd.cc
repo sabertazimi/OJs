@@ -59,7 +59,6 @@ int main(void) {
     freopen("input.dat", "r", stdin);
 #endif
 
-
     while (cin >> n >> m) {
 
         // initialization

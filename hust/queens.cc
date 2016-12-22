@@ -76,7 +76,7 @@ class Queen {
                 cols[i] = 0;
             }
         }
-
+        
         ~Queen(void) {
             n = 0;
             existSolution = false;
@@ -94,9 +94,13 @@ class Queen {
         /// \brief print solution(array) for n queens' problem
         /// \return void
         void printSolution(void) {
+            cout << n << " queens' problem: " << endl;
+            cout << (existSolution ? "true - " : "false - ");
+
             for (int i = 1; i <= n;i++) {
                 cout << cols[i] << " ";
             }
+
             cout << endl;
         }
 };
@@ -107,9 +111,7 @@ int main(void) {
 
     for (int i = 1; i <= n; i++) {
         Queen q(i);
-        bool flag = q.getSolution();
-        cout << i << " queens' problem: " << endl;
-        cout << (flag ? "true - " : "false - ");
+        q.getSolution();
         q.printSolution();
     }
 
