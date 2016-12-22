@@ -4,7 +4,7 @@
 #
 #
 
-OJNAME=hust
+OJNAME=uva
 PROG=queens
 
 CC=g++
