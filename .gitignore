@@ -35,3 +35,5 @@ CMakeLists.txt
 
 # git files
 large.files
+
+samples/
