@@ -5,7 +5,7 @@
 #
 
 OJNAME=uva
-PROG=514_rails
+PROG=442_matrix_chain_multiplication
 
 CC=g++
 CFLAGS=-g -Wall -Wextra
@@ -22,9 +22,9 @@ run:
 	./$(OJNAME)/$(PROG).out
 
 clean:
-	$(foreach filename, $(shell find . -name "*~"), $(RM) $(filename);)
-	$(foreach filename, $(shell find . -name "*.out"), $(RM) $(filename);)
-	$(foreach filename, $(shell find . -name ".gdb_history"), $(RM) $(filename);)
+	$(foreach filename, $(shell find . -name "*~" -not -path "./samples/*"), $(RM) $(filename);)
+	$(foreach filename, $(shell find . -name "*.out" -not -path "./samples/*"), $(RM) $(filename);)
+	$(foreach filename, $(shell find . -name ".gdb_history" -not -path "./samples/*"), $(RM) $(filename);)
 
 debug:
 	$(DEBUG) $(OJNAME)/$(PROG).out -q -ex "b $(OJNAME)/$(PROG).cc:$(BREAK_LINE)" -ex "r input.dat"
