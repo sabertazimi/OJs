@@ -5,7 +5,7 @@
 #
 
 OJNAME=uva
-PROG=442_matrix_chain_multiplication
+PROG=11988_broken_keyboard
 
 CC=g++
 CFLAGS=-g -Wall -Wextra
