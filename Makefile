@@ -5,7 +5,7 @@
 #
 
 OJNAME=uva
-PROG=11988_broken_keyboard
+PROG=12657_boxes_in_a_line
 
 CC=g++
 CFLAGS=-g -Wall -Wextra
