@@ -5,7 +5,7 @@
 #
 
 OJNAME=uva
-PROG=queens
+PROG=514_rails
 
 CC=g++
 CFLAGS=-g -Wall -Wextra
