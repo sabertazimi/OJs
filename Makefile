@@ -5,7 +5,7 @@
 #
 
 OJNAME=uva
-PROG=12657_boxes_in_a_line
+PROG=679_dropping_balls
 
 CC=g++
 CFLAGS=-g -Wall -Wextra
