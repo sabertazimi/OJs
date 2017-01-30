@@ -5,7 +5,7 @@
 #
 
 OJNAME=uva
-PROG=839_not_so_mobile
+PROG=699_the_falling_leaves
 
 CC=g++
 CFLAGS=-g -Wall -Wextra
