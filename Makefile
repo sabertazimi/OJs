@@ -5,7 +5,7 @@
 #
 
 OJNAME=uva
-PROG=699_the_falling_leaves
+PROG=572_oil_deposits
 
 CC=g++
 CFLAGS=-g -Wall -Wextra
