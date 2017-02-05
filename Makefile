@@ -5,7 +5,7 @@
 #
 
 OJNAME=uva
-PROG=572_oil_deposits
+PROG=1103_ancient_messages
 
 CC=g++
 CFLAGS=-g -Wall -Wextra
