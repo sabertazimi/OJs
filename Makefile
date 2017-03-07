@@ -5,7 +5,7 @@
 #
 
 OJNAME=poj
-PROG=1852_ants
+PROG=2386_lake_counting
 
 CC=g++
 CFLAGS=-g -Wall -Wextra
