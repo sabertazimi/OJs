@@ -4,8 +4,8 @@
 #
 #
 
-OJNAME=uva
-PROG=1103_ancient_messages
+OJNAME=poj
+PROG=1852_ants
 
 CC=g++
 CFLAGS=-g -Wall -Wextra
