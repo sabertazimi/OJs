@@ -4,8 +4,8 @@
 #
 #
 
-OJNAME=poj
-PROG=2386_lake_counting
+OJNAME=basic
+PROG=fishsize
 
 CC=g++
 CFLAGS=-g -Wall -Wextra
