@@ -1,40 +1,46 @@
-/*
- * cpp_set.cc
- * Copyright (C) 2016 sabertazimi <sabertazimi@gmail.com>
+/*!
+ * \file cpp_stl_set_map_binarysearchtree.cc
+ * \brief
  *
- * Distributed under terms of the MIT license.
+ * \author sabertazimi, <sabertazimi@gmail.com>
+ * \version 1.0
+ * \date 2017
+ * \license MIT
  */
 
 #include <iostream>
-#include <string>
 #include <set>
-#include <sstream>
+#include <map>
+#include <string>
 
 using namespace std;
 
-set<string> dict;
-
 int main(void) {
-    string s, buf;
+    set<int> s;
 
-    while (cin >> s) {
-        for (int i = 0; i < s.length(); i++) {
-            if (isalpha(s[i])) {
-                s[i] = tolower(s[i]);
-            } else {
-                s[i] = ' ';
-            }
-        }
+    s.insert(1);
+    s.insert(3);
+    s.insert(5);
 
-        stringstream ss(s);
+    set<int>::iterator ite;
 
-        while (ss >> buf) {
-            dict.insert(buf);
-        }
-    }
+    // found
+    ite = s.find(1);
+    if (ite == s.end()) cout << "not found" << endl;
+    else cout << "found" << endl;
 
-    for (set<string>::iterator it = dict.begin(); it != dict.end(); ++it) {
-        cout << *it << "\n";
+    // not found
+    ite = s.find(2);
+    if (ite == s.end()) cout << "not found" << endl;
+    else cout << "found" << endl;
+
+    // not found
+    s.erase(3);
+    if (s.count(3) != 0) cout << "found" << endl;
+    else cout << "not found" << endl;
+
+    for (ite = s.begin(); ite != s.end(); ite++) {
+        cout << *ite << endl;
     }
 
     return 0;
