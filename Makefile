@@ -4,8 +4,8 @@
 #
 #
 
-OJNAME=basic
-PROG=fishsize
+OJNAME=poj
+PROG=3617_best_cow_line
 
 CC=g++
 CFLAGS=-g -Wall -Wextra
