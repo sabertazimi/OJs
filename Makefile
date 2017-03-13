@@ -5,7 +5,7 @@
 #
 
 OJNAME=poj
-PROG=3617_best_cow_line
+PROG=2431_expedition
 
 CC=g++
 CFLAGS=-g -Wall -Wextra
