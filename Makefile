@@ -5,7 +5,7 @@
 #
 
 OJNAME=poj
-PROG=1182_food_chain
+PROG=3255_roadblocks
 
 CC=g++
 CFLAGS=-g -Wall -Wextra
@@ -25,6 +25,7 @@ clean:
 	$(foreach filename, $(shell find . -name "*~" -not -path "./samples/*"), $(RM) $(filename);)
 	$(foreach filename, $(shell find . -name "*.out" -not -path "./samples/*"), $(RM) $(filename);)
 	$(foreach filename, $(shell find . -name ".gdb_history" -not -path "./samples/*"), $(RM) $(filename);)
+	$(RM) .gdb_history
 
 debug:
 	$(DEBUG) $(OJNAME)/$(PROG).out -q -ex "b $(OJNAME)/$(PROG).cc:$(BREAK_LINE)" -ex "r input.dat"
