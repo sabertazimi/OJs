@@ -5,7 +5,7 @@
 #
 
 OJNAME=poj
-PROG=1064_cable_master
+PROG=3061_subsequeue
 
 CC=g++
 CFLAGS=-g -Wall -Wextra
