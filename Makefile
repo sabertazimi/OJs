@@ -5,7 +5,7 @@
 #
 
 OJNAME=poj
-PROG=3255_roadblocks
+PROG=3723_conscription
 
 CC=g++
 CFLAGS=-g -Wall -Wextra
