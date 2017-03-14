@@ -14,7 +14,7 @@ int rank[maxn];
 
 void init(int n) {
     for (int i = 0; i < n; i++) {
-        par[i] = 0;
+        par[i] = i;
         rank[i] = 0;
     }
 }

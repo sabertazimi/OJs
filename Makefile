@@ -5,7 +5,7 @@
 #
 
 OJNAME=poj
-PROG=2431_expedition
+PROG=1182_food_chain
 
 CC=g++
 CFLAGS=-g -Wall -Wextra
