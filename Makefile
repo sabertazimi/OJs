@@ -5,7 +5,7 @@
 #
 
 OJNAME=poj
-PROG=3320_reading_problem
+PROG=3279_filptile
 
 CC=g++
 CFLAGS=-g -Wall -Wextra
