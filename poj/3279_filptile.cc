@@ -16,7 +16,8 @@ int get(int x,int y) {
     int c = tile[x][y];  //注意这里要加上原来的状态
     for (int d = 0; d < 5; d++)  //查询周围四个以及自己的翻转次数
     {
-        int x2 = x + dx[d],y2 = y + dy[d];
+        int x2 = x + dx[d],y2 = y + dy[d]
+
         if (0 <= x2 && x2 < M && 0 <= y2 && y2 < N)
         {
             c += flip[x2][y2];
