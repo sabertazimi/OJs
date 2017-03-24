@@ -4,8 +4,8 @@
 #
 #
 
-OJNAME=poj
-PROG=3279_filptile
+OJNAME=nowcoder
+PROG=huawei_3
 
 CC=g++
 CFLAGS=-g -Wall -Wextra
