@@ -5,7 +5,7 @@
 #
 
 OJNAME=nowcoder
-PROG=huawei_3
+PROG=netease_3
 
 CC=g++
 CFLAGS=-g -Wall -Wextra
