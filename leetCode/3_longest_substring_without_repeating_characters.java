@@ -17,6 +17,7 @@ public class Solution {
 		// 最大子串为 2个重复字符间字符串长度 + 1
 		for (int i = 0;i < s.length();i++) {
 			char cur = s.charAt(i);
+
 			if (map.containsKey(cur)){
 				if(l <= map.get(cur)) {
 					l = map.get(cur) + 1;
