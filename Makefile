@@ -4,8 +4,8 @@
 #
 #
 
-OJNAME=nowcoder
-PROG=package
+OJNAME=leetcode
+PROG=main
 
 CC=g++
 CFLAGS=-g -Wall -Wextra
