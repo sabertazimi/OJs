@@ -5,7 +5,7 @@
 #
 
 OJNAME=nowcoder
-PROG=netease_3
+PROG=package
 
 CC=g++
 CFLAGS=-g -Wall -Wextra
