@@ -4,7 +4,7 @@
 #
 #
 
-OJNAME=leetcode
+OJNAME=leetCode
 PROG=main
 
 CC=g++

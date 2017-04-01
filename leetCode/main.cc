@@ -13,11 +13,21 @@
 
 using namespace std;
 
-void solve(void) {
-
-}
+#include "84_largest_rectangle_in_histogram.cc"
 
 int main(void) {
-    sovle();
+    int n;
+    vector<int> heights;
+
+    cin >> n;
+    for (int i = 0; i < n; i++) {
+        int el;
+        cin >> el;
+        heights.push_back(el);
+    }
+
+    Solution *solve = new Solution();
+    cout << solve->largestRectangleArea(heights) << endl;
+
     return 0;
 }
