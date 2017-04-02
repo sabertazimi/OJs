@@ -15,21 +15,27 @@
 
 using namespace std;
 
-#include "split_array_with_equal_sum.cc"
+#include "547_friend_circles.cc"
 
 int main(void) {
     int n;
-    vector<int> nums;
+    vector< vector<int> > nums;
 
     cin >> n;
     for (int i = 0; i < n; i++) {
-        int el;
-        cin >> el;
-        nums.push_back(el);
+        vector<int> row;
+
+        for (int j = 0; j < n; j++) {
+            int el;
+            cin >> el;
+            row.push_back(el);
+        }
+
+        nums.push_back(row);
     }
 
     Solution *solve = new Solution();
-    cout << solve->splitArray(nums) << endl;
+    cout << solve->findCircleNum(nums) << endl;
 
     return 0;
 }
