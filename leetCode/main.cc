@@ -1,3 +1,5 @@
+#include <cstdio>
+#include <cstring>
 #include <iostream>
 #include <sstream>
 #include <fstream>
@@ -13,21 +15,21 @@
 
 using namespace std;
 
-#include "84_largest_rectangle_in_histogram.cc"
+#include "split_array_with_equal_sum.cc"
 
 int main(void) {
     int n;
-    vector<int> heights;
+    vector<int> nums;
 
     cin >> n;
     for (int i = 0; i < n; i++) {
         int el;
         cin >> el;
-        heights.push_back(el);
+        nums.push_back(el);
     }
 
     Solution *solve = new Solution();
-    cout << solve->largestRectangleArea(heights) << endl;
+    cout << solve->splitArray(nums) << endl;
 
     return 0;
 }
