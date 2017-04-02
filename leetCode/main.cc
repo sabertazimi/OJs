@@ -15,27 +15,27 @@
 
 using namespace std;
 
-#include "547_friend_circles.cc"
+#include "85_maximal_rectangle.cc"
 
 int main(void) {
-    int n;
-    vector< vector<int> > nums;
+    int m, n;
+    vector< vector<char> > matrix;
 
-    cin >> n;
-    for (int i = 0; i < n; i++) {
-        vector<int> row;
+    cin >> m >> n;
+    for (int i = 0; i < m; i++) {
+        vector<char> row;
 
         for (int j = 0; j < n; j++) {
-            int el;
+            char el;
             cin >> el;
             row.push_back(el);
         }
 
-        nums.push_back(row);
+        matrix.push_back(row);
     }
 
     Solution *solve = new Solution();
-    cout << solve->findCircleNum(nums) << endl;
+    cout << solve->maximalRectangle(matrix);
 
     return 0;
 }
