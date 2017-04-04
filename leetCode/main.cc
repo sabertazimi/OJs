@@ -15,14 +15,13 @@
 
 using namespace std;
 
-#include "34_search_for_a_range.cc"
+#include "35_search_insert_position.cc"
 
 int main(void) {
     int target;
     int n;
     vector<int> nums;
 
-    cin >> target;
     cin >> n;
 
     for (int i = 0; i < n; i++) {
@@ -31,11 +30,10 @@ int main(void) {
         nums.push_back(el);
     }
 
+    cin >> target;
+
     Solution *solve = new Solution();
-    vector<int> res;
-    res = solve->searchRange(nums, target);
-    cout << res[0] << endl;
-    cout << res[1] << endl;
+    cout << solve->searchInsert(nums, target) << endl;
 
     return 0;
 }
