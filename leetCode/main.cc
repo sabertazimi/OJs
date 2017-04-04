@@ -15,18 +15,20 @@
 
 using namespace std;
 
-#include "85_maximal_rectangle.cc"
+#include "240_search_a_2d_matrix_2.cc"
 
 int main(void) {
+    int target;
     int m, n;
-    vector< vector<char> > matrix;
+    vector< vector<int> > matrix;
 
+    cin >> target;
     cin >> m >> n;
     for (int i = 0; i < m; i++) {
-        vector<char> row;
+        vector<int> row;
 
         for (int j = 0; j < n; j++) {
-            char el;
+            int el;
             cin >> el;
             row.push_back(el);
         }
@@ -35,7 +37,7 @@ int main(void) {
     }
 
     Solution *solve = new Solution();
-    cout << solve->maximalRectangle(matrix);
+    cout << solve->searchMatrix(matrix, target);
 
     return 0;
 }
