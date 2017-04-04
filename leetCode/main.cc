@@ -15,29 +15,27 @@
 
 using namespace std;
 
-#include "240_search_a_2d_matrix_2.cc"
+#include "34_search_for_a_range.cc"
 
 int main(void) {
     int target;
-    int m, n;
-    vector< vector<int> > matrix;
+    int n;
+    vector<int> nums;
 
     cin >> target;
-    cin >> m >> n;
-    for (int i = 0; i < m; i++) {
-        vector<int> row;
+    cin >> n;
 
-        for (int j = 0; j < n; j++) {
-            int el;
-            cin >> el;
-            row.push_back(el);
-        }
-
-        matrix.push_back(row);
+    for (int i = 0; i < n; i++) {
+        int el;
+        cin >> el;
+        nums.push_back(el);
     }
 
     Solution *solve = new Solution();
-    cout << solve->searchMatrix(matrix, target);
+    vector<int> res;
+    res = solve->searchRange(nums, target);
+    cout << res[0] << endl;
+    cout << res[1] << endl;
 
     return 0;
 }
