@@ -15,7 +15,7 @@
 
 using namespace std;
 
-#include "231_power_of_two.cc"
+#include "326_power_of_three.cc"
 
 int main(void) {
     int n;
@@ -30,7 +30,7 @@ int main(void) {
     // }
 
     Solution *solve = new Solution();
-    cout << solve->isPowerOfTwo(n) << endl;
+    cout << solve->isPowerOfThree(n) << endl;
 
     return 0;
 }
