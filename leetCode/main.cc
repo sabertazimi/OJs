@@ -15,22 +15,22 @@
 
 using namespace std;
 
-#include "268_missing_number.cc"
+#include "231_power_of_two.cc"
 
 int main(void) {
     int n;
-    vector<int> nums;
+    // vector<int> nums;
 
     cin >> n;
 
-    for (int i = 0; i < n; i++) {
-        int el;
-        cin >> el;
-        nums.push_back(el);
-    }
+    // for (int i = 0; i < n; i++) {
+    //     int el;
+    //     cin >> el;
+    //     nums.push_back(el);
+    // }
 
     Solution *solve = new Solution();
-    cout << solve->missingNumber(nums) << endl;
+    cout << solve->isPowerOfTwo(n) << endl;
 
     return 0;
 }
