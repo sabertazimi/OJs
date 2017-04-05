@@ -15,10 +15,9 @@
 
 using namespace std;
 
-#include "35_search_insert_position.cc"
+#include "268_missing_number.cc"
 
 int main(void) {
-    int target;
     int n;
     vector<int> nums;
 
@@ -30,10 +29,8 @@ int main(void) {
         nums.push_back(el);
     }
 
-    cin >> target;
-
     Solution *solve = new Solution();
-    cout << solve->searchInsert(nums, target) << endl;
+    cout << solve->missingNumber(nums) << endl;
 
     return 0;
 }
