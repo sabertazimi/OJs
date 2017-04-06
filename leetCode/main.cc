@@ -15,22 +15,35 @@
 
 using namespace std;
 
-#include "326_power_of_three.cc"
+struct TreeNode {
+    int val;
+    TreeNode *left;
+    TreeNode *right;
+    TreeNode(int x) : val(x), left(NULL), right(NULL) {}
+};
+
+#include "106_construct_binary_tree_from_inorder_and_postorder_traversal.cc"
 
 int main(void) {
     int n;
-    // vector<int> nums;
+    vector<int> preorder;
+    vector<int> inorder;
 
     cin >> n;
-
-    // for (int i = 0; i < n; i++) {
-    //     int el;
-    //     cin >> el;
-    //     nums.push_back(el);
-    // }
+    for (int i = 0; i < n; i++) {
+        int el;
+        cin >> el;
+        preorder.push_back(el);
+    }
+    for (int i = 0; i < n; i++) {
+        int el;
+        cin >> el;
+        inorder.push_back(el);
+    }
 
     Solution *solve = new Solution();
-    cout << solve->isPowerOfThree(n) << endl;
+    TreeNode *root = solve->buildTree(preorder, inorder);
+    solve->show(root);
 
     return 0;
 }
