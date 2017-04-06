@@ -22,7 +22,7 @@ struct TreeNode {
     TreeNode(int x) : val(x), left(NULL), right(NULL) {}
 };
 
-#include "106_construct_binary_tree_from_inorder_and_postorder_traversal.cc"
+#include "102_binary_tree_level_order_traversal.cc"
 
 int main(void) {
     int n;
