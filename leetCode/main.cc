@@ -22,28 +22,29 @@ struct TreeNode {
     TreeNode(int x) : val(x), left(NULL), right(NULL) {}
 };
 
-#include "102_binary_tree_level_order_traversal.cc"
+#include "556_next_greater_element_3.cc"
 
 int main(void) {
-    int n;
-    vector<int> preorder;
-    vector<int> inorder;
+    // int n;
+    // vector<int> preorder;
+    // vector<int> inorder;
 
+    // cin >> n;
+    // for (int i = 0; i < n; i++) {
+    //     int el;
+    //     cin >> el;
+    //     preorder.push_back(el);
+    // }
+    // for (int i = 0; i < n; i++) {
+    //     int el;
+    //     cin >> el;
+    //     inorder.push_back(el);
+    // }
+    int n;
     cin >> n;
-    for (int i = 0; i < n; i++) {
-        int el;
-        cin >> el;
-        preorder.push_back(el);
-    }
-    for (int i = 0; i < n; i++) {
-        int el;
-        cin >> el;
-        inorder.push_back(el);
-    }
 
     Solution *solve = new Solution();
-    TreeNode *root = solve->buildTree(preorder, inorder);
-    solve->show(root);
+    cout << solve->nextGreaterElement(n) << endl;
 
     return 0;
 }
