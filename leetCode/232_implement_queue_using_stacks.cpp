@@ -2,20 +2,22 @@ class MyQueue {
 public:
     /** Initialize your data structure here. */
     MyQueue() {
-    	m_front = 0;
     }
     
     /** Push element x to the back of queue. */
     void push(int x) {
-    	if (m_s1.empty()) {
-    		m_front = x;
-    	}
-
     	m_s1.push(x);
     }
     
     /** Removes the element from in front of queue and returns that element. */
     int pop() {
+    	int el = peek();
+    	m_s2.pop();
+    	return el;
+    }
+    
+    /** Get the front element. */
+    int peek() {
     	if (m_s2.empty()) {
     		while (!m_s1.empty()) {
     			m_s2.push(m_s1.top());
@@ -23,14 +25,7 @@ public:
     		}
     	}
 
-    	int el = m_s2.top();
-    	m_s2.pop();
-    	return el;
-    }
-    
-    /** Get the front element. */
-    int peek() {
-    	return m_front;
+    	return m_s2.top();
     }
     
     /** Returns whether the queue is empty. */
@@ -39,7 +34,6 @@ public:
     }
 
 private:
-	int m_front;
 	stack<int> m_s1;
 	stack<int> m_s2;
 };
