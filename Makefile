@@ -4,17 +4,17 @@
 #
 #
 
-OJNAME=leetCode
-PROG=main
+OJNAME=jobdu
+PROG=num
 
-CC=g++
+CC=gcc
 CFLAGS=-g -Wall -Wextra
 DEBUG=gdb
 BREAK_LINE=55
 RM=rm -fr
 
 all:
-	$(CC) -o $(OJNAME)/$(PROG).out $(CFLAGS) $(OJNAME)/$(PROG).cc
+	$(CC) -o $(OJNAME)/$(PROG).out $(CFLAGS) $(OJNAME)/$(PROG).c
 
 .PHONY=run clean debug
 
@@ -28,7 +28,7 @@ clean:
 	$(RM) .gdb_history
 
 debug:
-	$(DEBUG) $(OJNAME)/$(PROG).out -q -ex "b $(OJNAME)/$(PROG).cc:$(BREAK_LINE)" -ex "r input.dat"
+	$(DEBUG) $(OJNAME)/$(PROG).out -q -ex "b $(OJNAME)/$(PROG).c:$(BREAK_LINE)" -ex "r input.dat"
 # $(DEBUG) $(OJNAME)/$(PROG).out -q -ex "b $(OJNAME)/$(PROG).cc:$(BREAK_LINE)" -ex "r"
 
 # vim:ft=make
