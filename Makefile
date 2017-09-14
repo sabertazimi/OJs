@@ -5,12 +5,12 @@
 #
 
 OJNAME=jobdu
-PROG=num
+PROG=sum
 
 CC=gcc
-CFLAGS=-g -Wall -Wextra
+CFLAGS=-g -Wall -Wextra -std=gnu99
 DEBUG=gdb
-BREAK_LINE=55
+BREAK_LINE=43
 RM=rm -fr
 
 all:
