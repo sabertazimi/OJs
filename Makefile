@@ -4,17 +4,18 @@
 #
 #
 
-OJNAME=jobdu
-PROG=sum
+OJNAME=basic
+PROG=bfs
+SUFFIX=cpp
 
-CC=gcc
-CFLAGS=-g -Wall -Wextra -std=gnu99
+CC=g++
+CFLAGS=-g -Wall -Wextra -std=c++11
 DEBUG=gdb
 BREAK_LINE=43
 RM=rm -fr
 
 all:
-	$(CC) -o $(OJNAME)/$(PROG).out $(CFLAGS) $(OJNAME)/$(PROG).c
+	$(CC) -o $(OJNAME)/$(PROG).out $(CFLAGS) $(OJNAME)/$(PROG).$(SUFFIX)
 
 .PHONY=run clean debug
 
