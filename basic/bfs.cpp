@@ -6,7 +6,7 @@ const int DIM = 5;
 
 class Algo {
   int maze[DIM][DIM];
-  int path[2 * DIM + 1];
+  bool visit[DIM][DIM];
   int dim;
 
 public:
@@ -16,6 +16,7 @@ public:
     for (int i = 0; i < dim; ++i) {
       for (int j = 0; j < dim; ++j) {
         this->maze[i][j] = maze[i][j];
+        this->visit[i][j] = false;
       }
     }
   }
@@ -30,6 +31,7 @@ public:
     std::queue<std::pair<int, int> > frontier;
 
     frontier.push(std::make_pair(0, 0));
+    this->visit[0][0] = true;
 
     while (!frontier.empty()) {
       std::pair<int, int> cur = frontier.front();
@@ -47,9 +49,10 @@ public:
 
         bool isInMaze = (row >= 0 && row < this->dim
           && col >= 0 && col < this->dim);
-        
-        if (isInMaze && this->maze[row][col] == 0) {
+
+        if (isInMaze && this->maze[row][col] == 0 && !this->visit[row][col]) {
           frontier.push(std::make_pair(row, col));
+          this->visit[row][col] = true;
         }
       }
     }
@@ -69,9 +72,9 @@ int main(void) {
 
   Algo algo(DIM, maze);
   bool result = algo.run();
-  // std::cout << "Maze resolved: "
-  //           << (result ? "true" : "false")
-  //           << std::endl;
+  std::cout << "Maze resolved: "
+            << (result ? "true" : "false")
+            << std::endl;
 
   return 0;
 }
