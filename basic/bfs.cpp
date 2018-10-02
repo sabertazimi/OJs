@@ -48,6 +48,7 @@ public:
         int col = cur.second + coldir;
 
         if (row + 1 == this->dim && col + 1 == this->dim) {
+    	  this->parent[row][col] = std::make_pair(cur.first, cur.second);
           return true;
         }
 
@@ -80,18 +81,22 @@ public:
       trav = this->parent[trav.first][trav.second];
     }
 
+    std::cout << "START -> ";
+
     while(!path.empty()) {
       trav = path.top();
       path.pop();
-      std::cout << trav.first << ", " << trav.second << std::endl;
+      std::cout << "(" << trav.first << ", " << trav.second << ") -> ";
     }
+
+    std::cout << "END" << std::endl;
   }
 };
 
 int main(void) {
   int maze[DIM][DIM] = {
     0, 1, 0, 0, 0,
-    0, 1, 0, 1, 0,
+    0, 0, 0, 1, 0,
     0, 1, 1, 1, 0,
     0, 1, 1, 1, 0,
     0, 0, 0, 1, 0,
