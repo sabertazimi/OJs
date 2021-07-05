@@ -13,6 +13,7 @@ Archive for OJ code
 [![Author](https://img.shields.io/badge/author-sabertazimi-lightgrey.svg)](https://github.com/sabertazimi)
 [![Stable](https://img.shields.io/badge/stability-stable-brightgreen.svg)](https://github.com/sabertazimi/hust-oj)
 [![MIT](https://img.shields.io/badge/license-mit-brightgreen.svg)](https://raw.githubusercontent.com/sabertazimi/hust-oj/master/LICENSE)
+[![Continuous Integration](https://github.com/sabertazimi/hust-oj/actions/workflows/ci.yml/badge.svg)](https://github.com/sabertazimi/hust-oj/actions/workflows/ci.yml)
 
 ## License
 
