@@ -8,9 +8,8 @@ on:
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
-
+    name: Building
     steps:
     - name: Checkout repository
       uses: actions/checkout@v2
