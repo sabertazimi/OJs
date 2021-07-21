@@ -1,0 +1,12 @@
+*.dat
+*.md
+*.ini
+*.json
+*.yml
+*.config.js
+.clang-format
+.gitignore
+.npmignore
+.prettierrc
+Makefile
+LICENSE
