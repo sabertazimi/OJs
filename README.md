@@ -1,10 +1,10 @@
 # hust-oj
 
 [![Author](https://img.shields.io/badge/author-sabertaz-lightgrey?style=for-the-badge)](https://github.com/sabertazimi)
-[![LICENSE](https://img.shields.io/github/license/sabertazimi/hust-oj?style=for-the-badge)](https://raw.githubusercontent.com/sabertazimi/hust-oj/master/LICENSE)
+[![LICENSE](https://img.shields.io/github/license/sabertazimi/hust-oj?style=for-the-badge)](https://raw.githubusercontent.com/sabertazimi/hust-oj/main/LICENSE)
 
 [![Code Lines](https://img.shields.io/tokei/lines/github/sabertazimi/hust-oj?style=for-the-badge&logo=visualstudiocode)](https://github.com/sabertazimi/hust-oj)
-[![Continuous Integration](https://img.shields.io/github/workflow/status/sabertazimi/hust-oj/Continuous%20Integration/master?style=for-the-badge&logo=github)](https://github.com/sabertazimi/hust-oj/actions/workflows/ci.yml)
+[![Continuous Integration](https://img.shields.io/github/workflow/status/sabertazimi/hust-oj/Continuous%20Integration/main?style=for-the-badge&logo=github)](https://github.com/sabertazimi/hust-oj/actions/workflows/ci.yml)
 
 ```cpp
 | |__  _   _ ___| |_         ___ (_)
