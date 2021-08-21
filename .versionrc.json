@@ -1,15 +1,34 @@
 {
   "types": [
+    { "type": "array", "section": ":sparkles: Array" },
+    { "type": "bfs", "section": ":sparkles: Breadth-First Search" },
+    { "type": "count", "section": ":sparkles: Counting" },
+    { "type": "dfs", "section": ":sparkles: Depth-First Search" },
+    { "type": "dp", "section": ":sparkles: Dynamic Programming" },
+    { "type": "graph", "section": ":sparkles: Graph" },
+    { "type": "greedy", "section": ":sparkles: Greedy" },
+    { "type": "hash", "section": ":sparkles: Hash Function" },
+    { "type": "heap", "section": ":sparkles: Heap" },
+    { "type": "list", "section": ":sparkles: Linked List" },
+    { "type": "math", "section": ":sparkles: Math" },
+    { "type": "matrix", "section": ":sparkles: Matrix" },
+    { "type": "queue", "section": ":sparkles: Queue" },
+    { "type": "recursion", "section": ":sparkles: Recursion" },
+    { "type": "search", "section": ":sparkles: Search" },
+    { "type": "sort", "section": ":sparkles: Sorting" },
+    { "type": "stack", "section": ":sparkles: Stack" },
+    { "type": "string", "section": ":sparkles: String" },
+    { "type": "tree", "section": ":sparkles: Tree" },
     { "type": "add", "section": ":sparkles: Solutions" },
     { "type": "feat", "section": ":sparkles: Features" },
     { "type": "fix", "section": ":bug: Bug Fixes" },
     { "type": "update", "section": ":hammer: Updates" },
     { "type": "build", "section": ":rocket: Building Work" },
+    { "type": "perf", "section": ":zap: Performance" },
+    { "type": "test", "section": ":wrench: Testing" },
     { "type": "chore", "hidden": true },
     { "type": "docs", "hidden": true },
-    { "type": "perf", "section": ":zap: Performance" },
     { "type": "refactor", "hidden": true },
-    { "type": "style", "hidden": true },
-    { "type": "test", "section": ":wrench: Testing" }
+    { "type": "style", "hidden": true }
   ]
 }
