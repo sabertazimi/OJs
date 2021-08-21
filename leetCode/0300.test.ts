@@ -1,4 +1,4 @@
-import solution from './300';
+import solution from './0300';
 
 /**
  * @author sabertazimi
@@ -10,7 +10,7 @@ import solution from './300';
  * an array by deleting some or no elements without changing the order of the remaining elements.
  * For example, [3,6,2,7] is a subsequence of the array [0,3,1,6,2,2,7].
  */
-describe('LeetCode [300]', () => {
+describe('LeetCode [0300]', () => {
   test('should AC', () => {
     expect(solution([])).toBe(0);
     expect(solution([10, 9, 2, 5, 3, 7, 101, 18])).toBe(4);
