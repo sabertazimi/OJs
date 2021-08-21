@@ -1,6 +1,9 @@
 import solution from './300';
 
 /**
+ * @author sabertazimi
+ * @license MIT
+ * @description longest-increasing-subsequence
  * Given an integer array nums,
  * return the length of the longest strictly increasing subsequence.
  * A subsequence is a sequence that can be derived from
