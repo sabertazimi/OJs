@@ -3,6 +3,7 @@ import solution from './0003';
 /**
  * @author sabertazimi
  * @license MIT
+ * @level medium
  * @description longest-substring-without-repeating-characters
  * Given a string `s`,
  * find the length of the longest substring without repeating characters.

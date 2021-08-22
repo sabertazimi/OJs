@@ -3,6 +3,7 @@ import solution from './0300';
 /**
  * @author sabertazimi
  * @license MIT
+ * @level medium
  * @description longest-increasing-subsequence
  * Given an integer array nums,
  * return the length of the longest strictly increasing subsequence.
