@@ -2,6 +2,70 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.0.0](https://github.com/sabertazimi/OJs/compare/v1.0.0...v2.0.0) (2021-08-22)
+
+
+### ⚠ BREAKING CHANGES
+
+* **archive:** remove archive OJ solutions
+
+### :rocket: Building Work
+
+* **dependabot:** add dependabot support ([87aa480](https://github.com/sabertazimi/OJs/commit/87aa4806c33d0734ed926823da51f63be62cbefb))
+
+
+### :sparkles: Linked List
+
+* **leetcode-0002:** add two numbers problem ([b697a34](https://github.com/sabertazimi/OJs/commit/b697a341fb72eca475071afad5fc0daf0880d729))
+* **utils:** add List utility functions ([997333e](https://github.com/sabertazimi/OJs/commit/997333e171fddc3e6bc63992f4428da1c335ffd0))
+
+
+### :sparkles: Sorting
+
+* **leetcode-0004:** median of two sorted arrays ([6309946](https://github.com/sabertazimi/OJs/commit/6309946f3f6fd356767322dd8c9c34f4876f8857))
+
+
+### :sparkles: Dynamic Programming
+
+* **leetcode-0005:** longest palindromic substring ([778350d](https://github.com/sabertazimi/OJs/commit/778350d9ce0966a0d0e1276d6609786739c96e1a))
+
+
+### :sparkles: Array
+
+* **leetcode-0001:** two sum problem ([f33025a](https://github.com/sabertazimi/OJs/commit/f33025ab5998c8eb5384f09b982da8a5d63e3f01))
+* **leetcode-0006:** string simulation zigzag conversion ([dc4e793](https://github.com/sabertazimi/OJs/commit/dc4e79336b10d31855a67b2d1351c605c91f843d))
+
+
+### :wrench: Testing
+
+* **Jest-mocks:** mock console function at `CI` mode ([8f290df](https://github.com/sabertazimi/OJs/commit/8f290dff381809b908098b1a2a748a3d8f2c6ed7))
+
+
+### :sparkles: Math
+
+* **leetcode-0007:** reverse integer problem ([64f7078](https://github.com/sabertazimi/OJs/commit/64f707888ddba45352b063217573c19893e2e83d))
+* **leetcode-0008:** string to integer (atoi) ([82ab89f](https://github.com/sabertazimi/OJs/commit/82ab89fa1fd9b3ff3dd246dd19107cc089df106f))
+
+
+### :sparkles: String
+
+* **leetcode-0003:** longest substring without repeating characters ([69c842c](https://github.com/sabertazimi/OJs/commit/69c842cf07a51adc98d0dd7d4744cd44d8ceabdd))
+* **leetcode-0005:** longest palindrome substring ([bcab436](https://github.com/sabertazimi/OJs/commit/bcab436be34c8739bf15ae7e4e419d5036b834f1))
+* **leetcode-0009:** palindrome number ([8f4c2bb](https://github.com/sabertazimi/OJs/commit/8f4c2bb4bab5f0958ffbcc818c91415cd08e415a))
+* **leetcode-0012:** integer to roman ([f0afe0c](https://github.com/sabertazimi/OJs/commit/f0afe0c392c95d32f82ab26647a9582ce2ec7b7c))
+* **leetcode-0013:** roman to integer ([adcfc70](https://github.com/sabertazimi/OJs/commit/adcfc703d5ff7574c553caadc4ff86c8bcbd26f3))
+* **leetcode-0014:** longest common prefix ([92f1458](https://github.com/sabertazimi/OJs/commit/92f1458533462bd581c8f62a508c6f95f2932e6a))
+
+
+### :bug: Bug Fixes
+
+* **archive:** remove archive OJ solutions ([2db84bd](https://github.com/sabertazimi/OJs/commit/2db84bdfc48c95844f5ec088217d4c800c559ddf))
+* **leetcode-cpp:** remove cpp test suites ([e2b218a](https://github.com/sabertazimi/OJs/commit/e2b218a1502f2d1825a48adf9a9965396780fa59))
+* **leetcode-limits:** add number litmits utililty ([f78ee35](https://github.com/sabertazimi/OJs/commit/f78ee35a886c7055ebe312b331d7c41829dbfe2d))
+* **leetcode-test:** reorder expect statements ([d52674f](https://github.com/sabertazimi/OJs/commit/d52674f9868ae4fbc4ccd5793a93d2368b72756b))
+* **leetcode:** add `level` anotation ([7f05413](https://github.com/sabertazimi/OJs/commit/7f05413a4284f7dc0bd9eaf5a28b16406ce530d5))
+* **leetcode:** change to strict equal ([fe16c11](https://github.com/sabertazimi/OJs/commit/fe16c119756c87a134b4e04f3c56e4db858abb25))
+
 ## 1.0.0 (2021-08-21)
 
 
