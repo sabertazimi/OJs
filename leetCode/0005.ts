@@ -11,7 +11,7 @@ export default function longestPalindrome(s: string): string {
 
   // Two repeat characters is palindrome
   for (let i = 0; i < n - 1; i++) {
-    if (s.charAt(i) == s.charAt(i + 1)) {
+    if (s.charAt(i) === s.charAt(i + 1)) {
       dp[i][i + 1] = true;
       longestBegin = i;
       maxLen = 2;
@@ -24,7 +24,7 @@ export default function longestPalindrome(s: string): string {
     for (let i = 0; i < n - len + 1; i++) {
       const j = i + len - 1;
 
-      if (s.charAt(i) == s.charAt(j) && dp[i + 1][j - 1]) {
+      if (s.charAt(i) === s.charAt(j) && dp[i + 1][j - 1]) {
         dp[i][j] = true;
         longestBegin = i;
         maxLen = len;
