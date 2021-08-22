@@ -2,17 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
-## [2.0.0](https://github.com/sabertazimi/OJs/compare/v1.0.0...v2.0.0) (2021-08-22)
+## :tada: [2.0.0](https://github.com/sabertazimi/OJs/compare/v1.0.0...v2.0.0) (2021-08-22)
 
 
 ### ⚠ BREAKING CHANGES
 
 * **archive:** remove archive OJ solutions
-
-### :rocket: Building Work
-
-* **dependabot:** add dependabot support ([87aa480](https://github.com/sabertazimi/OJs/commit/87aa4806c33d0734ed926823da51f63be62cbefb))
-
 
 ### :sparkles: Linked List
 
@@ -34,11 +29,6 @@ All notable changes to this project will be documented in this file. See [standa
 
 * **leetcode-0001:** two sum problem ([f33025a](https://github.com/sabertazimi/OJs/commit/f33025ab5998c8eb5384f09b982da8a5d63e3f01))
 * **leetcode-0006:** string simulation zigzag conversion ([dc4e793](https://github.com/sabertazimi/OJs/commit/dc4e79336b10d31855a67b2d1351c605c91f843d))
-
-
-### :wrench: Testing
-
-* **Jest-mocks:** mock console function at `CI` mode ([8f290df](https://github.com/sabertazimi/OJs/commit/8f290dff381809b908098b1a2a748a3d8f2c6ed7))
 
 
 ### :sparkles: Math
@@ -66,12 +56,39 @@ All notable changes to this project will be documented in this file. See [standa
 * **leetcode:** add `level` anotation ([7f05413](https://github.com/sabertazimi/OJs/commit/7f05413a4284f7dc0bd9eaf5a28b16406ce530d5))
 * **leetcode:** change to strict equal ([fe16c11](https://github.com/sabertazimi/OJs/commit/fe16c119756c87a134b4e04f3c56e4db858abb25))
 
-## 1.0.0 (2021-08-21)
+
+### :rocket: Building Work
+
+* **dependabot:** add dependabot support ([87aa480](https://github.com/sabertazimi/OJs/commit/87aa4806c33d0734ed926823da51f63be62cbefb))
+
+
+### :wrench: Testing
+
+* **Jest-mocks:** mock console function at `CI` mode ([8f290df](https://github.com/sabertazimi/OJs/commit/8f290dff381809b908098b1a2a748a3d8f2c6ed7))
+
+## :tada: 1.0.0 (2021-08-21)
+
+
+### :sparkles: Features
+
+* **oj-codewars:** start haskell puzzle in codewarsoj ([a12c879](https://github.com/sabertazimi/OJs/commit/a12c8792bdc620bfef79bca82b04c354af6501ad)), closes [sabertazimi/awesome-notes#88](https://github.com/sabertazimi/awesome-notes/issues/88)
+* **TypeScript:** add TypeScript solution support ([02b328a](https://github.com/sabertazimi/OJs/commit/02b328a3c8dce1f81614847de627e2511fc2cdf8))
+
+
+### :rocket: Building Work
+
+* **CI:** setup full CI steps ([a7756de](https://github.com/sabertazimi/OJs/commit/a7756de564519b99574b82c20e8f2029dcbae227))
+* **commit:** add more types of commit ([f43b6d0](https://github.com/sabertazimi/OJs/commit/f43b6d08cd492f120549031ef4d56703e414c02e))
 
 
 ### :wrench: Testing
 
 * **oj-hust-lab:** add input tests for lab 1 ([09cb2b4](https://github.com/sabertazimi/OJs/commit/09cb2b4bbda027aa5417488e8c4838170e2ab568)), closes [sabertazimi/awesome-notes#88](https://github.com/sabertazimi/awesome-notes/issues/88)
+
+
+### :sparkles: Dynamic Programming
+
+* **leetcode-300:** longest increasing subsequence ([3448e06](https://github.com/sabertazimi/OJs/commit/3448e0644ad9aeaf510da435d04c34f0973565df))
 
 
 ### :sparkles: Solutions
@@ -294,27 +311,6 @@ All notable changes to this project will be documented in this file. See [standa
 * **oj-uva-1595:** Symmetry - set (math) ([029b550](https://github.com/sabertazimi/OJs/commit/029b550901e48d5328cd16f09662d550fbd532e6)), closes [sabertazimi/awesome-notes#88](https://github.com/sabertazimi/awesome-notes/issues/88)
 * **oj-uva:** change to uva oj ([552a9b0](https://github.com/sabertazimi/OJs/commit/552a9b030c8dd7de12a5235d6890715a506ec96c)), closes [sabertazimi/awesome-notes#88](https://github.com/sabertazimi/awesome-notes/issues/88)
 * **oj-uvaoj-1593:** alignment of code - simple string stream usage ([b541369](https://github.com/sabertazimi/OJs/commit/b54136973c3ff3f0a2742c049fa4429597968b1a)), closes [sabertazimi/awesome-notes#88](https://github.com/sabertazimi/awesome-notes/issues/88)
-
-
-### :sparkles: Features
-
-* **oj-codewars:** start haskell puzzle in codewarsoj ([a12c879](https://github.com/sabertazimi/OJs/commit/a12c8792bdc620bfef79bca82b04c354af6501ad)), closes [sabertazimi/awesome-notes#88](https://github.com/sabertazimi/awesome-notes/issues/88)
-* **TypeScript:** add TypeScript solution support ([02b328a](https://github.com/sabertazimi/OJs/commit/02b328a3c8dce1f81614847de627e2511fc2cdf8))
-
-
-### :sparkles: Dynamic Programming
-
-* **leetcode-300:** longest increasing subsequence ([3448e06](https://github.com/sabertazimi/OJs/commit/3448e0644ad9aeaf510da435d04c34f0973565df))
-
-
-### :rocket: Building Work
-
-* **CI:** setup full CI steps ([a7756de](https://github.com/sabertazimi/OJs/commit/a7756de564519b99574b82c20e8f2029dcbae227))
-* **commit:** add more types of commit ([f43b6d0](https://github.com/sabertazimi/OJs/commit/f43b6d08cd492f120549031ef4d56703e414c02e))
-
-
-### :bug: Bug Fixes
-
 * **ccfoj-20140902:** painting puzzle - matrix brute-force algorithm ([ac444c2](https://github.com/sabertazimi/OJs/commit/ac444c2b7db46507b059c6a316f17d21034215ce)), closes [sabertazimi/awesome-notes#88](https://github.com/sabertazimi/awesome-notes/issues/88)
 * **ccfoj-20140904:** takeout puzzle - bfs algorithm ([0db625a](https://github.com/sabertazimi/OJs/commit/0db625aa9d86d3864ccb33d0b87b3aa457875286)), closes [sabertazimi/awesome-notes#88](https://github.com/sabertazimi/awesome-notes/issues/88)
 * **ccfoj-20140904:** takeout puzzle - bfs(shortest path) algorithm ([4380f88](https://github.com/sabertazimi/OJs/commit/4380f88923c1b55aeed37cc6f6d781f89cb25586)), closes [sabertazimi/awesome-notes#88](https://github.com/sabertazimi/awesome-notes/issues/88)
