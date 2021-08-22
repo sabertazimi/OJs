@@ -1,27 +1,36 @@
 export default function longestPalindrome(s: string): string {
-  let left = 0;
-  let right = s.length;
-  let maxLen = 0;
+  const n = s.length;
+  let longestBegin = 0;
+  let maxLen = 1;
+  const dp = Array.from(Array(1000), () => new Array(1000));
 
-  for (let len = 1; len <= s.length; len++) {
-    for (let i = 0; i < s.length - len + 1; i++) {
-      if (isPalindrome(s.slice(i, i + len))) {
-        if (maxLen < len) {
-          maxLen = len;
-          left = i;
-          right = i + len;
-        }
+  // Single character is palindrome
+  for (let i = 0; i < n; i++) {
+    dp[i][i] = true;
+  }
+
+  // Two repeat characters is palindrome
+  for (let i = 0; i < n - 1; i++) {
+    if (s.charAt(i) == s.charAt(i + 1)) {
+      dp[i][i + 1] = true;
+      longestBegin = i;
+      maxLen = 2;
+    }
+  }
+
+  // Calculate isPalindrome(i, j)
+  // Length of palindrome start from `3` to `n`
+  for (let len = 3; len <= n; len++) {
+    for (let i = 0; i < n - len + 1; i++) {
+      const j = i + len - 1;
+
+      if (s.charAt(i) == s.charAt(j) && dp[i + 1][j - 1]) {
+        dp[i][j] = true;
+        longestBegin = i;
+        maxLen = len;
       }
     }
   }
 
-  return s.slice(left, right);
+  return s.slice(longestBegin, longestBegin + maxLen);
 }
-
-const isPalindrome = (s: string): boolean => {
-  if (s.length <= 1) {
-    return true;
-  }
-
-  return s[0] === s[s.length - 1] && isPalindrome(s.slice(1, s.length - 1));
-};

@@ -16,7 +16,7 @@ describe('LeetCode [0005]', () => {
     expect(solution('bb')).toBe('bb');
     expect(solution('ccd')).toBe('cc');
     expect(solution('cbbd')).toBe('bb');
-    expect(solution('babad')).toBe('bab');
+    expect(solution('babad')).toBe('aba');
     expect(solution('abcba')).toBe('abcba');
     expect(solution('eabcb')).toBe('bcb');
     expect(
