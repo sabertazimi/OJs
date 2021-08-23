@@ -15,8 +15,8 @@ import solution from './0006';
  */
 describe('LeetCode [0006]', () => {
   test('should AC', () => {
-    expect(solution('PAYPALISHIRING', 3)).toBe('PAHNAPLSIIGYIR');
-    expect(solution('PAYPALISHIRING', 4)).toBe('PINALSIGYAHRPI');
-    expect(solution('A', 1)).toBe('A');
+    expect(solution('PAYPALISHIRING', 3)).toStrictEqual('PAHNAPLSIIGYIR');
+    expect(solution('PAYPALISHIRING', 4)).toStrictEqual('PINALSIGYAHRPI');
+    expect(solution('A', 1)).toStrictEqual('A');
   });
 });

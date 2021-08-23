@@ -10,10 +10,10 @@ import solution from './0007';
  */
 describe('LeetCode [0007]', () => {
   test('should AC', () => {
-    expect(solution(0)).toBe(0);
-    expect(solution(120)).toBe(21);
-    expect(solution(123)).toBe(321);
-    expect(solution(-123)).toBe(-321);
-    expect(solution(1534236469)).toBe(0);
+    expect(solution(0)).toStrictEqual(0);
+    expect(solution(120)).toStrictEqual(21);
+    expect(solution(123)).toStrictEqual(321);
+    expect(solution(-123)).toStrictEqual(-321);
+    expect(solution(1534236469)).toStrictEqual(0);
   });
 });

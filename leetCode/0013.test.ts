@@ -9,10 +9,10 @@ import solution from './0013';
  */
 describe('LeetCode [0013]', () => {
   test('should AC', () => {
-    expect(solution('III')).toBe(3);
-    expect(solution('IV')).toBe(4);
-    expect(solution('IX')).toBe(9);
-    expect(solution('LVIII')).toBe(58);
-    expect(solution('MCMXCIV')).toBe(1994);
+    expect(solution('III')).toStrictEqual(3);
+    expect(solution('IV')).toStrictEqual(4);
+    expect(solution('IX')).toStrictEqual(9);
+    expect(solution('LVIII')).toStrictEqual(58);
+    expect(solution('MCMXCIV')).toStrictEqual(1994);
   });
 });

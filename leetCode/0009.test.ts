@@ -11,9 +11,9 @@ import solution from './0009';
  */
 describe('LeetCode [0009]', () => {
   test('should AC', () => {
-    expect(solution(121)).toBe(true);
-    expect(solution(-121)).toBe(false);
-    expect(solution(10)).toBe(false);
-    expect(solution(-101)).toBe(false);
+    expect(solution(121)).toStrictEqual(true);
+    expect(solution(-121)).toStrictEqual(false);
+    expect(solution(10)).toStrictEqual(false);
+    expect(solution(-101)).toStrictEqual(false);
   });
 });

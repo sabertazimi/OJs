@@ -10,9 +10,9 @@ import solution from './0014';
  */
 describe('LeetCode [0014]', () => {
   test('should AC', () => {
-    expect(solution([])).toBe('');
-    expect(solution(['flower', 'flow', 'flight'])).toBe('fl');
-    expect(solution(['dog', 'raceCar', 'car'])).toBe('');
-    expect(solution(['dog', 'dogCar', 'dogLongCar'])).toBe('dog');
+    expect(solution([])).toStrictEqual('');
+    expect(solution(['flower', 'flow', 'flight'])).toStrictEqual('fl');
+    expect(solution(['dog', 'raceCar', 'car'])).toStrictEqual('');
+    expect(solution(['dog', 'dogCar', 'dogLongCar'])).toStrictEqual('dog');
   });
 });

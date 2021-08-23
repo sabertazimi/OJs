@@ -10,9 +10,9 @@ import solution from './0003';
  */
 describe('LeetCode [0003]', () => {
   test('should AC', () => {
-    expect(solution('')).toBe(0);
-    expect(solution('bbbbb')).toBe(1);
-    expect(solution('abcabcbb')).toBe(3);
-    expect(solution('pwwkew')).toBe(3);
+    expect(solution('')).toStrictEqual(0);
+    expect(solution('bbbbb')).toStrictEqual(1);
+    expect(solution('abcabcbb')).toStrictEqual(3);
+    expect(solution('pwwkew')).toStrictEqual(3);
   });
 });

@@ -13,11 +13,11 @@ import solution from './0020';
  */
 describe('LeetCode [0020]', () => {
   test('should AC', () => {
-    expect(solution('(')).toBe(false);
-    expect(solution('()')).toBe(true);
-    expect(solution('(]')).toBe(false);
-    expect(solution('([)]')).toBe(false);
-    expect(solution('{[]}')).toBe(true);
-    expect(solution('()[]{}')).toBe(true);
+    expect(solution('(')).toStrictEqual(false);
+    expect(solution('()')).toStrictEqual(true);
+    expect(solution('(]')).toStrictEqual(false);
+    expect(solution('([)]')).toStrictEqual(false);
+    expect(solution('{[]}')).toStrictEqual(true);
+    expect(solution('()[]{}')).toStrictEqual(true);
   });
 });
