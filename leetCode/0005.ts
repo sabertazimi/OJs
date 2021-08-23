@@ -2,7 +2,7 @@ export default function longestPalindrome(s: string): string {
   const n = s.length;
   let longestBegin = 0;
   let maxLen = 1;
-  const dp = Array.from(Array(1000), () => new Array(1000));
+  const dp = Array.from(Array(1000), () => Array(1000));
 
   // Single character is palindrome
   for (let i = 0; i < n; i++) {
