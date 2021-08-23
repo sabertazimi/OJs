@@ -15,6 +15,7 @@ export default function threeSum(nums: number[]): number[][] {
 
     let j = i + 1;
     let k = nums.length - 1;
+
     while (j < k) {
       const cur: number[] = [];
 

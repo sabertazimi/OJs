@@ -28,5 +28,6 @@ export default function findMedianSortedArrays(
       ? nums3[i / 2 - 1] + nums3[i / 2]
       : 2 * nums3[Math.floor(i / 2)];
   median = median / 2.0;
+
   return median;
 }

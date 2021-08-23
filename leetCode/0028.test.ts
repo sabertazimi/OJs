@@ -11,7 +11,7 @@ import solution from './0028';
 describe('LeetCode [0028]', () => {
   test('should AC', () => {
     expect(solution('', '')).toStrictEqual(0);
-    expect(solution('hello', 'll')).toStrictEqual(2);
     expect(solution('aaaaa', 'bba')).toStrictEqual(-1);
+    expect(solution('hello', 'll')).toStrictEqual(2);
   });
 });

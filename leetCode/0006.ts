@@ -1,9 +1,9 @@
 export default function convert(s: string, numRows: number): string {
   if (numRows === 1) return s;
 
-  let ret = '';
   const n = s.length;
   const cycleLen = 2 * numRows - 2;
+  let ret = '';
 
   // 行 0 中的字符位于索引 k * (2 * numRows - 2).
   // 行 numRows - 1 中的字符位于索引 k * (2 * numRows - 2) + numRows - 1.

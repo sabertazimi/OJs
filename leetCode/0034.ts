@@ -5,26 +5,28 @@ export default function searchRange(nums: number[], target: number): number[] {
     return ans;
   }
 
-  let l = 0;
-  let r = nums.length - 1;
-  while (l < r) {
-    const mid = (l + r) >> 1;
-    if (nums[mid] >= target) r = mid;
-    else l = mid + 1;
+  let lo = 0;
+  let hi = nums.length - 1;
+
+  while (lo < hi) {
+    const mid = (lo + hi) >> 1;
+    if (nums[mid] >= target) hi = mid;
+    else lo = mid + 1;
   }
 
-  if (nums[r] !== target) return ans;
-  ans[0] = r;
+  if (nums[hi] !== target) return ans;
+  ans[0] = hi;
 
-  l = 0;
-  r = nums.length - 1;
-  while (l < r) {
-    const mid = (l + r + 1) >> 1;
-    if (nums[mid] <= target) l = mid;
-    else r = mid - 1;
+  lo = 0;
+  hi = nums.length - 1;
+
+  while (lo < hi) {
+    const mid = (lo + hi + 1) >> 1;
+    if (nums[mid] <= target) lo = mid;
+    else hi = mid - 1;
   }
 
-  ans[1] = r;
+  ans[1] = hi;
 
   return ans;
 }

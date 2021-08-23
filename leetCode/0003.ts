@@ -4,19 +4,20 @@ export default function lengthOfLongestSubstring(s: string): number {
   }
 
   const map = new Map<string, number>();
-  let left = 0;
-  let len = 0;
+  let maxLen = 0;
 
-  // 最大子串为 2个重复字符间字符串长度 + 1
-  for (let i = 0; i < s.length; i++) {
-    const cur = s.charAt(i);
-    const index = map.get(cur);
-    if (index !== undefined && left <= index) {
-      left = index + 1;
+  // 最大子串为 2 个重复字符间字符串长度 + 1
+  for (let lo = 0, hi = 0; hi < s.length; hi++) {
+    const ch = s.charAt(hi);
+    const index = map.get(ch);
+
+    if (index !== undefined && lo <= index) {
+      lo = index + 1;
     }
-    map.set(cur, i);
-    len = Math.max(len, i - left + 1);
+
+    map.set(ch, hi);
+    maxLen = Math.max(maxLen, hi - lo + 1);
   }
 
-  return len;
+  return maxLen;
 }

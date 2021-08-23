@@ -24,13 +24,15 @@ const arrayToList = (nums: number[]): ListNode | null => {
 
 const printList = (list: ListNode | null): void => {
   let output = '';
+
   for (let node = list; node !== null; node = node.next) {
-    output = output.concat(`[${node.val}]`);
+    output += `[${node.val}]`;
 
     if (node.next !== null) {
-      output = output.concat(' -> ');
+      output += ' -> ';
     }
   }
+
   console.info(output);
 };
 

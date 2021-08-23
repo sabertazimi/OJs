@@ -18,9 +18,9 @@ export default function addTwoNumbers(
 
   let c1: ListNode | null = l1;
   let c2: ListNode | null = l2;
-  const pre = new ListNode(0); // set pre head
-  let current = pre;
-  let sum = 0; // the sum of two nodes
+  const head = new ListNode(0);
+  let tail = head;
+  let sum = 0;
 
   while (c1 !== null || c2 !== null) {
     // traverse longer list
@@ -34,14 +34,13 @@ export default function addTwoNumbers(
       c2 = c2.next;
     }
 
-    // build next node
-    current.next = new ListNode(sum % 10);
-    sum = Math.floor(sum / 10); // carry
-    current = current.next;
+    tail.next = new ListNode(sum % 10);
+    sum = Math.floor(sum / 10);
+    tail = tail.next;
   }
 
-  // note that can have carry at the last digit
-  if (sum === 1) current.next = new ListNode(1);
+  // Note that can have carry at the last digit
+  if (sum === 1) tail.next = new ListNode(1);
 
-  return pre.next;
+  return head.next;
 }
