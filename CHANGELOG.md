@@ -2,6 +2,93 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.1.0](https://github.com/sabertazimi/OJs/compare/v2.0.0...v2.1.0) (2021-08-24)
+
+
+### :sparkles: Recursion
+
+* **leetcode-0038:** count and say ([d6d093f](https://github.com/sabertazimi/OJs/commit/d6d093f9b25085f15ef21ee097e482db5ea93c5e))
+
+
+### :sparkles: Dynamic Programming
+
+* **leetcode-0053:** maximum subarray (one variable store DP) ([76916e1](https://github.com/sabertazimi/OJs/commit/76916e15c1549bedd2b3a34aac12ab210b6511d2))
+
+
+### :sparkles: Matrix
+
+* **leetcode-0059:** spiral matrix II ([dfc589f](https://github.com/sabertazimi/OJs/commit/dfc589f0e609cd5ab507ce9d28dc4ba4e138e34a))
+
+
+### :sparkles: String
+
+* **leetcode-0028:** KMP substring algorithm ([39e3907](https://github.com/sabertazimi/OJs/commit/39e39075273c58e5e34f7da352d44f8279e877a9))
+* **leetcode-0058:** length of last word ([6dc99d7](https://github.com/sabertazimi/OJs/commit/6dc99d7c3c0f97f03adcbffee6006a0c0348fe39))
+
+
+### :sparkles: Math
+
+* **leetcode-0066:** plus one (big int) ([968fc37](https://github.com/sabertazimi/OJs/commit/968fc375399e15dff61c51984442ca64518877fb))
+* **leetcode-0067:** add binary string (big int) ([6836fdb](https://github.com/sabertazimi/OJs/commit/6836fdb30fe79b48ae662b72bc77b769af038c9c))
+
+
+### :sparkles: Search
+
+* **leetcode-0034:** search for a range (binary search in sorted array) ([791e328](https://github.com/sabertazimi/OJs/commit/791e32819c886e0591cc53360da062d6d011a73e))
+* **leetcode-0035:** search insert position in sorted array ([325b1a7](https://github.com/sabertazimi/OJs/commit/325b1a7b451d4577a75a49b90e912159dac4c0f0))
+* **leetcode-0074:** search a sorted 2d matrix (binary search) ([9d2f43c](https://github.com/sabertazimi/OJs/commit/9d2f43c699e33612db91ed653514c55f34d682a0))
+
+
+### :bug: Bug Fixes
+
+* **category:** add backtracking algorithm ([403fea7](https://github.com/sabertazimi/OJs/commit/403fea724c744efc61529e723d9b31537599035e))
+
+
+### :sparkles: Backtracking
+
+* **leetcode-0078:** subsets problem (backtracking) ([15b8806](https://github.com/sabertazimi/OJs/commit/15b8806bb544b3d82a24b5ec7b94b70a283f7181))
+
+
+### :sparkles: Features
+
+* **leetcode-Tree:** complete Tree utility functions ([b7521d4](https://github.com/sabertazimi/OJs/commit/b7521d453a42be7bfb8eb394fce0496850342a6d))
+
+
+### :sparkles: Linked List
+
+* **leetcode-0021:** merget two sorted lists ([6539d93](https://github.com/sabertazimi/OJs/commit/6539d936ae18e9f2cde53ac80cc0df27e0fb53ef))
+* **leetcode-0083:** remove duplicates from sorted list ([1d296e2](https://github.com/sabertazimi/OJs/commit/1d296e27857efae6dd42cf0b498e11d0029af437))
+
+
+### :sparkles: Tree
+
+* **leetcode-0094/0144/0145:** binary tree traversal ([2d8fda0](https://github.com/sabertazimi/OJs/commit/2d8fda0248a7bfadbe64c0f267c537cbb6ed7fbd))
+* **leetcode-0100:** same tree comparsion ([90caec8](https://github.com/sabertazimi/OJs/commit/90caec87640a369ff0682871b49194feef04e842))
+* **leetcode-0226:** invert binary tree ([e62570e](https://github.com/sabertazimi/OJs/commit/e62570edaceb7cce984d95bc90a3447006022521))
+
+
+### :sparkles: Stack
+
+* **leetcode-0020:** valid parentheses ([9d6d649](https://github.com/sabertazimi/OJs/commit/9d6d649a193dbcf88e6a7e0de22de797f961e8c4))
+* **leetcode-0084:** largest rectangle in histogram (increasing stack) ([59d06f8](https://github.com/sabertazimi/OJs/commit/59d06f8ccde2ccc39e9bb8c244dc1fbc5632c152))
+
+
+### :sparkles: Array
+
+* **leetcode-0015:** 3 sum array ([343560a](https://github.com/sabertazimi/OJs/commit/343560acd186f787b315416284d8ff2a0b7a00cb))
+* **leetcode-0016:** 3sum closest ([d7539e6](https://github.com/sabertazimi/OJs/commit/d7539e60796725574e8b2d56ee9fa3ca31025241))
+* **leetcode-0018:** 4sum problem ([92f58e9](https://github.com/sabertazimi/OJs/commit/92f58e96111ada43b0006a57a609e27c1cf4e46b))
+* **leetcode-0026:** remove dups from sorted array in place ([492119b](https://github.com/sabertazimi/OJs/commit/492119bb32b7fb93e807306813285076509331db))
+* **leetcode-0027:** remove element in place ([6c0b418](https://github.com/sabertazimi/OJs/commit/6c0b41840130e1af83f3da8e0579fdd6abe98d04))
+* **leetcode-0088:** merge sorted array ([383b46f](https://github.com/sabertazimi/OJs/commit/383b46f9e69c9d86a90ef09dd81948598caeec71))
+
+
+### :rocket: Building Work
+
+* **CI:** set up CI with Azure Pipelines ([fe1856e](https://github.com/sabertazimi/OJs/commit/fe1856e1727738403dfa57defb7f4cb89840de4f))
+* **deps-dev:** bump @typescript-eslint/eslint-plugin from 4.29.2 to 4.29.3 ([47205dc](https://github.com/sabertazimi/OJs/commit/47205dce81bf31b98ea99160b37bacba8faaa037))
+* **deps-dev:** bump @typescript-eslint/parser from 4.29.2 to 4.29.3 ([4a833c7](https://github.com/sabertazimi/OJs/commit/4a833c7e1d961e281bb9304112891842c687d7b0))
+
 ## [2.0.0](https://github.com/sabertazimi/OJs/compare/v1.0.0...v2.0.0) (2021-08-22)
 
 
