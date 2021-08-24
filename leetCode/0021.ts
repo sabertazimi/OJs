@@ -1,9 +1,9 @@
 import { ListNode } from './List';
 
 export default function mergeTwoLists(
-  l1: ListNode | null,
-  l2: ListNode | null
-): ListNode | null {
+  l1: ListNode<number> | null,
+  l2: ListNode<number> | null
+): ListNode<number> | null {
   const head = new ListNode(0);
   let tail = head;
 

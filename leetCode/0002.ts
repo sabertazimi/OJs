@@ -1,9 +1,9 @@
 import { ListNode } from './List';
 
 export default function addTwoNumbers(
-  l1: ListNode | null,
-  l2: ListNode | null
-): ListNode | null {
+  l1: ListNode<number> | null,
+  l2: ListNode<number> | null
+): ListNode<number> | null {
   if (l1 === null && l2 === null) {
     return null;
   }
@@ -16,8 +16,8 @@ export default function addTwoNumbers(
     return l1;
   }
 
-  let c1: ListNode | null = l1;
-  let c2: ListNode | null = l2;
+  let c1: ListNode<number> | null = l1;
+  let c2: ListNode<number> | null = l2;
   const head = new ListNode(0);
   let tail = head;
   let sum = 0;

@@ -1,6 +1,8 @@
 import { traversal, TreeNode } from './Tree';
 
-export default function inorderTraversal(root: TreeNode | null): number[] {
+export default function inorderTraversal(
+  root: TreeNode<number> | null
+): number[] {
   const res: number[] = [];
 
   traversal(root, node => {

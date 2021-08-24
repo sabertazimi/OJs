@@ -1,8 +1,8 @@
-class TreeNode {
-  val: number;
-  left: TreeNode | null;
-  right: TreeNode | null;
-  constructor(val: number) {
+class TreeNode<T> {
+  val: T;
+  left: TreeNode<T> | null;
+  right: TreeNode<T> | null;
+  constructor(val: T) {
     this.val = val;
     this.left = null;
     this.right = null;
@@ -13,14 +13,14 @@ class TreeNode {
  * @param nums Tree node array (0 present `null` node)
  * @returns Root of binary tree
  */
-const arrayToTree = (nums: number[]): TreeNode | null => {
+const arrayToTree = <T>(nums: T[]): TreeNode<T> | null => {
   if (nums.length === 0) return null;
   const root = insertToTree(nums, 0);
   return root;
 };
 
-const insertToTree = (nums: number[], index: number): TreeNode | null => {
-  let root: TreeNode | null = null;
+const insertToTree = <T>(nums: T[], index: number): TreeNode<T> | null => {
+  let root: TreeNode<T> | null = null;
 
   if (index < nums.length && nums[index]) {
     root = new TreeNode(nums[index]);
@@ -33,9 +33,9 @@ const insertToTree = (nums: number[], index: number): TreeNode | null => {
 
 type Order = 'pre' | 'in' | 'post';
 
-const traversal = (
-  root: TreeNode | null,
-  visitor: (node: number) => void,
+const traversal = <T>(
+  root: TreeNode<T> | null,
+  visitor: (node: T) => void,
   order: Order = 'in'
 ): void => {
   if (root === null) {

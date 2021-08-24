@@ -1,9 +1,11 @@
 import { TreeNode } from './Tree';
 
-export default function binaryTreePaths(root: TreeNode | null): string[] {
+export default function binaryTreePaths(
+  root: TreeNode<number> | null
+): string[] {
   const paths: string[] = [];
 
-  const dfs = (root: TreeNode, path: string) => {
+  const dfs = (root: TreeNode<number>, path: string) => {
     if (root.left === null && root.right === null) {
       paths.push(path);
       return;

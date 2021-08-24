@@ -1,6 +1,8 @@
 import { TreeNode } from './Tree';
 
-export default function invertTree(root: TreeNode | null): TreeNode | null {
+export default function invertTree(
+  root: TreeNode<number> | null
+): TreeNode<number> | null {
   if (root === null) {
     return null;
   }
