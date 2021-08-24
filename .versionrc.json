@@ -2,6 +2,7 @@
   "types": [
     { "type": "array", "section": ":sparkles: Array" },
     { "type": "bfs", "section": ":sparkles: Breadth-First Search" },
+    { "type": "bt", "section": ":sparkles: Backtracking" },
     { "type": "count", "section": ":sparkles: Counting" },
     { "type": "dfs", "section": ":sparkles: Depth-First Search" },
     { "type": "dp", "section": ":sparkles: Dynamic Programming" },
