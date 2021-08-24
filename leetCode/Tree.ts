@@ -31,17 +31,34 @@ const insertToTree = (nums: number[], index: number): TreeNode | null => {
   return root;
 };
 
-const inorder = (
+type Order = 'pre' | 'in' | 'post';
+
+const traversal = (
   root: TreeNode | null,
-  visitor: (node: number) => void
+  visitor: (node: number) => void,
+  order: Order = 'in'
 ): void => {
   if (root === null) {
     return;
   }
 
-  inorder(root.left, visitor);
-  visitor(root.val);
-  inorder(root.right, visitor);
+  switch (order) {
+    case 'pre':
+      visitor(root.val);
+      traversal(root.left, visitor, order);
+      traversal(root.right, visitor, order);
+      break;
+    case 'in':
+      traversal(root.left, visitor, order);
+      visitor(root.val);
+      traversal(root.right, visitor, order);
+      break;
+    case 'post':
+      traversal(root.left, visitor, order);
+      traversal(root.right, visitor, order);
+      visitor(root.val);
+      break;
+  }
 };
 
-export { TreeNode, arrayToTree, inorder };
+export { TreeNode, arrayToTree, traversal };
