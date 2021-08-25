@@ -1,5 +1,5 @@
 import solution from './0002';
-import { arrayToList, printList } from './List';
+import { arrayToList } from './List';
 
 /**
  * @author sabertazimi
@@ -15,7 +15,6 @@ import { arrayToList, printList } from './List';
  */
 describe('LeetCode [0002]', () => {
   test('should AC', () => {
-    printList(arrayToList([1, 2, 3, 4, 5]));
     expect(solution(arrayToList([]), arrayToList([]))).toStrictEqual(null);
     expect(solution(arrayToList([0]), arrayToList([0]))).toStrictEqual(
       arrayToList([0])
