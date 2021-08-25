@@ -1,6 +1,5 @@
 import solution from './0100';
 import { arrayToTree } from './Tree';
-import { MIN_INT } from './utils';
 
 /**
  * @author sabertazimi
@@ -11,10 +10,10 @@ import { MIN_INT } from './utils';
 describe('LeetCode [0100]', () => {
   test('should AC', () => {
     expect(
-      solution(arrayToTree([1, 2]), arrayToTree([1, MIN_INT, 2]))
+      solution(arrayToTree([1, 2]), arrayToTree([1, null, 2]))
     ).toStrictEqual(false);
     expect(
-      solution(arrayToTree([1, MIN_INT, 2]), arrayToTree([1, 2]))
+      solution(arrayToTree([1, null, 2]), arrayToTree([1, 2]))
     ).toStrictEqual(false);
     expect(
       solution(arrayToTree([1, 2, 1]), arrayToTree([1, 1, 2]))

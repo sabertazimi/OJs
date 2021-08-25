@@ -1,6 +1,5 @@
 import solution from './0105';
 import { arrayToTree } from './Tree';
-import { MIN_INT } from './utils';
 
 /**
  * @author sabertazimi
@@ -16,7 +15,7 @@ describe('LeetCode [0105]', () => {
   test('should AC', () => {
     expect(solution([-1], [-1])).toStrictEqual(arrayToTree([-1]));
     expect(solution([3, 9, 20, 15, 7], [9, 3, 15, 20, 7])).toStrictEqual(
-      arrayToTree([3, 9, 20, MIN_INT, MIN_INT, 15, 7])
+      arrayToTree([3, 9, 20, null, null, 15, 7])
     );
   });
 });
