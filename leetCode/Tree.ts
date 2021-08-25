@@ -15,11 +15,11 @@ class TreeNode<T> {
  */
 const arrayToTree = <T>(nodes: (T | null)[]): TreeNode<T> | null => {
   if (nodes.length === 0) return null;
-  const root = insertToTree(nodes, 0);
+  const root = buildTree(nodes, 0);
   return root;
 };
 
-const insertToTree = <T>(
+const buildTree = <T>(
   nodes: (T | null)[],
   index: number
 ): TreeNode<T> | null => {
@@ -28,8 +28,8 @@ const insertToTree = <T>(
 
   if (node !== null && index < nodes.length) {
     root = new TreeNode(node);
-    root.left = insertToTree(nodes, 2 * index + 1);
-    root.right = insertToTree(nodes, 2 * index + 2);
+    root.left = buildTree(nodes, 2 * index + 1);
+    root.right = buildTree(nodes, 2 * index + 2);
   }
 
   return root;
