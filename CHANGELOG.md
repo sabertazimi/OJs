@@ -2,6 +2,45 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.1.2](https://github.com/sabertazimi/OJs/compare/v2.1.1...v2.1.2) (2021-08-25)
+
+
+### :sparkles: Tree
+
+* **leetcode-0108:** convert sorted array to binary search tree ([5c84be9](https://github.com/sabertazimi/OJs/commit/5c84be9aecdcb70f235597b272a098d396284a11))
+* **leetcode-0109:** convert sorted list to binary search tree ([502d3c0](https://github.com/sabertazimi/OJs/commit/502d3c0e95411f83769199219388e005f71552d5))
+* **leetcode-0110:** balanced binary tree ([9802e1a](https://github.com/sabertazimi/OJs/commit/9802e1a86a4de58e3c446c5ba57b72c5a8294753))
+* **leetcode-0111:** minimum depth of binary tree ([323d116](https://github.com/sabertazimi/OJs/commit/323d1166a3c55145a65167d578cbaba6612f8646))
+* **leetcode-0112:** path sum of binary tree ([2a84aff](https://github.com/sabertazimi/OJs/commit/2a84aff38d32809ca59197fdd10b92f48b2345ec))
+* **leetcode-0113:** path sum ii ([cc10e95](https://github.com/sabertazimi/OJs/commit/cc10e952ecf6fa542a986a7e75b31c6a3d29809f))
+
+
+### :sparkles: Math
+
+* **leetcode-0118:** pascals triangle ([196a7f8](https://github.com/sabertazimi/OJs/commit/196a7f8f3b27a249abf6e9a71cbd9805e6784347))
+* **leetcode-0119:** pascals triangle ii ([993bb9d](https://github.com/sabertazimi/OJs/commit/993bb9d5576dcec33fddcf74dc0c353826a427d1))
+
+
+### :sparkles: Array
+
+* **leetcode-0121:** best time to buy and sell stock ([570dca5](https://github.com/sabertazimi/OJs/commit/570dca53f9dbf39e8e6d925009779260f755f294))
+
+
+### :sparkles: Greedy
+
+* **leetcode-0122:** best time to buy and sell stock ii ([3846f8e](https://github.com/sabertazimi/OJs/commit/3846f8e2403b64a356ba83786d95849e65ea0501))
+
+
+### :sparkles: Dynamic Programming
+
+* **leetcode-0123:** best time to buy and sell stock iii ([d17a66c](https://github.com/sabertazimi/OJs/commit/d17a66cb72729e7c605cb08b790266d4268569dc))
+* **leetcode-0188:** best time to buy and sell stock iv ([c566aa9](https://github.com/sabertazimi/OJs/commit/c566aa9a6196684f06cd7d549e5c4b709f6bd604))
+
+
+### :sparkles: String
+
+* **leetcode-0125:** valid palindrome string ([133c550](https://github.com/sabertazimi/OJs/commit/133c550895dd522f012eafb07c3470556cf3e577))
+
 ### [2.1.1](https://github.com/sabertazimi/OJs/compare/v2.1.0...v2.1.1) (2021-08-25)
 
 
