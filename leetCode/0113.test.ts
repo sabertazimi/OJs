@@ -19,23 +19,7 @@ describe('LeetCode [0113]', () => {
     expect(solution(arrayToTree([1, null, 2]), 3)).toStrictEqual([[1, 2]]);
     expect(
       solution(
-        arrayToTree([
-          5,
-          4,
-          8,
-          11,
-          null,
-          13,
-          4,
-          7,
-          2,
-          null,
-          null,
-          null,
-          null,
-          5,
-          1,
-        ]),
+        arrayToTree([5, 4, 8, 11, null, 13, 4, 7, 2, null, null, 5, 1]),
         22
       )
     ).toStrictEqual([

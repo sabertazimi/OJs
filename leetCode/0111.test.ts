@@ -19,41 +19,7 @@ describe('LeetCode [0111]', () => {
       2
     );
     expect(
-      solution(
-        arrayToTree([
-          2,
-          null,
-          3,
-          null,
-          null,
-          null,
-          4,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          5,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          6,
-        ])
-      )
+      solution(arrayToTree([2, null, 3, null, 4, null, 5, null, 6]))
     ).toStrictEqual(5);
   });
 });

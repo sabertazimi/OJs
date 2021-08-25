@@ -15,21 +15,33 @@ class TreeNode<T> {
  */
 const arrayToTree = <T>(nodes: (T | null)[]): TreeNode<T> | null => {
   if (nodes.length === 0) return null;
-  const root = buildTree(nodes, 0);
-  return root;
-};
 
-const buildTree = <T>(
-  nodes: (T | null)[],
-  index: number
-): TreeNode<T> | null => {
-  let root: TreeNode<T> | null = null;
-  const node = nodes[index];
+  let nextItem = 0;
+  const root = new TreeNode(nodes[nextItem++] as T);
+  const queue = [root];
 
-  if (node !== null && index < nodes.length) {
-    root = new TreeNode(node);
-    root.left = buildTree(nodes, 2 * index + 1);
-    root.right = buildTree(nodes, 2 * index + 2);
+  while (queue.length > 0) {
+    const current = queue.shift() as TreeNode<T>;
+
+    if (nextItem < nodes.length) {
+      const item = nodes[nextItem++];
+
+      if (item !== null) {
+        const node = new TreeNode(item);
+        current.left = node;
+        queue.push(node);
+      }
+    }
+
+    if (nextItem < nodes.length) {
+      const item = nodes[nextItem++];
+
+      if (item !== null) {
+        const node = new TreeNode(item);
+        current.right = node;
+        queue.push(node);
+      }
+    }
   }
 
   return root;
