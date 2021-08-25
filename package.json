@@ -5,7 +5,7 @@
   "description": "Archive for OJ code",
   "main": "index.ts",
   "scripts": {
-    "build": "mkdir -p build && touch build/.nojekyll",
+    "build": "cp -fr coverage/lcov-report build",
     "format": "prettier --write leetCode/**/*.ts",
     "lint": "npm run lint:style && npm run lint:type-check",
     "lint:style": "eslint --fix --ext .ts ./leetCode",
