@@ -1,0 +1,59 @@
+import solution from './0111';
+import { arrayToTree } from './Tree';
+
+/**
+ * @author sabertazimi
+ * @license MIT
+ * @level easy
+ * @description minimum-depth-of-binary-tree
+ * Given a binary tree, find its minimum depth.
+ * The minimum depth is the number of nodes
+ * along the shortest path from the root node down to the nearest leaf node.
+ */
+describe('LeetCode [0111]', () => {
+  test('should AC', () => {
+    expect(solution(arrayToTree([]))).toStrictEqual(0);
+    expect(solution(arrayToTree([1]))).toStrictEqual(1);
+    expect(solution(arrayToTree([1, 2]))).toStrictEqual(2);
+    expect(solution(arrayToTree([3, 9, 20, null, null, 15, 7]))).toStrictEqual(
+      2
+    );
+    expect(
+      solution(
+        arrayToTree([
+          2,
+          null,
+          3,
+          null,
+          null,
+          null,
+          4,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          5,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          6,
+        ])
+      )
+    ).toStrictEqual(5);
+  });
+});
