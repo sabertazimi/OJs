@@ -2,6 +2,31 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.1.1](https://github.com/sabertazimi/OJs/compare/v2.1.0...v2.1.1) (2021-08-25)
+
+
+### :sparkles: Tree
+
+* **leetcode-0101:** symmetric tree ([077602b](https://github.com/sabertazimi/OJs/commit/077602bd0ec71df6aba20fcbc1661563a0593564))
+* **leetcode-0102:** binary tree level order traversal ([525e114](https://github.com/sabertazimi/OJs/commit/525e11445cc1bac3a09834262c3e7de931e31a09))
+* **leetcode-0103:** binary tree zigzag level order traversal ([f2ecc8a](https://github.com/sabertazimi/OJs/commit/f2ecc8ab7cd9a232b86ed81ccbf42a063861eeba))
+* **leetcode-0104:** maximum depth of binary tree ([277d1c1](https://github.com/sabertazimi/OJs/commit/277d1c1eeb19cb82d75d65c5832e6184cb85aaf7))
+* **leetcode-0105:** construct binary tree from preorder and inorder ([8c4160d](https://github.com/sabertazimi/OJs/commit/8c4160df06d0bd72aa77fcad77bed53eec37bdff))
+* **leetcode-0106:** construct tree from inorder and postorder traversal ([c155603](https://github.com/sabertazimi/OJs/commit/c155603cc865d5073489ae2b0d55fe9cdf9e26e3))
+* **leetcode-0107:** binary tree bottom level order traversal ([9a77237](https://github.com/sabertazimi/OJs/commit/9a77237e3f07d89c59a73e46605fe756bd41f625))
+
+
+### :bug: Bug Fixes
+
+* **leetcode-Tree:** rectify tree nodes array type ([8662ede](https://github.com/sabertazimi/OJs/commit/8662ededb3209ecff7b0860a13fa33eebdd7a958))
+
+
+### :wrench: Testing
+
+* **leetcode-List/Tree:** add more testing ([37bb2ea](https://github.com/sabertazimi/OJs/commit/37bb2ea81fcf3f2f753cdec058d31a05d74e60d7))
+* **leetcode-List:** add List testing ([e70937b](https://github.com/sabertazimi/OJs/commit/e70937b34aad143366418f0912b07238b31105db))
+* **leetcode-Tree:** add Tree testing ([1c8748e](https://github.com/sabertazimi/OJs/commit/1c8748e68dcd91250b87cf0b081079b9370796ff))
+
 ## [2.1.0](https://github.com/sabertazimi/OJs/compare/v2.0.0...v2.1.0) (2021-08-24)
 
 
