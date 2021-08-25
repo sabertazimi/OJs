@@ -5,18 +5,9 @@ export default function isSymmetric<T>(root: TreeNode<T> | null): boolean {
     left: TreeNode<T> | null,
     right: TreeNode<T> | null
   ): boolean => {
-    if (left === null && right === null) {
-      return true;
-    }
-
-    if (left === null || right === null) {
-      return false;
-    }
-
-    if (left.val !== right.val) {
-      return false;
-    }
-
+    if (left === null && right === null) return true;
+    if (left === null || right === null) return false;
+    if (left.val !== right.val) return false;
     return dfs(left.left, right.right) && dfs(left.right, right.left);
   };
 
