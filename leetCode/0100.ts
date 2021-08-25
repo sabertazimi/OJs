@@ -4,8 +4,7 @@ export default function isSameTree<T>(
   p: TreeNode<T> | null,
   q: TreeNode<T> | null
 ): boolean {
-  if (p === null && q !== null) return false;
-  if (p !== null && q === null) return false;
+  if (p === null || q === null) return false;
   if (p !== null && q !== null) {
     return (
       p.val === q.val &&
