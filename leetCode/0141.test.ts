@@ -24,8 +24,7 @@ describe('LeetCode [0141]', () => {
     expect(solution(list1)).toStrictEqual(true);
 
     const list2 = arrayToList([3, 2, 0, -4]);
-    if (list2?.next && list2?.next?.next && list2?.next?.next?.next)
-      list2.next.next.next.next = list2.next;
+    if (list2?.next?.next?.next) list2.next.next.next.next = list2.next;
     expect(solution(list2)).toStrictEqual(true);
   });
 });
