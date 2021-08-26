@@ -2,6 +2,63 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.1.3](https://github.com/sabertazimi/OJs/compare/v2.1.2...v2.1.3) (2021-08-26)
+
+
+### :sparkles: String
+
+* **codewars-rank:** duplicate encoder ([1b5ea3f](https://github.com/sabertazimi/OJs/commit/1b5ea3fe1d96b8510ec9aea18a8cca21f1010dbf))
+
+
+### :sparkles: Stack
+
+* **leetcode-0155:** min stack ([10ab39d](https://github.com/sabertazimi/OJs/commit/10ab39ddc6c2497793f562b1b2a005547a5977ba))
+
+
+### :sparkles: Search
+
+* **leetcode-0153:** find minimum in rotated sorted array ([67f6557](https://github.com/sabertazimi/OJs/commit/67f6557749da6f940238ef9392b3b0b77255cb2d))
+* **leetcode-0154:** find minimum in rotated sorted array ii ([59ae340](https://github.com/sabertazimi/OJs/commit/59ae3404efd73a1d680fc1997fa45a50d2c36b63))
+* **leetcode-0162:** find peak element ([b5e31d4](https://github.com/sabertazimi/OJs/commit/b5e31d4f2b9aecf724e5f08d040577c308188b4d))
+* **leetcode-0167:** two sum ii input array is sorted ([287b1d5](https://github.com/sabertazimi/OJs/commit/287b1d51e753a19d40bdca260d7ff9f7ea4e7a01))
+
+
+### :sparkles: Array
+
+* **leetcode-0169:** majority element ([2fe5799](https://github.com/sabertazimi/OJs/commit/2fe579915242e395b62ffd169c4715315989a024))
+* **leetcode-0189:** rotate array ([3f4079a](https://github.com/sabertazimi/OJs/commit/3f4079a5954f6abce978c908033d903e0f335696))
+
+
+### :sparkles: Dynamic Programming
+
+* **leetcode-0198:** house robber ([7e867f1](https://github.com/sabertazimi/OJs/commit/7e867f1541c5fcd061a578d5f56ea01a2cb8ddad))
+
+
+### :sparkles: Math
+
+* **leetcode-0136:** single number (bitwise operator) ([2bc474f](https://github.com/sabertazimi/OJs/commit/2bc474f17dec0ab8b79ed17d01725d71bcba424e))
+* **leetcode-0137:** single number ii ([10f037e](https://github.com/sabertazimi/OJs/commit/10f037edf350ce4b8b9a0037610037cc029573fd))
+* **leetcode-0171:** excel sheet column number ([8a17b77](https://github.com/sabertazimi/OJs/commit/8a17b7746a993215d53076f038e9a2d6108e7676))
+* **leetcode-0172:** factorial trailing zeroes ([2cc9b5f](https://github.com/sabertazimi/OJs/commit/2cc9b5f7c55c249b0f9a44d7e1d6c9e339690d15))
+* **leetcode-0190:** reverse bits ([4914578](https://github.com/sabertazimi/OJs/commit/4914578c9cfcda512fdb3b106104c703b9ccdb5d))
+* **leetcode-0191:** number of 1 bits ([c622eec](https://github.com/sabertazimi/OJs/commit/c622eeca6936c3e1c6497d796639ea1f18c10ecf))
+* **leetcode-0202:** happy number ([9df015b](https://github.com/sabertazimi/OJs/commit/9df015b9340e27c7a07bba7971f506dca9f91fa4))
+* **leetcode-0204:** count primes ([f4bbea3](https://github.com/sabertazimi/OJs/commit/f4bbea3023530178d914a3a24275a5cdca14983f))
+
+
+### :sparkles: Hash Function
+
+* **leetcode-0205:** isomorphic strings ([5385742](https://github.com/sabertazimi/OJs/commit/538574259bf861dc79206132c0b7edabe4483846))
+
+
+### :sparkles: Linked List
+
+* **leetcode-0141:** linked list cycle (two pointers algorithm) ([9a627df](https://github.com/sabertazimi/OJs/commit/9a627dfbe90651edb9ccc3adfde4fd7fc72005a5))
+* **leetcode-0142:** linked cycle ii (set map) ([4219be5](https://github.com/sabertazimi/OJs/commit/4219be578b74f883568f2087d85d5bee530f5b92))
+* **leetcode-0160:** intersection of two linked lists ([e1a2aac](https://github.com/sabertazimi/OJs/commit/e1a2aac7ab2ceab3ca07263b4299001d9978a684))
+* **leetcode-0203:** remove linked list elements ([b367fd4](https://github.com/sabertazimi/OJs/commit/b367fd4e537883f6ca9b911228a935eadd16d702))
+* **leetcode-0206:** reverse linked list ([8b78cff](https://github.com/sabertazimi/OJs/commit/8b78cff799443f3fa0cbfa32a7689c15dca0fae8))
+
 ### [2.1.2](https://github.com/sabertazimi/OJs/compare/v2.1.1...v2.1.2) (2021-08-25)
 
 
