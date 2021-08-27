@@ -1,7 +1,7 @@
 {
   "name": "@sabertazimi/ojs",
   "private": true,
-  "version": "2.1.3",
+  "version": "2.1.4",
   "description": "Archive for OJ code",
   "main": "index.ts",
   "scripts": {

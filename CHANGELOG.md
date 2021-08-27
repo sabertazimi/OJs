@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.1.4](https://github.com/sabertazimi/OJs/compare/v2.1.3...v2.1.4) (2021-08-27)
+
+
+### :sparkles: Hash Function
+
+* **leetcode-0217:** contains duplicate ([d270460](https://github.com/sabertazimi/OJs/commit/d27046057374a469bf63dc9ddfb8917d44032bda))
+* **leetcode-0219:** contains duplicate ii ([09474bb](https://github.com/sabertazimi/OJs/commit/09474bb512239b61b66186fef4fbc1876fb5efd4))
+* **leetcode-0220:** contains duplicate iii ([8dfb2e6](https://github.com/sabertazimi/OJs/commit/8dfb2e68b161ab462dd7d971a70903c7e2b3404d))
+
+
+### :sparkles: Stack
+
+* **leetcode-0225:** implement stack using queues ([276f608](https://github.com/sabertazimi/OJs/commit/276f60800db3ae46a9008613456f459dcddf05f9))
+
 ### [2.1.3](https://github.com/sabertazimi/OJs/compare/v2.1.2...v2.1.3) (2021-08-26)
 
 
