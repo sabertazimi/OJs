@@ -8,15 +8,15 @@ class ListNode<T> {
   }
 }
 
-const arrayToList = <T>(nums: T[]): ListNode<T> | null => {
-  if (nums.length === 0) {
+const arrayToList = <T>(nodes: T[]): ListNode<T> | null => {
+  if (nodes.length === 0) {
     return null;
   }
 
-  let list = new ListNode(nums[nums.length - 1]);
+  let list = new ListNode(nodes[nodes.length - 1]);
 
-  for (let i = nums.length - 2; i >= 0; i--) {
-    const current = new ListNode(nums[i], list);
+  for (let i = nodes.length - 2; i >= 0; i--) {
+    const current = new ListNode(nodes[i], list);
     list = current;
   }
 
