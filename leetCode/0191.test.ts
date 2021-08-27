@@ -10,14 +10,8 @@ import solution from './0191';
  */
 describe('LeetCode [0191]', () => {
   test('should AC', () => {
-    expect(
-      solution(Number.parseInt('00000000000000000000000000001011', 2))
-    ).toStrictEqual(3);
-    expect(
-      solution(Number.parseInt('00000000000000000000000010000000', 2))
-    ).toStrictEqual(1);
-    expect(
-      solution(Number.parseInt('11111111111111111111111111111101', 2))
-    ).toStrictEqual(31);
+    expect(solution(0b00000000000000000000000000001011)).toStrictEqual(3);
+    expect(solution(0b00000000000000000000000010000000)).toStrictEqual(1);
+    expect(solution(0b11111111111111111111111111111101)).toStrictEqual(31);
   });
 });
