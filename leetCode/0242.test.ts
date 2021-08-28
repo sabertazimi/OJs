@@ -1,0 +1,17 @@
+import solution from './0242';
+
+/**
+ * @author sabertazimi
+ * @license MIT
+ * @level easy
+ * @description valid-anagram
+ * Given two strings s and t,
+ * return true if t is an anagram of s,
+ * and false otherwise.
+ */
+describe('LeetCode [0242]', () => {
+  test('should AC', () => {
+    expect(solution('rat', 'car')).toStrictEqual(false);
+    expect(solution('anagram', 'nagaram')).toStrictEqual(true);
+  });
+});
