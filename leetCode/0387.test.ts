@@ -1,0 +1,18 @@
+import solution from './0387';
+
+/**
+ * @author sabertazimi
+ * @license MIT
+ * @level easy
+ * @description first-unique-character-in-a-string
+ * Given a string s,
+ * find the first non-repeating character in it and return its index.
+ * If it does not exist, return -1.
+ */
+describe('LeetCode [0387]', () => {
+  test('should AC', () => {
+    expect(solution('aabb')).toStrictEqual(-1);
+    expect(solution('leetcode')).toStrictEqual(0);
+    expect(solution('LoveLeetcode')).toStrictEqual(2);
+  });
+});
