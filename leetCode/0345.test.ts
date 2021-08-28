@@ -1,0 +1,16 @@
+import solution from './0345';
+
+/**
+ * @author sabertazimi
+ * @license MIT
+ * @level easy
+ * @description reverse-vowels-of-a-string
+ * Given a string s, reverse only all the vowels in the string and return it.
+ * The vowels are 'a', 'e', 'i', 'o', and 'u', and they can appear in both cases.
+ */
+describe('LeetCode [0345]', () => {
+  test('should AC', () => {
+    expect(solution('hello')).toStrictEqual('holle');
+    expect(solution('leetcode')).toStrictEqual('leotcede');
+  });
+});
