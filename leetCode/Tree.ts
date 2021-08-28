@@ -55,9 +55,7 @@ const traversal = <T>(
   visitor: (node: T) => void,
   order: Order = 'in'
 ): void => {
-  if (root === null) {
-    return;
-  }
+  if (root === null) return;
 
   switch (order) {
     case 'pre':
@@ -111,7 +109,7 @@ class SegmentTree<T> {
       return;
     }
 
-    const mid = left + Math.floor((right - left) / 2);
+    const mid = left + ((right - left) >> 1);
     this.build(treeIndex * 2 + 1, left, mid);
     this.build(treeIndex * 2 + 2, mid + 1, right);
     this.tree[treeIndex] = this.fn(
@@ -126,15 +124,10 @@ class SegmentTree<T> {
     right: number,
     index: number
   ): number {
-    if (left === right) {
-      return treeIndex;
-    }
-    const mid = left + Math.floor((right - left) / 2);
-    if (index <= mid) {
-      return this.getIndex(treeIndex * 2 + 1, left, mid, index);
-    } else {
-      return this.getIndex(treeIndex * 2 + 2, mid + 1, right, index);
-    }
+    if (left === right) return treeIndex;
+    const mid = left + ((right - left) >> 1);
+    if (index <= mid) return this.getIndex(treeIndex * 2 + 1, left, mid, index);
+    else return this.getIndex(treeIndex * 2 + 2, mid + 1, right, index);
   }
 
   private update(index: number, value: T): void {
@@ -170,14 +163,8 @@ class SegmentTree<T> {
     queryLeft: number,
     queryRight: number
   ): T {
-    if (queryLeft <= left && right <= queryRight) {
-      return this.tree[treeIndex];
-    }
-
-    if (queryRight < left || right < queryLeft) {
-      return this.init;
-    }
-
+    if (queryLeft <= left && right <= queryRight) return this.tree[treeIndex];
+    if (queryRight < left || right < queryLeft) return this.init;
     const mid = left + Math.floor((right - left) / 2);
     const leftResult = this.queryHelper(
       treeIndex * 2 + 1,

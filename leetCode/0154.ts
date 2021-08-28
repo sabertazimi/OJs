@@ -6,19 +6,11 @@ export default function findMin(nums: number[]): number {
   let hi = nums.length - 1;
 
   while (lo + 1 < hi) {
-    if (nums[lo] < nums[hi]) {
-      return nums[lo];
-    }
-
-    const mid = (lo + hi) >> 1;
-
-    if (nums[lo] < nums[mid]) {
-      lo = mid;
-    } else if (nums[lo] > nums[mid]) {
-      hi = mid;
-    } else {
-      lo++;
-    }
+    if (nums[lo] < nums[hi]) return nums[lo];
+    const mid = lo + ((hi - lo) >> 1);
+    if (nums[lo] < nums[mid]) lo = mid;
+    else if (nums[lo] > nums[mid]) hi = mid;
+    else lo++;
   }
 
   return Math.min(nums[lo], nums[hi]);

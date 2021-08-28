@@ -8,17 +8,12 @@ export default function searchMatrix(
   let hi = m * n - 1;
 
   while (lo <= hi) {
-    const mid = (lo + hi) >> 1;
+    const mid = lo + ((hi - lo) >> 1);
     const row = Math.floor(mid / n);
     const col = mid % n;
-
-    if (matrix[row][col] === target) {
-      return true;
-    } else if (matrix[row][col] < target) {
-      lo = mid + 1;
-    } else {
-      hi = mid - 1;
-    }
+    if (matrix[row][col] === target) return true;
+    else if (matrix[row][col] < target) lo = mid + 1;
+    else hi = mid - 1;
   }
 
   return false;
