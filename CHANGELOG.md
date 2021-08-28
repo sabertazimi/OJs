@@ -2,6 +2,82 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.1.5](https://github.com/sabertazimi/OJs/compare/v2.1.4...v2.1.5) (2021-08-28)
+
+
+### :sparkles: Queue
+
+* **leetcode-0232:** implement queue using stacks ([f8e166a](https://github.com/sabertazimi/OJs/commit/f8e166ae579024d5c8c8c64ade834802ec178063))
+
+
+### :rocket: Building Work
+
+* **deps-dev:** bump @types/node from 16.7.1 to 16.7.4 ([9748045](https://github.com/sabertazimi/OJs/commit/97480459e46ef0c2fc2d5ceba4fae6284d3d7efe))
+* **deps-dev:** bump jest from 27.0.6 to 27.1.0 ([27ee729](https://github.com/sabertazimi/OJs/commit/27ee729219331b202ecd13dcba2cd37df27b986c))
+* **deps-dev:** bump typescript from 4.3.5 to 4.4.2 ([7e49374](https://github.com/sabertazimi/OJs/commit/7e493743d35e1e43bcfab7f0dd79d35122e3680d))
+
+
+### :sparkles: Linked List
+
+* **leetcode-0234:** palindrome linked list ([83c5995](https://github.com/sabertazimi/OJs/commit/83c59959f162fa52936d1f6f01c7a68dd3e79aed))
+* **leetcode-0237:** delete node in a linked list ([4267e5a](https://github.com/sabertazimi/OJs/commit/4267e5af1c386bbc15f3831b109d2fff922613f6))
+
+
+### :sparkles: Dynamic Programming
+
+* **leetcode-0264:** ugly number ii (digits dynamic programming) ([a9b62d0](https://github.com/sabertazimi/OJs/commit/a9b62d0b8ebc37ceca74fcb97536fdb2e0a36dda))
+
+
+### :sparkles: Hash Function
+
+* **leetcode-0290:** word patterns ([f839b2b](https://github.com/sabertazimi/OJs/commit/f839b2bfc40a2390f8a704068a3a3582720d66da))
+
+
+### :sparkles: Tree
+
+* **leetcode-0235:** lowest common ancestor of a binary search tree ([b854cc4](https://github.com/sabertazimi/OJs/commit/b854cc406a94d5989d89c66867d46c491fdff81a))
+* **leetcode-0297:** serialize and deserialize binary tree ([cbf2215](https://github.com/sabertazimi/OJs/commit/cbf2215febb247edaa5d610a98214c9049b9ea26))
+* **Segment Tree:** implement segment tree for range update/query ([0f6b129](https://github.com/sabertazimi/OJs/commit/0f6b12903d5950c71315b92d02716e8d428b02cd))
+
+
+### :sparkles: Array
+
+* **leetcode-0283:** move zeros ([3174e4b](https://github.com/sabertazimi/OJs/commit/3174e4be1935bc6a43e7dbb0919d5db998d1af83))
+* **leetcode-0303:** range sum query immutable (prefix sum) ([e474ab1](https://github.com/sabertazimi/OJs/commit/e474ab1bf66b14707bbabd7f1983e05e571d462a))
+* **leetcode-0349:** intersection of two arrays ([8f2c26b](https://github.com/sabertazimi/OJs/commit/8f2c26b2b74568c9ec059913d6e02b508f52b0b4))
+* **leetcode-0350:** intersection of two arrays ii ([15f5153](https://github.com/sabertazimi/OJs/commit/15f5153f6f952464114f7fb6415de7cec4bede03))
+
+
+### :sparkles: Search
+
+* **leetcode-0240:** search a 2d matrix ii ([c0e8b94](https://github.com/sabertazimi/OJs/commit/c0e8b944f9a245300560f547e83a94a1207c8586))
+* **leetcode-0278:** first bad version ([58f6a70](https://github.com/sabertazimi/OJs/commit/58f6a7008ffe2e0c8d382314f601913aacfa38be))
+* **leetcode-0374:** guess number higher or lower ([483bc77](https://github.com/sabertazimi/OJs/commit/483bc77f1ef15121c77aea3237b6f57b92b8a742))
+
+
+### :sparkles: String
+
+* **leetcode-0242:** valid anagram ([2eed025](https://github.com/sabertazimi/OJs/commit/2eed025d3848606925f0b6f08054241e76af1fd7))
+* **leetcode-0344:** reverse string ([0045169](https://github.com/sabertazimi/OJs/commit/0045169bc6b2c16136e28b70789374fe34d806bb))
+* **leetcode-0345:** reverse vowels of string ([712c0bb](https://github.com/sabertazimi/OJs/commit/712c0bb01744b639e22ae6d23cdb1f6fceb104f2))
+* **leetcode-0383:** ransom note ([827b4d0](https://github.com/sabertazimi/OJs/commit/827b4d06d0872bfc9d1b1f15b17b86e1e094ffee))
+* **leetcode-0387:** first unique character in a string ([db1cbff](https://github.com/sabertazimi/OJs/commit/db1cbffc45886bbb9ddd7e5dcc8520af8074fb6d))
+* **leetcode-0389:** find the difference ([1f5ee01](https://github.com/sabertazimi/OJs/commit/1f5ee01d494e6c83e5ec97019ebcb82caaf13964))
+
+
+### :sparkles: Math
+
+* **leetcode-0231:** power of two ([2aaeb7d](https://github.com/sabertazimi/OJs/commit/2aaeb7d87be96dfac47b6c62d6cbf95b83e31cba))
+* **leetcode-0258:** add digits ([f38770c](https://github.com/sabertazimi/OJs/commit/f38770c3cc4bc21167a416ca8e8c94eb6cdbfea2))
+* **leetcode-0263:** ugly number ([03cd73a](https://github.com/sabertazimi/OJs/commit/03cd73a9ad16fb382323648a67d563e8182376ee))
+* **leetcode-0268:** missing number ([647d649](https://github.com/sabertazimi/OJs/commit/647d64954da6fcefa277df7d8430f95b97ea9325))
+* **leetcode-0292:** nim game ([5041a58](https://github.com/sabertazimi/OJs/commit/5041a5819eaa270945237f65224dd359ecb54f7f))
+* **leetcode-0326:** power of three ([e5c7d02](https://github.com/sabertazimi/OJs/commit/e5c7d02260e66fb8264c38f726e7996176b3b07e))
+* **leetcode-0342:** power of four ([792c17e](https://github.com/sabertazimi/OJs/commit/792c17e669e82c89bc5b43d9e5496ae69c744cf7))
+* **leetcode-0367:** valid perfect square ([4007f1c](https://github.com/sabertazimi/OJs/commit/4007f1cf396ed7b70d6a21b2a1bd17be482ce228))
+* **leetcode-0371:** sum of two integers ([b839a96](https://github.com/sabertazimi/OJs/commit/b839a96324b0ae0b7515e4c006415fbba7754fb8))
+* **leetcode-0400:** nth digit ([388e1fd](https://github.com/sabertazimi/OJs/commit/388e1fdb9553506905f2d099b37cbf1f2a7e3a93))
+
 ### [2.1.4](https://github.com/sabertazimi/OJs/compare/v2.1.3...v2.1.4) (2021-08-27)
 
 
