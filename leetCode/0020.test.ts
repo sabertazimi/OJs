@@ -5,6 +5,7 @@ import solution from './0020';
  * @license MIT
  * @level easy
  * @description valid-parentheses
+ * @see {@link https://leetcode-cn.com/problems/valid-parentheses/}
  * Given a string s containing just the characters '(', ')', '{', '}', '[' and ']',
  * determine if the input string is valid.
  * An input string is valid if:

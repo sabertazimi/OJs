@@ -6,6 +6,7 @@ import { arrayToTree } from './Tree';
  * @license MIT
  * @level easy
  * @description invert-binary-tree
+ * @see {@link https://leetcode-cn.com/problems/invert-binary-tree/}
  * Given the root of a binary tree,
  * invert the tree, and return its root.
  */

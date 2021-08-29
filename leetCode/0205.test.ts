@@ -5,6 +5,7 @@ import solution from './0205';
  * @license MIT
  * @level easy
  * @description isomorphic-strings
+ * @see {@link https://leetcode-cn.com/problems/isomorphic-strings/}
  * Given two strings s and t, determine if they are isomorphic.
  * Two strings s and t are isomorphic
  * if the characters in s can be replaced to get t.

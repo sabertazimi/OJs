@@ -5,6 +5,7 @@ import solution from './0415';
  * @license MIT
  * @level easy
  * @description add-strings
+ * @see {@link https://leetcode-cn.com/problems/add-strings/}
  * Given two non-negative integers,
  * num1 and num2 represented as string,
  * return the sum of num1 and num2 as a string.

@@ -6,6 +6,7 @@ import { arrayToTree } from './Tree';
  * @license MIT
  * @level easy
  * @description balanced-binary-tree
+ * @see {@link https://leetcode-cn.com/problems/balanced-binary-tree/}
  * Given a binary tree, determine if it is height-balanced.
  * For this problem, a height-balanced binary tree is defined as:
  * a binary tree in which the left and right subtrees of every node

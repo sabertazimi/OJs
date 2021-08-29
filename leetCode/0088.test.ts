@@ -5,6 +5,7 @@ import solution from './0088';
  * @license MIT
  * @level easy
  * @description merge-sorted-array
+ * @see {@link https://leetcode-cn.com/problems/merge-sorted-array/}
  * You are given two integer arrays nums1 and nums2,
  * sorted in non-decreasing order,
  * and two integers m and n,

@@ -5,6 +5,7 @@ import solution from './0004';
  * @license MIT
  * @level hard
  * @description median-of-two-sorted-arrays
+ * @see {@link https://leetcode-cn.com/problems/median-of-two-sorted-arrays/}
  * Given two sorted arrays nums1 and nums2 of size m and n respectively,
  * return the median of the two sorted arrays.
  * The overall run time complexity should be O(log (m+n)).

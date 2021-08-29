@@ -5,6 +5,7 @@ import solution from './0349';
  * @license MIT
  * @level easy
  * @description intersection-of-two-arrays
+ * @see {@link https://leetcode-cn.com/problems/intersection-of-two-arrays/}
  * Given two integer arrays nums1 and nums2,
  * return an array of their intersection.
  * Each element in the result must be unique

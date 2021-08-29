@@ -6,6 +6,7 @@ import { arrayToTree } from './Tree';
  * @license MIT
  * @level easy
  * @description same-tree
+ * @see {@link https://leetcode-cn.com/problems/same-tree/}
  */
 describe('LeetCode [0100]', () => {
   test('should AC', () => {

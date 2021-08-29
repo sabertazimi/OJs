@@ -5,6 +5,7 @@ import solution from './0292';
  * @license MIT
  * @level easy
  * @description nim-game
+ * @see {@link https://leetcode-cn.com/problems/nim-game/}
  * You are playing the following Nim Game with your friend:
  * Initially, there is a heap of stones on the table.
  * You and your friend will alternate taking turns, and you go first.

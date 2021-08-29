@@ -5,6 +5,7 @@ import solution from './0168';
  * @license MIT
  * @level easy
  * @description excel-sheet-column-title
+ * @see {@link https://leetcode-cn.com/problems/excel-sheet-column-title/}
  * Given an integer columnNumber,
  * return its corresponding column title as it appears in an Excel sheet.
  */

@@ -5,6 +5,7 @@ import solution from './0290';
  * @license MIT
  * @level easy
  * @description word-pattern
+ * @see {@link https://leetcode-cn.com/problems/word-pattern/}
  * Given a pattern and a string s,
  * find if s follows the same pattern.
  * Here follow means a full match,

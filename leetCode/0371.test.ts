@@ -5,6 +5,7 @@ import solution from './0371';
  * @license MIT
  * @level medium
  * @description sum-of-two-integers
+ * @see {@link https://leetcode-cn.com/problems/sum-of-two-integers/}
  * Given two integers a and b,
  * return the sum of the two integers without using the operators + and -.
  */

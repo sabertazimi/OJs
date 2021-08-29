@@ -5,6 +5,7 @@ import solution from './0122';
  * @license MIT
  * @level easy
  * @description best-time-to-buy-and-sell-stock-ii
+ * @see {@link https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/}
  * You are given an array prices where prices[i] is the price of a given stock on the ith day.
  * Find the maximum profit you can achieve.
  * You may complete as many transactions as you like

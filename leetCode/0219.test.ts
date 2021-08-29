@@ -5,6 +5,7 @@ import solution from './0219';
  * @license MIT
  * @level easy
  * @description contains-duplicate-ii
+ * @see {@link https://leetcode-cn.com/problems/contains-duplicate-ii/}
  * Given an integer array nums and an integer k,
  * return true if there are two distinct indices i and j in the array
  * such that nums[i] == nums[j] and abs(i - j) <= k.

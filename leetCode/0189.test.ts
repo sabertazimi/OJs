@@ -5,6 +5,7 @@ import solution from './0189';
  * @license MIT
  * @level medium
  * @description rotate-array
+ * @see {@link https://leetcode-cn.com/problems/rotate-array/}
  * Given an array, rotate the array to the right by k steps, where k is non-negative.
  */
 describe('LeetCode [0189]', () => {

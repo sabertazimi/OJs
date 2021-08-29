@@ -5,6 +5,7 @@ import solution from './0053';
  * @license MIT
  * @level easy
  * @description maximum-subarray
+ * @see {@link https://leetcode-cn.com/problems/maximum-subarray/}
  * Given an integer array nums,
  * find the contiguous subarray (containing at least one number)
  * which has the largest sum and return its sum.

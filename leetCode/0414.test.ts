@@ -5,6 +5,7 @@ import solution from './0414';
  * @license MIT
  * @level easy
  * @description third-maximum-number
+ * @see {@link https://leetcode-cn.com/problems/third-maximum-number/}
  * Given integer array nums,
  * return the third maximum number in this array.
  * If the third maximum does not exist, return the maximum number.

@@ -5,6 +5,7 @@ import solution from './0300';
  * @license MIT
  * @level medium
  * @description longest-increasing-subsequence
+ * @see {@link https://leetcode-cn.com/problems/longest-increasing-subsequence/}
  * Given an integer array nums,
  * return the length of the longest strictly increasing subsequence.
  * A subsequence is a sequence that can be derived from

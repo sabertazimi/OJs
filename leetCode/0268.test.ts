@@ -5,6 +5,7 @@ import solution from './0268';
  * @license MIT
  * @level easy
  * @description missing-number
+ * @see {@link https://leetcode-cn.com/problems/missing-number/}
  * Given an array nums containing n distinct numbers in the range [0, n],
  * return the only number in the range that is missing from the array.
  */

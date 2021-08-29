@@ -6,6 +6,7 @@ import { arrayToTree } from './Tree';
  * @license MIT
  * @level easy
  * @description symmetric-tree
+ * @see {@link https://leetcode-cn.com/problems/symmetric-tree/}
  * Given the root of a binary tree,
  * check whether it is a mirror of itself.
  */

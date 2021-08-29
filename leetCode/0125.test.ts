@@ -5,6 +5,7 @@ import solution from './0125';
  * @license MIT
  * @level easy
  * @description valid-palindrome
+ * @see {@link https://leetcode-cn.com/problems/valid-palindrome/}
  * Given a string s, determine if it is a palindrome,
  * considering only alphanumeric characters and ignoring cases.
  */

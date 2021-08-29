@@ -5,7 +5,7 @@ import solution from './0401';
  * @license MIT
  * @level easy
  * @description binary-watch
- * @see https://leetcode-cn.com/problems/binary-watch/
+ * @see {@link https://leetcode-cn.com/problems/binary-watch/}
  * binary watch has 4 LED on the top which represent the hours (0-11),
  * and the 6 LED on the bottom represent the minutes (0-59). Each LED represents a zero or one,
  * with the least significant bit on the right.

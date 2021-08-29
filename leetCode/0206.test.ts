@@ -6,6 +6,7 @@ import { arrayToList } from './List';
  * @license MIT
  * @level easy
  * @description reverse linked list
+ * @see {@link https://leetcode-cn.com/problems/reverse-linked-list/}
  * Given the head of a singly linked list, reverse the list, and return the reversed list.
  */
 describe('LeetCode [0206]', () => {

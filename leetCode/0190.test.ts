@@ -5,6 +5,7 @@ import solution from './0190';
  * @license MIT
  * @level easy
  * @description reverse-bits
+ * @see {@link https://leetcode-cn.com/problems/reverse-bits/}
  * Reverse bits of a given 32 bits unsigned integer.
  */
 describe('LeetCode [0190]', () => {

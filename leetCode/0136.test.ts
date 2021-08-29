@@ -5,6 +5,7 @@ import solution from './0136';
  * @license MIT
  * @level easy
  * @description single-number
+ * @see {@link https://leetcode-cn.com/problems/single-number/}
  * Given a non-empty array of integers nums,
  * every element appears twice except for one.
  * Find that single one.

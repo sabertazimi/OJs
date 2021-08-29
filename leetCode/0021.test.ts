@@ -6,6 +6,7 @@ import { arrayToList } from './List';
  * @license MIT
  * @level easy
  * @description merge-two-sorted-lists
+ * @see {@link https://leetcode-cn.com/problems/merge-two-sorted-lists/}
  * Merge two sorted linked lists and return it as a sorted list.
  * The list should be made by splicing together the nodes of the first two lists.
  */

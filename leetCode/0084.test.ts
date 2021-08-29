@@ -5,6 +5,7 @@ import solution from './0084';
  * @license MIT
  * @level hard
  * @description largest-rectangle-in-histogram
+ * @see {@link https://leetcode-cn.com/problems/largest-rectangle-in-histogram/}
  * Given an array of integers heights representing the histogram's bar height where the width of each bar is 1,
  * return the area of the largest rectangle in the histogram.
  */

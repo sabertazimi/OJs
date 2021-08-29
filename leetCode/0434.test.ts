@@ -5,7 +5,7 @@ import solution from './0434';
  * @license MIT
  * @level easy
  * @description number-of-segments-in-a-string
- * @see https://leetcode-cn.com/problems/number-of-segments-in-a-string/
+ * @see {@link https://leetcode-cn.com/problems/number-of-segments-in-a-string/}
  * You are given a string s, return the number of segments in the string.
  * A segment is defined to be a contiguous sequence of non-space characters.
  */

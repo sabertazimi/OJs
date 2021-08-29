@@ -5,6 +5,7 @@ import solution from './0258';
  * @license MIT
  * @level easy
  * @description add-digits
+ * @see {@link https://leetcode-cn.com/problems/add-digits/}
  * Given an integer num,
  * repeatedly add all its digits until the result has only one digit,
  * and return it.

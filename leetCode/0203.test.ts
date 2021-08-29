@@ -6,6 +6,7 @@ import { arrayToList } from './List';
  * @license MIT
  * @level easy
  * @description remove-linked-list-elements
+ * @see {@link https://leetcode-cn.com/problems/remove-linked-list-elements/}
  * Given the head of a linked list and an integer val,
  * remove all the nodes of the linked list that has Node.val == val,
  * and return the new head.

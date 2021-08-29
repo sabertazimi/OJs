@@ -6,6 +6,7 @@ import { arrayToList } from './List';
  * @license MIT
  * @level easy
  * @description palindrome-linked-list
+ * @see {@link https://leetcode-cn.com/problems/palindrome-linked-list/}
  * Given the head of a singly linked list,
  * return true if it is a palindrome.
  */

@@ -5,6 +5,7 @@ import solution from './0008';
  * @license MIT
  * @level medium
  * @description string-to-integer-atoi
+ * @see {@link https://leetcode-cn.com/problems/string-to-integer-atoi/}
  * Implement the myAtoi(string s) function, which converts a string to a 32-bit signed integer.
  */
 describe('LeetCode [0008]', () => {

@@ -5,6 +5,7 @@ import solution from './0387';
  * @license MIT
  * @level easy
  * @description first-unique-character-in-a-string
+ * @see {@link https://leetcode-cn.com/problems/first-unique-character-in-a-string/}
  * Given a string s,
  * find the first non-repeating character in it and return its index.
  * If it does not exist, return -1.

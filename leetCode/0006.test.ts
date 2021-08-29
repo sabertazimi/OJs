@@ -5,6 +5,7 @@ import solution from './0006';
  * @license MIT
  * @level medium
  * @description zigzag-conversion
+ * @see {@link https://leetcode-cn.com/problems/zigzag-conversion/}
  * The string "PAYPALISHIRING" is written in a zigzag pattern
  * on a given number of rows like this:
  * P   A   H   N

@@ -5,6 +5,7 @@ import solution from './0242';
  * @license MIT
  * @level easy
  * @description valid-anagram
+ * @see {@link https://leetcode-cn.com/problems/valid-anagram/}
  * Given two strings s and t,
  * return true if t is an anagram of s,
  * and false otherwise.

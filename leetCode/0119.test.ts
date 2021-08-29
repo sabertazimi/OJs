@@ -5,6 +5,7 @@ import solution from './0119';
  * @license MIT
  * @level easy
  * @description pascals-triangle-ii
+ * @see {@link https://leetcode-cn.com/problems/pascals-triangle-ii/}
  * Given an integer rowIndex,
  * return the row Index (0-indexed) row of the Pascal's triangle.
  */

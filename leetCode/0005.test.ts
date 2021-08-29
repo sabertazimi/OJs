@@ -5,6 +5,7 @@ import solution from './0005';
  * @license MIT
  * @level medium
  * @description longest-palindromic-substring
+ * @see {@link https://leetcode-cn.com/problems/longest-palindromic-substring/}
  * Given a string `s`,
  * return the longest palindromic substring in `s`.
  */

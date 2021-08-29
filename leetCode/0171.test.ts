@@ -5,6 +5,7 @@ import solution from './0171';
  * @license MIT
  * @level easy
  * @description excel-sheet-column-number
+ * @see {@link https://leetcode-cn.com/problems/excel-sheet-column-number/}
  * Given a string columnTitle that represents the column title as appear in an Excel sheet,
  * return its corresponding column number.
  */

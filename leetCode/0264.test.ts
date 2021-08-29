@@ -5,6 +5,7 @@ import solution from './0264';
  * @license MIT
  * @level medium
  * @description ugly-number-ii
+ * @see {@link https://leetcode-cn.com/problems/ugly-number-ii/}
  * An ugly number is a positive integer whose prime factors are limited to 2, 3, and 5.
  * Given an integer n, return the nth ugly number.
  */

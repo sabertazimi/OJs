@@ -5,6 +5,7 @@ import solution from './0217';
  * @license MIT
  * @level easy
  * @description contains-duplicate
+ * @see {@link https://leetcode-cn.com/problems/contains-duplicate/}
  * Given an integer array nums,
  * return true if any value appears at least twice in the array,
  * and return false if every element is distinct.

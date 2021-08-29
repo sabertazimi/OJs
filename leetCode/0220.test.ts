@@ -5,6 +5,7 @@ import solution from './0220';
  * @license MIT
  * @level medium
  * @description contains-duplicate-iii
+ * @see {@link https://leetcode-cn.com/problems/contains-duplicate-iii/}
  * Given an integer array nums and two integers k and t,
  * return true if there are two distinct indices i and j in the array
  * such that abs(nums[i] - nums[j]) <= t and abs(i - j) <= k.

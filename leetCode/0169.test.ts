@@ -5,6 +5,7 @@ import solution from './0169';
  * @license MIT
  * @level easy
  * @description majority-element
+ * @see {@link https://leetcode-cn.com/problems/majority-element/}
  * Given an array nums of size n, return the majority element.
  * The majority element is the element that appears more than ⌊n / 2⌋ times.
  * You may assume that the majority element always exists in the array.

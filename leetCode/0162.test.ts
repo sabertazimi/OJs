@@ -5,6 +5,7 @@ import solution from './0162';
  * @license MIT
  * @level medium
  * @description find-peak-element
+ * @see {@link https://leetcode-cn.com/problems/find-peak-element/}
  * A peak element is an element that is strictly greater than its neighbors.
  * Given an integer array nums, find a peak element, and return its index.
  * If the array contains multiple peaks, return the index to any of the peaks.

@@ -5,6 +5,7 @@ import solution from './0167';
  * @license MIT
  * @level easy
  * @description two-sum-ii-input-array-is-sorted
+ * @see {@link https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/}
  * Given an array of integers numbers that is already sorted in non-decreasing order,
  * find two numbers such that they add up to a specific target number.
  * Return the indices of the two numbers (1-indexed) as an integer array answer of size 2,

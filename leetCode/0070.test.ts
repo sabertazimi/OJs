@@ -5,6 +5,7 @@ import solution from './0070';
  * @license MIT
  * @level easy
  * @description climbing-stairs
+ * @see {@link https://leetcode-cn.com/problems/climbing-stairs/}
  * Fibonacci sequence
  */
 describe('LeetCode [0070]', () => {

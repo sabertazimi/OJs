@@ -5,6 +5,7 @@ import solution from './0067';
  * @license MIT
  * @level easy
  * @description add-binary
+ * @see {@link https://leetcode-cn.com/problems/add-binary/}
  * Given two binary strings a and b,
  * return their sum as a binary string.
  */
