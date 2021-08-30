@@ -2,6 +2,46 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.1.6](https://github.com/sabertazimi/OJs/compare/v2.1.5...v2.1.6) (2021-08-30)
+
+
+### :sparkles: String
+
+* **leetcode-0409:** longest palindrome ([1b48a1c](https://github.com/sabertazimi/OJs/commit/1b48a1c2525ac4758fec727eeb0284f82215feed))
+* **leetcode-0434:** number of segments in a string ([97aa732](https://github.com/sabertazimi/OJs/commit/97aa7325c4d781683d4604cd6ac8b539c86040bc))
+
+
+### :sparkles: Tree
+
+* **leetcode-0404:** sum of left leaves ([e129b3e](https://github.com/sabertazimi/OJs/commit/e129b3e787cba63c89b7ba93f367ca89e0e472f0))
+* **leetcode-0437:** path sum iii ([708d501](https://github.com/sabertazimi/OJs/commit/708d50186d99f79f9bf892bf92d54d7722c0cd1b))
+
+
+### :sparkles: Array
+
+* **leetcode-0412:** fizz buzz ([ced54ec](https://github.com/sabertazimi/OJs/commit/ced54ec06fb0c4029f5050ca278357be1be6e638))
+* **leetcode-0414:** third maximum number ([7ce8ebf](https://github.com/sabertazimi/OJs/commit/7ce8ebf80b7232039d01d838d5c2643fbf3e6a8d))
+* **leetcode-0438:** find all anagrams in a string ([928a12d](https://github.com/sabertazimi/OJs/commit/928a12d91b6bbcd7bdabc0b45cf6ba1e3f890a47))
+
+
+### :rocket: Building Work
+
+* **deps-dev:** bump @types/node from 16.7.4 to 16.7.6 ([b5debed](https://github.com/sabertazimi/OJs/commit/b5debed4d17daf652acc221779c4457dc6168294))
+
+
+### :sparkles: Math
+
+* **leetcode-0401:** binary watch ([958fecb](https://github.com/sabertazimi/OJs/commit/958fecb8f6f0d0a3736cfb583a53547f8828e6df))
+* **leetcode-0405:** convert a number to hexadecimal ([0fbfc54](https://github.com/sabertazimi/OJs/commit/0fbfc54716de719e5c49ed398c93a383c8a3e374))
+* **leetcode-0415:** add strings (add big integer) ([995635b](https://github.com/sabertazimi/OJs/commit/995635bbc6e3fa395cd1a048ba61a37159c98ee9))
+* **leetcode-0441:** arranging coins ([f12c1b5](https://github.com/sabertazimi/OJs/commit/f12c1b58c333a33061cc5e46084c803420586212))
+* **leetcode-0447:** number of boomerangs ([a325c10](https://github.com/sabertazimi/OJs/commit/a325c10e687800b34b348574ea6b07cd828bd6b5))
+
+
+### :sparkles: Hash Function
+
+* **leetcode-0448:** find all numbers disappeared in an array ([d93d53c](https://github.com/sabertazimi/OJs/commit/d93d53c00e46745a6b60b478f376ea7d782f6ac2))
+
 ### [2.1.5](https://github.com/sabertazimi/OJs/compare/v2.1.4...v2.1.5) (2021-08-28)
 
 
