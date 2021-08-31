@@ -2,6 +2,72 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.2.0](https://github.com/sabertazimi/OJs/compare/v2.1.6...v2.2.0) (2021-08-31)
+
+
+### :rocket: Building Work
+
+* **deps-dev:** bump @types/node from 16.7.6 to 16.7.8 ([#9](https://github.com/sabertazimi/OJs/issues/9)) ([8fe49de](https://github.com/sabertazimi/OJs/commit/8fe49de69588e654fbf649f5b1b4c40d656d47be))
+* **deps-dev:** bump @typescript-eslint/eslint-plugin ([#10](https://github.com/sabertazimi/OJs/issues/10)) ([5d8c499](https://github.com/sabertazimi/OJs/commit/5d8c499c5722870443c1a175d752742ded2ac0a0))
+* **deps-dev:** bump @typescript-eslint/parser from 4.29.3 to 4.30.0 ([#8](https://github.com/sabertazimi/OJs/issues/8)) ([073c7d8](https://github.com/sabertazimi/OJs/commit/073c7d8580b45fffb4d0bdc13b38bc7c047f5911))
+* **deps-dev:** bump eslint-plugin-prettier from 3.4.1 to 4.0.0 ([#7](https://github.com/sabertazimi/OJs/issues/7)) ([7d675ca](https://github.com/sabertazimi/OJs/commit/7d675cad22dccdaefaaf3fae314a458ff3dd94cd))
+
+
+### :sparkles: Greedy
+
+* **leetcode-0455:** assign cookies ([d31ddaa](https://github.com/sabertazimi/OJs/commit/d31ddaa5e57c17a80bd5cffccaf3d18f6b11e08b))
+
+
+### :sparkles: Search
+
+* **leetcode-0475:** heaters ([b03a46b](https://github.com/sabertazimi/OJs/commit/b03a46bcdf67d24f86180f937b27cd96931db97b))
+
+
+### :sparkles: Stack
+
+* **leetcode-0496:** next greater elment i (monotonic stack) ([6097995](https://github.com/sabertazimi/OJs/commit/6097995522c591382a8a74619f53a8febf9c1108))
+
+
+### :sparkles: Array
+
+* **leetcode-0453:** minimum moves to equal array elements ([a0eb9fe](https://github.com/sabertazimi/OJs/commit/a0eb9febd6b729d6bad091f8b81a6efb0a523a58))
+* **leetcode-0485:** max consecutive ones ([51d89af](https://github.com/sabertazimi/OJs/commit/51d89afde36c162bffbb1af591f1b91d81d8f0b5))
+* **leetcode-0548:** split array with equal sum ([8a5014e](https://github.com/sabertazimi/OJs/commit/8a5014e7a7e672ebd21e55a585a8964efefd2773))
+
+
+### :sparkles: Graph
+
+* **leetcode-0463:** island perimeter ([87f0b29](https://github.com/sabertazimi/OJs/commit/87f0b29ed0a4af4a147e254ace567b8f769d5be3))
+* **leetcode-0547:** number of provinces ([812ae97](https://github.com/sabertazimi/OJs/commit/812ae97d5017b475ad330707accdb179c5a5b212))
+
+
+### :sparkles: Tree
+
+* **leetcode-0549:** binary tree longest consecutive sequence ii ([357d8a7](https://github.com/sabertazimi/OJs/commit/357d8a7d07240584cf158128009e3572feb97c9e))
+
+
+### :sparkles: Hash Function
+
+* **leetcode-0554:** brick wall ([b022178](https://github.com/sabertazimi/OJs/commit/b022178bb95fe2e297dbf1fe185bbb53d6802f13))
+
+
+### :sparkles: String
+
+* **leetcode-0459:** repeated substring pattern ([f4398ec](https://github.com/sabertazimi/OJs/commit/f4398ecb9b52d7a1c00b391861df79fa125c60a8))
+* **leetcode-0500:** keyboard row ([fd92039](https://github.com/sabertazimi/OJs/commit/fd9203900b2ad058133ab1678c82cbd17959ef73))
+* **leetcode-0521:** longest uncommon subsequence i ([9d91ce5](https://github.com/sabertazimi/OJs/commit/9d91ce5ebd3102f76d58d43d74b212f1bb85f543))
+* **leetcode-0522:** longest uncommon subsequence ii ([3d91195](https://github.com/sabertazimi/OJs/commit/3d91195470b28edbfaa46971a2e583806131e547))
+* **leetcode-0541:** reverse string ii ([9984cb6](https://github.com/sabertazimi/OJs/commit/9984cb665035041938749f4637914311362d013f))
+* **leetcode-0557:** reverse words in a string iii ([b93d4b1](https://github.com/sabertazimi/OJs/commit/b93d4b1b4f84de4d36552fd9be14474d33b122c2))
+
+
+### :sparkles: Math
+
+* **leetcode-0461:** hamming distance ([cb13d41](https://github.com/sabertazimi/OJs/commit/cb13d4131529b5254d0d5592d9b6b368a78fe124))
+* **leetcode-0476:** number complement ([ee844fe](https://github.com/sabertazimi/OJs/commit/ee844feb18b3c3ee829dcdc80597eb0ed899a437))
+* **leetcode-0492:** construct the rectangle ([33bc287](https://github.com/sabertazimi/OJs/commit/33bc287f0a6e204afaa0a03fe787e14c4c605524))
+* **leetcode-0556:** next greater element iii (monotonic stack) ([056af00](https://github.com/sabertazimi/OJs/commit/056af0086ba88f8952efcf5cc3491a6a1dd39f17))
+
 ### [2.1.6](https://github.com/sabertazimi/OJs/compare/v2.1.5...v2.1.6) (2021-08-30)
 
 
