@@ -9,6 +9,7 @@
 *.yaml
 *.yml
 *.config.js
+*.test.ts
 
 .babelrc
 .clang-format
