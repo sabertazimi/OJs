@@ -6,6 +6,9 @@ import solution from './0453';
  * @level easy
  * @description minimum-moves-to-equal-array-elements
  * @see {@link https://leetcode-cn.com/problems/minimum-moves-to-equal-array-elements/}
+ * Given an integer array nums of size n,
+ * return the minimum number of moves required to make all array elements equal.
+ * In one move, you can increment n - 1 elements of the array by 1.
  */
 describe('LeetCode [0453]', () => {
   test('should AC', () => {
