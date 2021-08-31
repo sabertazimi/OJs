@@ -146,7 +146,7 @@ class SegmentTree<T> {
       return;
     }
 
-    const mid = left + Math.floor((right - left) / 2);
+    const mid = left + ((right - left) >> 1);
     if (index <= mid)
       this.updateHelper(treeIndex * 2 + 1, left, mid, index, value);
     else this.updateHelper(treeIndex * 2 + 2, mid + 1, right, index, value);
@@ -165,7 +165,7 @@ class SegmentTree<T> {
   ): T {
     if (queryLeft <= left && right <= queryRight) return this.tree[treeIndex];
     if (queryRight < left || right < queryLeft) return this.init;
-    const mid = left + Math.floor((right - left) / 2);
+    const mid = left + ((right - left) >> 1);
     const leftResult = this.queryHelper(
       treeIndex * 2 + 1,
       left,
