@@ -62,9 +62,26 @@ jobs:
         uses: coverallsapp/github-action@1.1.3
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
-      - name: Building work
+      - name: Archive production artifacts
+        uses: actions/upload-artifact@v2
+        with:
+          name: coverage-report
+          path: coverage
+
+  deploy:
+    name: Deployment
+    runs-on: ubuntu-latest
+    needs: [lint, test]
+    steps:
+      - name: Download production artifacts
+        uses: actions/download-artifact@v2
+        with:
+          name: coverage-report
+          path: build
+      - name: List production artifacts
         run: |
-          npm run build
+          ls -R
+        working-directory: .
       - name: Deploy to Github Pages
         uses: peaceiris/actions-gh-pages@v3
         if: ${{ github.ref == 'refs/heads/main' }}
