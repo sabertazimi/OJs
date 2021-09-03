@@ -5,7 +5,7 @@
 
 [![Code Lines](https://img.shields.io/tokei/lines/github/sabertazimi/OJs?style=for-the-badge&logo=visualstudiocode)](https://github.com/sabertazimi/OJs)
 [![Jest Coverage](https://img.shields.io/coveralls/github/sabertazimi/OJs?logo=coveralls&style=for-the-badge)](https://coveralls.io/github/sabertazimi/OJs)
-[![Continuous Integration](https://img.shields.io/github/workflow/status/sabertazimi/OJs/Continuous%20Integration/main?style=for-the-badge&logo=github)](https://github.com/sabertazimi/OJs/actions/workflows/ci.yml)
+[![CI](https://img.shields.io/github/workflow/status/sabertazimi/OJs/CI/main?style=for-the-badge&logo=github)](https://github.com/sabertazimi/OJs/actions/workflows/ci.yml)
 
 ```cpp
   ___      _
