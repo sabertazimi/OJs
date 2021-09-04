@@ -6,18 +6,16 @@ export default function twoSum(nums: number[], target: number): number[] {
   const indices = new Map<number, number>();
   const solution: number[] = [];
 
-  nums.forEach((num, index) => {
-    indices.set(num, index);
-  });
-
   for (let i = 0; i < nums.length; i++) {
     const rest = target - nums[i];
-    const index = indices.get(rest);
-    if (index && i < index) {
+
+    if (indices.has(rest)) {
+      solution.push(indices.get(rest) as number);
       solution.push(i);
-      solution.push(index);
       return solution;
     }
+
+    indices.set(nums[i], i);
   }
 
   return solution;

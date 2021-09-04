@@ -18,7 +18,7 @@ describe('LeetCode [0001]', () => {
     expect(solution([2, 7], 2)).toStrictEqual([]);
     expect(solution([3, 3], 6)).toStrictEqual([0, 1]);
     expect(solution([3, 2, 4], 6)).toStrictEqual([1, 2]);
-    expect(solution([3, 2, 4, 3], 6)).toStrictEqual([0, 3]);
+    expect(solution([3, 2, 4, 3], 6)).toStrictEqual([1, 2]);
     expect(solution([3, 2, 5, 3], 6)).toStrictEqual([0, 3]);
     expect(solution([1, 3, 4, 2], 6)).toStrictEqual([2, 3]);
     expect(solution([2, 7, 11, 15], 9)).toStrictEqual([0, 1]);
