@@ -13,7 +13,7 @@ const ignorePatterns = [
   '<rootDir>/coverage',
 ];
 
-/** @type {import('@ts-jest/dist/types').InitialOptionsTsJest} */
+/** @type {import('ts-jest/dist/types').InitialOptionsTsJest} */
 module.exports = {
   collectCoverage: true,
   coverageDirectory: 'coverage',
