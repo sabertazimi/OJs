@@ -2,6 +2,41 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.3.0](https://github.com/sabertazimi/OJs/compare/v2.2.0...v2.3.0) (2021-09-12)
+
+
+### :sparkles: Array
+
+* **leetcode-0001:** two sum (one iteration with hash map) ([d532c69](https://github.com/sabertazimi/OJs/commit/d532c6903202c37ab31636f13096b7b4577e7985))
+
+
+### :sparkles: Features
+
+* **yarn:** switch from npm to yarn berry ([9141445](https://github.com/sabertazimi/OJs/commit/914144595313445ab0ac3656092fc23f72062669))
+
+
+### :rocket: Building Work
+
+* **CI-azure:** remove azure pipelines ([641d1e9](https://github.com/sabertazimi/OJs/commit/641d1e93e81a55dea7e55289c5fecde618d6fa17))
+* **CI-CodeQL:** add CodeQL analysis ([b9849e4](https://github.com/sabertazimi/OJs/commit/b9849e49d9524514645ff55af21477138b1d1628))
+* **CI-report:** deploy coverage report ([590adda](https://github.com/sabertazimi/OJs/commit/590addaf3491be34df2665ef8113f3a3f72618bd))
+* **CI:** change fetch depth ([38fd88c](https://github.com/sabertazimi/OJs/commit/38fd88cd2a424f6e7ffe85ee5a8ebcbf9184f676))
+* **CI:** remove redundant stage ([f6ab45f](https://github.com/sabertazimi/OJs/commit/f6ab45fdbede96ca9a697c495554dae030273b07))
+* **CI:** separate lint and test stage ([de655d9](https://github.com/sabertazimi/OJs/commit/de655d9bcc448f425ea0e54f97991be8b87b9eb6))
+* **CI:** separate test and deploy stage ([8a1d128](https://github.com/sabertazimi/OJs/commit/8a1d128189eec616e1d7fb156b165e2fce33f7ff))
+* **CI:** skip deploy on PRs ([be9aa5e](https://github.com/sabertazimi/OJs/commit/be9aa5e190a41eae2bb92020c7bfc333663069c9))
+* **dependabot:** change versioning strategy ([ec1f9e4](https://github.com/sabertazimi/OJs/commit/ec1f9e4fc73faf07173c3db44c5bd3e2aae9e454))
+* **deps-bot:** add renovate.json ([#17](https://github.com/sabertazimi/OJs/issues/17)) ([7730562](https://github.com/sabertazimi/OJs/commit/7730562f9ffc7eec7bd6e5c93cdc00805bd3f383))
+* **deps-bot:** enable `pin` version ([c18d5fc](https://github.com/sabertazimi/OJs/commit/c18d5fcd1ade2eb8d3d39c57f2fc6aaa52510f0b))
+* **deps-bot:** setup renovate bot configuration ([f0b3580](https://github.com/sabertazimi/OJs/commit/f0b35806aad601a90e0400232d1aa6e45de9fe5d))
+* **deps-dev:** bump @types/node from 16.7.10 to 16.9.0 ([#12](https://github.com/sabertazimi/OJs/issues/12)) ([dfc617f](https://github.com/sabertazimi/OJs/commit/dfc617f28876364f5fd856989133a60f793b66f2))
+* **deps-dev:** bump @types/node from 16.7.8 to 16.7.10 ([#11](https://github.com/sabertazimi/OJs/issues/11)) ([ae901ee](https://github.com/sabertazimi/OJs/commit/ae901ee48e5d6c8f7ae5ce40780990910d642665))
+* **deps-dev:** bump @typescript-eslint/eslint-plugin ([#15](https://github.com/sabertazimi/OJs/issues/15)) ([42c5b50](https://github.com/sabertazimi/OJs/commit/42c5b509e4376f54729d207852e5f63019e7b694))
+* **deps-dev:** bump @typescript-eslint/parser from 4.30.0 to 4.31.0 ([#13](https://github.com/sabertazimi/OJs/issues/13)) ([b25252b](https://github.com/sabertazimi/OJs/commit/b25252ba23fd01d11f14b83335fc141bddb0fa37))
+* **deps-dev:** bump jest from 27.1.0 to 27.1.1 ([#16](https://github.com/sabertazimi/OJs/issues/16)) ([3d18079](https://github.com/sabertazimi/OJs/commit/3d180792dd54824f41b44e053bce88db2f66dad4))
+* **deps-dev:** bump prettier from 2.3.2 to 2.4.0 ([#14](https://github.com/sabertazimi/OJs/issues/14)) ([87d2a4e](https://github.com/sabertazimi/OJs/commit/87d2a4e98274e4f86148d6d3ca22a2cc377acd72))
+* **Jest:** enable Jest config intellisense ([b8bd4b2](https://github.com/sabertazimi/OJs/commit/b8bd4b299adb9c4949451431c6782193d4365d10))
+
 ## [2.2.0](https://github.com/sabertazimi/OJs/compare/v2.1.6...v2.2.0) (2021-08-31)
 
 
