@@ -6,12 +6,12 @@
   "main": "index.ts",
   "scripts": {
     "format": "prettier --write leetCode/**/*.ts",
-    "lint": "npm run lint:style && npm run lint:type-check",
+    "lint": "yarn lint:style && yarn lint:type-check",
     "lint:style": "eslint --fix --ext .ts ./leetCode",
     "lint:type-check": "tsc --noEmit",
     "prelease": "standard-version --dry-run -s",
     "release": "standard-version -s",
-    "start": "npm run test:watch",
+    "start": "yarn test:watch",
     "test": "jest",
     "test:watch": "jest --watch"
   },
