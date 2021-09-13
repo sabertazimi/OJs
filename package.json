@@ -33,7 +33,7 @@
   "author": "sabertazimi <sabertazimi@gmail.com>",
   "license": "MIT",
   "engines": {
-    "node": ">=14.0.0"
+    "node": ">=v14.17.6"
   },
   "bugs": {
     "url": "https://github.com/sabertazimi/OJs/issues"
