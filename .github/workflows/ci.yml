@@ -33,8 +33,13 @@ jobs:
           yarn lint
 
   test:
-    name: Testing
-    runs-on: ubuntu-latest
+    name: Testing on Node ${{ matrix.node-version }} ${{ matrix.os }} ${{ matrix.architecture }}
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [ubuntu-latest, macos-latest, windows-latest]
+        node-version: [14, 16]
+        architecture: [x64]
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
@@ -44,8 +49,8 @@ jobs:
       - name: Setup Node environment
         uses: actions/setup-node@v2
         with:
-          node-version: 16
-          architecture: x64
+          node-version: ${{ matrix.node-version }}
+          architecture: ${{ matrix.architecture }}
           registry-url: https://registry.npmjs.org/
           cache: 'yarn'
       - name: Installation
@@ -56,10 +61,12 @@ jobs:
           yarn test
       - name: Coveralls action
         uses: coverallsapp/github-action@1.1.3
+        if: ${{ matrix.node-version == 16 && matrix.os == 'ubuntu-latest' && matrix.architecture == 'x64' }}
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
       - name: Archive production artifacts
         uses: actions/upload-artifact@v2
+        if: ${{ matrix.node-version == 16 && matrix.os == 'ubuntu-latest' && matrix.architecture == 'x64' }}
         with:
           name: coverage-report
           path: coverage/lcov-report
