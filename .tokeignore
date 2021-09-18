@@ -26,3 +26,4 @@ LICENSE
 Makefile
 
 .yarn/
+fixtures/
