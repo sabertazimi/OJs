@@ -39,6 +39,7 @@
     "url": "https://github.com/sabertazimi/OJs/issues"
   },
   "homepage": "https://github.com/sabertazimi/OJs#readme",
+  "packageManager": "yarn@3.0.2",
   "devDependencies": {
     "@types/jest": "^27.0.1",
     "@types/node": "^16.9.1",
