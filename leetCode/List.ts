@@ -1,3 +1,5 @@
+import consola from 'consola';
+
 class ListNode<T> {
   val: T;
   next: ListNode<T> | null;
@@ -34,7 +36,7 @@ const printList = <T>(list: ListNode<T> | null): void => {
     }
   }
 
-  console.info(output);
+  consola.info(output);
 };
 
 export { ListNode, arrayToList, printList };

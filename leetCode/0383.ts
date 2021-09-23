@@ -3,7 +3,7 @@ export default function canConstruct(
   magazine: string
 ): boolean {
   for (let i = 0; i < ransomNote.length; i++) {
-    if (magazine.indexOf(ransomNote[i]) === -1) return false;
+    if (!magazine.includes(ransomNote[i])) return false;
     magazine = magazine.replace(ransomNote[i], '');
   }
 

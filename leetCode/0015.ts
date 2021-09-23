@@ -19,17 +19,17 @@ export default function threeSum(nums: number[]): number[][] {
     while (j < k) {
       const cur: number[] = [];
 
-      if (nums[i] + nums[j] + nums[k] == 0) {
+      if (nums[i] + nums[j] + nums[k] === 0) {
         cur.push(nums[i], nums[j], nums[k]);
         solution.push(cur);
         j++;
         k--;
 
         // Skip duplicated elements
-        while (j < k && nums[j - 1] == nums[j]) {
+        while (j < k && nums[j - 1] === nums[j]) {
           j++;
         }
-        while (j < k && nums[k] == nums[k + 1]) {
+        while (j < k && nums[k] === nums[k + 1]) {
           k--;
         }
       } else if (nums[i] + nums[j] + nums[k] < 0) {
@@ -40,7 +40,7 @@ export default function threeSum(nums: number[]): number[][] {
     }
 
     // Skip duplicated elements
-    while (i < nums.length - 2 && nums[i] == nums[i + 1]) {
+    while (i < nums.length - 2 && nums[i] === nums[i + 1]) {
       i++;
     }
   }

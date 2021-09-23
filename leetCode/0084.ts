@@ -9,6 +9,7 @@ export default function largestRectangleArea(heights: number[]): number {
 
   for (let i = 1, top = 0; i < heights.length; i++) {
     while (
+      // eslint-disable-next-line no-cond-assign
       heights[i] < heights[(top = increaseStack[increaseStack.length - 1])]
     ) {
       increaseStack.pop();

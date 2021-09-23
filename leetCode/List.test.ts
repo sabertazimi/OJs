@@ -1,3 +1,4 @@
+import consola from 'consola';
 import { arrayToList, ListNode, printList } from './List';
 
 describe('List', () => {
@@ -43,11 +44,11 @@ describe('List', () => {
   });
 
   test('should print correctly', () => {
-    const mockConsoleInfo = jest
-      .spyOn(console, 'info')
+    const mockConsolaInfo = jest
+      .spyOn(consola, 'info')
       .mockImplementation(jest.fn());
     printList(arrayToList([1, 2, 3, 4, 5]));
-    expect(mockConsoleInfo).toHaveBeenCalledTimes(1);
-    mockConsoleInfo.mockRestore();
+    expect(mockConsolaInfo).toHaveBeenCalledTimes(1);
+    mockConsolaInfo.mockRestore();
   });
 });

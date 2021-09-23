@@ -9,13 +9,13 @@ export default function fourSum(nums: number[], target: number): number[][] {
 
   for (let i = 0; i < nums.length - 3; i++) {
     // Skip duplicated elements
-    if (i > 0 && nums[i - 1] == nums[i]) {
+    if (i > 0 && nums[i - 1] === nums[i]) {
       continue;
     }
 
     for (let j = i + 1; j < nums.length - 2; j++) {
       // Skip duplicated elements
-      if (j > i + 1 && nums[j - 1] == nums[j]) {
+      if (j > i + 1 && nums[j - 1] === nums[j]) {
         continue;
       }
 
@@ -25,7 +25,7 @@ export default function fourSum(nums: number[], target: number): number[][] {
       while (k < l) {
         const sum = nums[i] + nums[j] + nums[k] + nums[l];
 
-        if (sum == target) {
+        if (sum === target) {
           const cur = [];
           cur.push(nums[i], nums[j], nums[k], nums[l]);
           solution.push(cur);
@@ -33,10 +33,10 @@ export default function fourSum(nums: number[], target: number): number[][] {
           l--;
 
           // Skip duplicated elements
-          while (k < l && nums[k - 1] == nums[k]) {
+          while (k < l && nums[k - 1] === nums[k]) {
             k++;
           }
-          while (k < l && nums[l] == nums[l + 1]) {
+          while (k < l && nums[l] === nums[l + 1]) {
             l--;
           }
         } else if (sum < target) {
