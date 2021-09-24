@@ -1863,7 +1863,7 @@ __metadata:
   resolution: "@sabertazimi/ojs@workspace:."
   dependencies:
     "@dg-scripts/eslint-config": ^1.1.1
-    "@types/jest": ^27.0.1
+    "@types/jest": ^27.0.2
     "@types/node": ^16.9.1
     ci-info: ^3.2.0
     consola: ^2.15.3
@@ -2007,7 +2007,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/jest@npm:^27.0.1":
+"@types/jest@npm:^27.0.2":
   version: 27.0.2
   resolution: "@types/jest@npm:27.0.2"
   dependencies:
