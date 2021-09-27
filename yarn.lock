@@ -2673,7 +2673,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"babel-preset-react-app@npm:11.0.0-next.81":
+"babel-preset-react-app@npm:^11.0.0-next.81":
   version: 11.0.0-next.81
   resolution: "babel-preset-react-app@npm:11.0.0-next.81"
   dependencies:
@@ -2730,7 +2730,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"browserslist@npm:^4.16.6, browserslist@npm:^4.17.0":
+"browserslist@npm:^4.16.6, browserslist@npm:^4.17.1":
   version: 4.17.1
   resolution: "browserslist@npm:4.17.1"
   dependencies:
@@ -3021,10 +3021,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"confusing-browser-globals@npm:2.0.0-next.75":
-  version: 2.0.0-next.75
-  resolution: "confusing-browser-globals@npm:2.0.0-next.75"
-  checksum: beca00f70bbba32457774331b99307a4477dda5619c7a9a6ca4ad1d724605ae04e134e32945052081626358e3c213dcc5d4da807e56974b236b67e784b92fe21
+"confusing-browser-globals@npm:^2.0.0-next.81":
+  version: 2.0.0-next.fb6e6f70
+  resolution: "confusing-browser-globals@npm:2.0.0-next.fb6e6f70"
+  checksum: 8be5a9745daec343bdd70ad586e21f486dd58e440449cda460637de726c7cfe4acd9932807d1a689a255e8bc6fb805155b489a0e1e2644effeabbe8db68e9e1b
   languageName: node
   linkType: hard
 
@@ -3266,19 +3266,19 @@ __metadata:
   linkType: hard
 
 "core-js-compat@npm:^3.16.0, core-js-compat@npm:^3.16.2":
-  version: 3.18.0
-  resolution: "core-js-compat@npm:3.18.0"
+  version: 3.18.1
+  resolution: "core-js-compat@npm:3.18.1"
   dependencies:
-    browserslist: ^4.17.0
+    browserslist: ^4.17.1
     semver: 7.0.0
-  checksum: 2bf11676215d912c099078564bbbd837ff6b4a18635661414f3d72b4b78bee883117d583645629999407f910be311624d0380aefec69b3b77ef91001bcb30b19
+  checksum: d7afbd879fa1fd6bd20778308bfafc8b4993b13a4c24cb0793baad4b027d13f59fef78b867137b0a570df708ea2d0766a067d8c5b3dc4e5e4747d70dc91e1c98
   languageName: node
   linkType: hard
 
 "core-js-pure@npm:^3.16.0":
-  version: 3.18.0
-  resolution: "core-js-pure@npm:3.18.0"
-  checksum: 18d81964d3e0fe0f7acf06dbb2bfe2cf7bb03a02527eca3b1a69b0438fd79bd3a24692eaefd53aaab29be7f7c881dc173308313a6b93ab1f082cae05ff4c4a5f
+  version: 3.18.1
+  resolution: "core-js-pure@npm:3.18.1"
+  checksum: a299bee71e15227823e116ca5bf4c5d0cca8577ce35cc8758dfc17058bcbfee343493c0701b67478bb1362e072246ab1b20675e7c09a273f1310fa08d85cad8c
   languageName: node
   linkType: hard
 
@@ -3776,16 +3776,16 @@ __metadata:
   linkType: hard
 
 "eslint-config-bod@npm:^5.3.11":
-  version: 5.3.11
-  resolution: "eslint-config-bod@npm:5.3.11"
+  version: 5.3.12
+  resolution: "eslint-config-bod@npm:5.3.12"
   dependencies:
     "@babel/core": 7.15.5
     "@babel/eslint-parser": ^7.15.7
     "@rushstack/eslint-patch": ^1.0.7
     "@typescript-eslint/eslint-plugin": ^4.31.2
     "@typescript-eslint/parser": ^4.31.2
-    babel-preset-react-app: 11.0.0-next.81
-    confusing-browser-globals: 2.0.0-next.75
+    babel-preset-react-app: ^11.0.0-next.81
+    confusing-browser-globals: ^2.0.0-next.81
     eslint-plugin-flowtype: ^6.1.0
     eslint-plugin-import: ^2.24.2
     eslint-plugin-jest: ^24.4.2
@@ -3795,7 +3795,7 @@ __metadata:
     eslint-plugin-testing-library: ^4.12.4
   peerDependencies:
     eslint: ^7.30.0
-  checksum: 6476e38d1dd13f254ab876299ab99523ba0e06d03b065c8ccdf10031a584b978b93afb738c8599c17b6a8775f6ecdf43f829424b92c67d9b67a02e009de43b7d
+  checksum: 0eda56fa9cd56f59155772006cfd079b0013f89c78cfccb5f685d657dd396495077ea5f428b071c2d14768a93672644f4a2f4912785b343801ae2e802e359576
   languageName: node
   linkType: hard
 
