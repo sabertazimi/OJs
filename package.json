@@ -7,7 +7,7 @@
   "scripts": {
     "format": "prettier --write leetCode/**/*.ts",
     "lint": "yarn lint:style && yarn lint:type-check",
-    "lint:style": "eslint --fix --ext .ts ./leetCode",
+    "lint:style": "eslint --ext .ts ./leetCode ./codeWars",
     "lint:type-check": "tsc --noEmit",
     "prelease": "standard-version --dry-run -s",
     "release": "standard-version -s",
