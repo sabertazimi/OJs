@@ -1450,9 +1450,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@dg-scripts/eslint-config-basic@npm:^5.5.5":
-  version: 5.5.5
-  resolution: "@dg-scripts/eslint-config-basic@npm:5.5.5"
+"@dg-scripts/eslint-config-basic@npm:^5.5.7":
+  version: 5.5.7
+  resolution: "@dg-scripts/eslint-config-basic@npm:5.5.7"
   dependencies:
     eslint-config-standard: ^16.0.3
     eslint-plugin-eslint-comments: ^3.2.0
@@ -1467,61 +1467,61 @@ __metadata:
     yaml-eslint-parser: ^0.4.1
   peerDependencies:
     eslint: ^7.32.0 || ^8.0.0
-  checksum: 9873787eaa0711611a2786d48191ea3ad6e869f2b52b6140ca2447c43be606f08d7b90e770045192ff04650d4ebefbca461b11ecdba22bade95bb125a83611fe
+  checksum: eea0171bf668c0ecae89e5be0be0167133f5d2e1b4cd6020f21b5870767bca40ba3dc204844b1313e9f7c244b8471b92463dc28cc14f26d4d70bf364174c9e81
   languageName: node
   linkType: hard
 
-"@dg-scripts/eslint-config-react@npm:^5.5.5":
-  version: 5.5.5
-  resolution: "@dg-scripts/eslint-config-react@npm:5.5.5"
+"@dg-scripts/eslint-config-react@npm:^5.5.7":
+  version: 5.5.7
+  resolution: "@dg-scripts/eslint-config-react@npm:5.5.7"
   dependencies:
-    eslint-config-bod: ^5.5.5
+    eslint-config-bod: ^5.5.7
   peerDependencies:
     eslint: ^7.32.0 || ^8.0.0
-  checksum: 8639965bca1c7116179caf91bc41ae1f0284282e35936597165842c9fa79a1f2e09a4111c37328730a1f2fefb2218ca517fd081ed4cab1feddef295b3181ff22
+  checksum: 461e0d8ace82b0882a44390756a52d83ea2dfd9827dca20e81a3a06fac2fe02e0409cf9aab23d5d82f183603aae324f13e6f7a6705140c02ab973e63e02e2c0a
   languageName: node
   linkType: hard
 
-"@dg-scripts/eslint-config-ts@npm:^5.5.5":
-  version: 5.5.5
-  resolution: "@dg-scripts/eslint-config-ts@npm:5.5.5"
+"@dg-scripts/eslint-config-ts@npm:^5.5.7":
+  version: 5.5.7
+  resolution: "@dg-scripts/eslint-config-ts@npm:5.5.7"
   dependencies:
-    "@dg-scripts/eslint-config-basic": ^5.5.5
+    "@dg-scripts/eslint-config-basic": ^5.5.7
     "@typescript-eslint/eslint-plugin": ^5.1.0
     "@typescript-eslint/parser": ^5.1.0
   peerDependencies:
     eslint: ^7.32.0 || ^8.0.0
     typescript: ^4.0.0
-  checksum: 9d1973220b90673354a37a47da4020c348643e2c5c8a4c6cbdaf0fc2b58ae0dbf4b980a979919f84a0345edf99ff75025cce12327bde5213b07658257ae793b7
+  checksum: 963a3c9eb3075807a5fcfff113e154e4ec7e9f3d539db9c82cc4ac2906dc93d05c76641e6ccba09fe0c5e46a91d5d6e71b1facbe4bf9bcefa041882142bbf603
   languageName: node
   linkType: hard
 
-"@dg-scripts/eslint-config-vue@npm:^5.5.5":
-  version: 5.5.5
-  resolution: "@dg-scripts/eslint-config-vue@npm:5.5.5"
+"@dg-scripts/eslint-config-vue@npm:^5.5.7":
+  version: 5.5.7
+  resolution: "@dg-scripts/eslint-config-vue@npm:5.5.7"
   dependencies:
-    "@dg-scripts/eslint-config-ts": ^5.5.5
+    "@dg-scripts/eslint-config-ts": ^5.5.7
     eslint-plugin-vue: ^7.20.0
   peerDependencies:
     eslint: ^7.32.0 || ^8.0.0
     typescript: ^4.0.0
-  checksum: 65db66af7f62d4e408c1c5f8f3e5bd1d0974cbe5964fd9ada8324550ba8c78c2503b7ac59d8cf80ee665d7122edb8c369fe1f6f465c03f30958c7c42e7ae60d8
+  checksum: 4cde138d946c5a16250ca5e9f199fd9bf9cfed8ae63b178606b895b398f174ce137400713c153467774826751cf5e6c363dae10f8c6aa72574b1415e40c67819
   languageName: node
   linkType: hard
 
-"@dg-scripts/eslint-config@npm:^5.5.5":
-  version: 5.5.5
-  resolution: "@dg-scripts/eslint-config@npm:5.5.5"
+"@dg-scripts/eslint-config@npm:^5.5.7":
+  version: 5.5.7
+  resolution: "@dg-scripts/eslint-config@npm:5.5.7"
   dependencies:
-    "@dg-scripts/eslint-config-react": ^5.5.5
-    "@dg-scripts/eslint-config-vue": ^5.5.5
+    "@dg-scripts/eslint-config-react": ^5.5.7
+    "@dg-scripts/eslint-config-vue": ^5.5.7
     eslint-config-prettier: ^8.3.0
     eslint-plugin-prettier: ^4.0.0
   peerDependencies:
     eslint: ^7.32.0 || ^8.0.0
     prettier: ^2.4.0
     typescript: ^4.0.0
-  checksum: d1274bf63544d48aa2a0f5a5fc775eace9a71c64c10787f1b17ebe9f1bb66c3530cb15887e7191efbb63cc78317cf3291a8ac5bb46926e989b6b075871390ac0
+  checksum: e640da16881bd85a16fa6f99bf153c612deaa735926837d6c6ae0a6274e1d40cb3790a92b23d522bd3e7d8d81a16e31a03c56febfb7e180a9ab948dca23450c3
   languageName: node
   linkType: hard
 
@@ -1853,7 +1853,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@sabertazimi/ojs@workspace:."
   dependencies:
-    "@dg-scripts/eslint-config": ^5.5.5
+    "@dg-scripts/eslint-config": ^5.5.7
     "@types/jest": ^27.0.2
     "@types/node": ^16.10.1
     ci-info: ^3.2.0
@@ -3736,9 +3736,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-config-bod@npm:^5.5.5":
-  version: 5.5.5
-  resolution: "eslint-config-bod@npm:5.5.5"
+"eslint-config-bod@npm:^5.5.7":
+  version: 5.5.7
+  resolution: "eslint-config-bod@npm:5.5.7"
   dependencies:
     "@babel/core": ^7.15.8
     "@babel/eslint-parser": ^7.15.8
@@ -3755,7 +3755,7 @@ __metadata:
     eslint-plugin-testing-library: ^5.0.0-alpha.10
   peerDependencies:
     eslint: ^7.32.0 || ^8.0.0
-  checksum: 96e4edc4ec2b89bd1018597214c50bc800e59dd0f94e90939dcf66d10f63e918d8efffb7c498f980364b42108530e90019f1232c827c16a415bbb2f65f115200
+  checksum: 308da927fe35b586112caeb46b4080b03faf7044b231625e07156dcd8bd77a25411e920de694c2556ef474ea9d2fee6f940df737888122232b430555f46f4f8e
   languageName: node
   linkType: hard
 
