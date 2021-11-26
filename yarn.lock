@@ -1856,7 +1856,7 @@ __metadata:
     "@dg-scripts/eslint-config": ^5.5.10
     "@types/jest": ^27.0.3
     "@types/node": ^16.11.10
-    ci-info: ^3.2.0
+    ci-info: ^3.3.0
     consola: ^2.15.3
     dotenv: ^10.0.0
     eslint: ^8.3.0
@@ -2859,10 +2859,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ci-info@npm:^3.2.0":
-  version: 3.2.0
-  resolution: "ci-info@npm:3.2.0"
-  checksum: c68995a94e95ce3f233ff845e62dfc56f2e8ff1e3f5c1361bcdd520cbbc9726d8a54cbc1a685cb9ee19c3c5e71a1dade6dda23eb364b59b8e6c32508a9b761bc
+"ci-info@npm:^3.2.0, ci-info@npm:^3.3.0":
+  version: 3.3.0
+  resolution: "ci-info@npm:3.3.0"
+  checksum: c3d86fe374938ecda5093b1ba39acb535d8309185ba3f23587747c6a057e63f45419b406d880304dbc0e1d72392c9a33e42fe9a1e299209bc0ded5efaa232b66
   languageName: node
   linkType: hard
 
