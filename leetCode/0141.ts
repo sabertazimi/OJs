@@ -1,4 +1,4 @@
-import { ListNode } from './List';
+import type { ListNode } from './List';
 
 export default function hasCycle(head: ListNode<number> | null): boolean {
   if (head === null || head.next === null) return false;

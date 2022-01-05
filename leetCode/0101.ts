@@ -1,4 +1,4 @@
-import { TreeNode } from './Tree';
+import type { TreeNode } from './Tree';
 
 export default function isSymmetric<T>(root: TreeNode<T> | null): boolean {
   const dfs = (

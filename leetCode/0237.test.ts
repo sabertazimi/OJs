@@ -1,5 +1,6 @@
 import solution from './0237';
-import { arrayToList, ListNode } from './List';
+import type { ListNode } from './List';
+import { arrayToList } from './List';
 
 /**
  * @author sabertazimi

@@ -1,3 +1,16 @@
+const isSubsequence = (
+  first: string,
+  second: string,
+  m: number,
+  n: number
+): boolean => {
+  if (n === 0) return true;
+  if (m === 0) return false;
+  if (first[m - 1] === second[n - 1])
+    return isSubsequence(first, second, m - 1, n - 1);
+  return isSubsequence(first, second, m - 1, n);
+};
+
 export default function findLongestUncommonSubsequenceLength(
   strings: string[]
 ): number {
@@ -29,16 +42,3 @@ export default function findLongestUncommonSubsequenceLength(
 
   return max;
 }
-
-const isSubsequence = (
-  first: string,
-  second: string,
-  m: number,
-  n: number
-): boolean => {
-  if (n === 0) return true;
-  if (m === 0) return false;
-  if (first[m - 1] === second[n - 1])
-    return isSubsequence(first, second, m - 1, n - 1);
-  return isSubsequence(first, second, m - 1, n);
-};

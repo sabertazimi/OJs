@@ -1,4 +1,4 @@
-import { TreeNode } from './Tree';
+import type { TreeNode } from './Tree';
 
 export default function isBalanced(root: TreeNode<number> | null): boolean {
   const depth = (root: TreeNode<number> | null): number => {
