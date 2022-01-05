@@ -1,4 +1,4 @@
-import { TreeNode } from './Tree';
+import type { TreeNode } from './Tree';
 
 export default function hasPathSum(
   root: TreeNode<number> | null,

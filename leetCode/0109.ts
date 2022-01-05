@@ -1,12 +1,5 @@
-import { ListNode } from './List';
+import type { ListNode } from './List';
 import { TreeNode } from './Tree';
-
-export default function sortedListToBST(
-  head: ListNode<number> | null
-): TreeNode<number> | null {
-  if (head === null) return null;
-  return listToBST(head, null);
-}
 
 const getMiddle = (
   left: ListNode<number>,
@@ -35,3 +28,10 @@ const listToBST = (
   node.right = listToBST(middle.next as ListNode<number>, right);
   return node;
 };
+
+export default function sortedListToBST(
+  head: ListNode<number> | null
+): TreeNode<number> | null {
+  if (head === null) return null;
+  return listToBST(head, null);
+}

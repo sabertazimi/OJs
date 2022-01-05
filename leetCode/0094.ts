@@ -1,4 +1,5 @@
-import { traversal, TreeNode } from './Tree';
+import type { TreeNode } from './Tree';
+import { traversal } from './Tree';
 
 export default function inorderTraversal(
   root: TreeNode<number> | null

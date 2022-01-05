@@ -1,4 +1,4 @@
-import { ListNode } from './List';
+import type { ListNode } from './List';
 
 export default function detectCycle(
   head: ListNode<number> | null

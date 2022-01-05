@@ -1,5 +1,6 @@
 import solution from './0235';
-import { arrayToTree, TreeNode } from './Tree';
+import type { TreeNode } from './Tree';
+import { arrayToTree } from './Tree';
 
 /**
  * @author sabertazimi

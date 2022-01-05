@@ -1,5 +1,5 @@
 import consola from 'consola';
-import { arrayToList, ListNode, printList } from './List';
+import { ListNode, arrayToList, printList } from './List';
 
 describe('List', () => {
   test('should construct `null` list from empty array', () => {

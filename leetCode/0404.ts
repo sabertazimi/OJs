@@ -1,4 +1,4 @@
-import { TreeNode } from './Tree';
+import type { TreeNode } from './Tree';
 
 export default function sumOfLeftLeaves(root: TreeNode<number> | null): number {
   if (root === null) return 0;
