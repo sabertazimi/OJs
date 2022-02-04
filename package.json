@@ -43,7 +43,7 @@
   "devDependencies": {
     "@dg-scripts/eslint-config": "^5.6.2",
     "@types/jest": "^27.4.0",
-    "@types/node": "^16.11.21",
+    "@types/node": "^16.11.22",
     "ci-info": "^3.3.0",
     "consola": "^2.15.3",
     "dotenv": "^14.3.2",
