@@ -47,7 +47,7 @@
     "ci-info": "^3.3.0",
     "consola": "^2.15.3",
     "dotenv": "^16.0.0",
-    "eslint": "^8.10.0",
+    "eslint": "^8.11.0",
     "jest": "^27.5.1",
     "prettier": "^2.5.1",
     "standard-version": "^9.3.2",
