@@ -48,7 +48,7 @@
     "consola": "^2.15.3",
     "dotenv": "^16.0.0",
     "eslint": "^8.14.0",
-    "jest": "^27.5.1",
+    "jest": "^28.0.3",
     "prettier": "^2.6.2",
     "standard-version": "^9.3.2",
     "ts-jest": "^27.1.4",
