@@ -2,6 +2,32 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.4.0](https://github.com/sabertazimi/OJs/compare/v2.3.0...v2.4.0) (2022-04-30)
+
+
+### :rocket: Building Work
+
+* **CI:** add multiple environment for testing ([fead0f9](https://github.com/sabertazimi/OJs/commit/fead0f973d421de6cbef0e350d00a88d4c526863))
+* **CI:** reduce virtual machines efforts ([02ec1f6](https://github.com/sabertazimi/OJs/commit/02ec1f699c12c4483b2d6883503242e2c29a78e0))
+* **CI:** switch from `coveralls` to `codecov` ([30b549e](https://github.com/sabertazimi/OJs/commit/30b549ed7052bb7bb3f1fe36f5dbd2695fde797b))
+* **deps-bot:** change PR concurrent limits ([2f82f8f](https://github.com/sabertazimi/OJs/commit/2f82f8ff511e5cb76a8f63bb074b54a7e73b3bde))
+* **deps-bot:** disable bump `node` engine version ([05f61a9](https://github.com/sabertazimi/OJs/commit/05f61a9a555a7607f953bc1cfef18210c2c12ae6))
+* **deps-bot:** disable lockfile maintenance ([82824db](https://github.com/sabertazimi/OJs/commit/82824db9be453f827ab52e5d47aa02361ed9a40a))
+* **deps-bot:** remove GitHub dependabot ([be47088](https://github.com/sabertazimi/OJs/commit/be470880ddf126442f844938260cea9115a67f76))
+* **deps-bot:** setup automerge configuration ([e57e8d6](https://github.com/sabertazimi/OJs/commit/e57e8d6c2fa57884cbbc56a24d7538bce610ac93))
+* **deps-bot:** setup renovate bot configuration ([13510ed](https://github.com/sabertazimi/OJs/commit/13510ed57bd44187c00191f67180a4f584cda49f))
+* **deps-bot:** widen peerDeps and engines ([8c65fc4](https://github.com/sabertazimi/OJs/commit/8c65fc43f1878348006acdd500971f1dbd3ae4d4))
+* **deps-dev:** update dependency @types/node to ^16.10.1 ([c5a8389](https://github.com/sabertazimi/OJs/commit/c5a8389abf77f41ea640f42329dcc361aa113b3b))
+* **deps:** bundle bod deps into single PR ([3f24e79](https://github.com/sabertazimi/OJs/commit/3f24e79363e5d118cde7ba544549e727acb32507))
+* **eslint:** add `dg-scripts` eslint configuration ([d33c124](https://github.com/sabertazimi/OJs/commit/d33c124cfb73722b6a9384a4fa1b2226d77b5fea))
+* **lint:** disable auto-fix for linter ([02cdad5](https://github.com/sabertazimi/OJs/commit/02cdad5c1bcc5164c7966bc8cf8886c6ffa41030))
+* **yarn:** bump yarn from v3.0.2 to v3.1.0 ([2cb7000](https://github.com/sabertazimi/OJs/commit/2cb7000a0fcc33a10e30083d9237940c07cc8ebc))
+
+
+### :sparkles: Features
+
+* **test-vitest:** switch from `jest` to `vitest` ([#143](https://github.com/sabertazimi/OJs/issues/143)) ([8ad0c41](https://github.com/sabertazimi/OJs/commit/8ad0c41f100586f86721e7d57587d16323711707))
+
 ## [2.3.0](https://github.com/sabertazimi/OJs/compare/v2.2.0...v2.3.0) (2021-09-12)
 
 
