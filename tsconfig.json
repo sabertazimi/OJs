@@ -1,5 +1,5 @@
 {
-  "include": ["leetCode"],
+  "include": ["codeWars", "leetCode"],
   "exclude": ["node_modules", "build", "dist", "coverage", "__mocks__"],
   "compilerOptions": {
     "target": "ES6",
@@ -18,6 +18,7 @@
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
     "resolveJsonModule": true,
+    "types": ["vitest/globals"],
     "paths": {}
   }
 }

@@ -91,13 +91,22 @@ describe('Tree', () => {
 
 describe('SegmentTree', () => {
   test('should throw error when constructing from empty array', () => {
-    expect(() => new SegmentTree([], jest.fn(), 0)).toThrow(
-      Error('Data is empty')
-    );
+    expect(
+      () =>
+        new SegmentTree(
+          [],
+          vi.fn(() => 0),
+          0
+        )
+    ).toThrow(Error('Data is empty'));
   });
 
   test('should construct from [number array] correctly', () => {
-    const segmentTree = new SegmentTree([1, 2, 3, 4, 5], jest.fn(), 0);
+    const segmentTree = new SegmentTree(
+      [1, 2, 3, 4, 5],
+      vi.fn(() => 0),
+      0
+    );
     expect(segmentTree).toBeTruthy();
     expect(segmentTree.get(0)).toStrictEqual(1);
     expect(segmentTree.get(1)).toStrictEqual(2);
@@ -107,7 +116,11 @@ describe('SegmentTree', () => {
   });
 
   test('should construct from [string array] correctly', () => {
-    const segmentTree = new SegmentTree(['1', '2', '3'], jest.fn(), '0');
+    const segmentTree = new SegmentTree(
+      ['1', '2', '3'],
+      vi.fn(() => '0'),
+      '0'
+    );
     expect(segmentTree).toBeTruthy();
     expect(segmentTree.get(0)).toStrictEqual('1');
     expect(segmentTree.get(1)).toStrictEqual('2');
@@ -117,7 +130,7 @@ describe('SegmentTree', () => {
   test('should construct from [class array] correctly', () => {
     const segmentTree = new SegmentTree(
       [new TreeNode(1), new TreeNode(2), new TreeNode(3)],
-      jest.fn(),
+      vi.fn(() => new TreeNode(0)),
       null
     );
     expect(segmentTree).toBeTruthy();
@@ -127,7 +140,11 @@ describe('SegmentTree', () => {
   });
 
   test('should update value correctly', () => {
-    const segmentTree = new SegmentTree([1, 2, 3, 4, 5], jest.fn(), 0);
+    const segmentTree = new SegmentTree(
+      [1, 2, 3, 4, 5],
+      vi.fn(() => 0),
+      0
+    );
     segmentTree.set(0, 5);
     segmentTree.set(1, 4);
     segmentTree.set(2, 3);

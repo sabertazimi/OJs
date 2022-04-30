@@ -44,9 +44,9 @@ describe('List', () => {
   });
 
   test('should print correctly', () => {
-    const mockConsolaInfo = jest
+    const mockConsolaInfo = vi
       .spyOn(consola, 'info')
-      .mockImplementation(jest.fn());
+      .mockImplementation(() => {});
     printList(arrayToList([1, 2, 3, 4, 5]));
     expect(mockConsolaInfo).toHaveBeenCalledTimes(1);
     mockConsolaInfo.mockRestore();
