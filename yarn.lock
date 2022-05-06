@@ -1668,7 +1668,7 @@ __metadata:
   resolution: "@sabertazimi/ojs@workspace:."
   dependencies:
     "@dg-scripts/eslint-config": ^5.10.0
-    "@types/node": ^16.11.32
+    "@types/node": ^16.11.33
     c8: ^7.11.2
     ci-info: ^3.3.0
     consola: ^2.15.3
@@ -1676,7 +1676,7 @@ __metadata:
     prettier: ^2.6.2
     standard-version: ^9.3.2
     typescript: ^4.6.4
-    vitest: ^0.10.0
+    vitest: ^0.10.5
   languageName: unknown
   linkType: soft
 
@@ -1740,10 +1740,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:^16.11.32":
-  version: 16.11.32
-  resolution: "@types/node@npm:16.11.32"
-  checksum: 21f1bcd4f47a443f8a78a58b6ca3488dd9418c71b1185ba067d02222047fb194a3bfba244c32259bcb0cae4d55870b43a908b1f2832ec4aa4f31158f809625fe
+"@types/node@npm:^16.11.33":
+  version: 16.11.33
+  resolution: "@types/node@npm:16.11.33"
+  checksum: 5c86d3f1e3b996607b41405d368d2e19d410eee0054595cef73d230368a609a2863926e75ad19f5091f0fd742cd018b667d54c51292018dd8020a202a5b29fa9
   languageName: node
   linkType: hard
 
@@ -5742,7 +5742,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss@npm:^8.4.12":
+"postcss@npm:^8.4.13":
   version: 8.4.13
   resolution: "postcss@npm:8.4.13"
   dependencies:
@@ -6584,7 +6584,7 @@ resolve@^2.0.0-next.3:
   languageName: node
   linkType: hard
 
-"tinypool@npm:^0.1.2":
+"tinypool@npm:^0.1.3":
   version: 0.1.3
   resolution: "tinypool@npm:0.1.3"
   checksum: 13ac687a23c03b02c2bf0b9711a3bb191d2c37941775a001b9617aac541c11ba144fb08de74f3f9723ec2649410f5d4fa7f0398fedd462b39fe3b30d19615ad8
@@ -6845,13 +6845,13 @@ resolve@^2.0.0-next.3:
   languageName: node
   linkType: hard
 
-"vite@npm:^2.9.5":
-  version: 2.9.6
-  resolution: "vite@npm:2.9.6"
+"vite@npm:^2.9.7":
+  version: 2.9.8
+  resolution: "vite@npm:2.9.8"
   dependencies:
     esbuild: ^0.14.27
     fsevents: ~2.3.2
-    postcss: ^8.4.12
+    postcss: ^8.4.13
     resolve: ^1.22.0
     rollup: ^2.59.0
   peerDependencies:
@@ -6870,21 +6870,21 @@ resolve@^2.0.0-next.3:
       optional: true
   bin:
     vite: bin/vite.js
-  checksum: 79bbf516547f4adb1a297ac8648f8818b3e2a7bb113a7e12acc2355498d247556f58fc50d39eec4891c07250e7420e72773e358eeb8dc62af62fc1ff32c70877
+  checksum: 7de3450bec4caa06f4540d1d252563ef0b7e1bdd167d04abf03db72cfd8c9a93879e18861283bc7d075e1d094b78b71770ca36f9b965bdf28c66665eafdc29dc
   languageName: node
   linkType: hard
 
-"vitest@npm:^0.10.0":
-  version: 0.10.0
-  resolution: "vitest@npm:0.10.0"
+"vitest@npm:^0.10.5":
+  version: 0.10.5
+  resolution: "vitest@npm:0.10.5"
   dependencies:
     "@types/chai": ^4.3.1
     "@types/chai-subset": ^1.3.3
     chai: ^4.3.6
     local-pkg: ^0.4.1
-    tinypool: ^0.1.2
+    tinypool: ^0.1.3
     tinyspy: ^0.3.2
-    vite: ^2.9.5
+    vite: ^2.9.7
   peerDependencies:
     "@vitest/ui": "*"
     c8: "*"
@@ -6901,7 +6901,7 @@ resolve@^2.0.0-next.3:
       optional: true
   bin:
     vitest: vitest.mjs
-  checksum: bbcf6079f9b667be7d5def4aa397ad1318d282aa283f3aecda9822ce3bc9c1d1aac0423a8f05dfc4b772631571c2ea719bbe78072a2629ca207ed5b575836de1
+  checksum: a0468807c3cc7d3c8b7f22c7060080ca3a57840b324ed630a56cf094872e83bf057fccd1e400f694564fcfc64597c375b98ed571807e17832f84a58350db933d
   languageName: node
   linkType: hard
 
