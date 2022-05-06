@@ -46,7 +46,7 @@
     "c8": "^7.11.2",
     "ci-info": "^3.3.0",
     "consola": "^2.15.3",
-    "eslint": "^8.14.0",
+    "eslint": "^8.15.0",
     "prettier": "^2.6.2",
     "standard-version": "^9.3.2",
     "typescript": "^4.6.4",
