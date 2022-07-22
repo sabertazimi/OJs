@@ -39,11 +39,11 @@
     "url": "https://github.com/sabertazimi/OJs/issues"
   },
   "homepage": "https://github.com/sabertazimi/OJs#readme",
-  "packageManager": "yarn@3.2.1",
+  "packageManager": "yarn@3.2.2",
   "devDependencies": {
     "@dg-scripts/eslint-config": "^5.11.0",
     "@types/node": "^16.11.45",
-    "c8": "^7.11.3",
+    "c8": "^7.12.0",
     "ci-info": "^3.3.2",
     "consola": "^2.15.3",
     "eslint": "^8.20.0",
