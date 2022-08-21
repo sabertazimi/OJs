@@ -1675,6 +1675,7 @@ __metadata:
   dependencies:
     "@dg-scripts/eslint-config": ^5.11.0
     "@types/node": ^16.11.51
+    "@vitest/coverage-c8": ^0.22.1
     c8: ^7.12.0
     ci-info: ^3.3.2
     consola: ^2.15.3
@@ -1895,6 +1896,16 @@ __metadata:
     "@typescript-eslint/types": 5.29.0
     eslint-visitor-keys: ^3.3.0
   checksum: 15f228ad9ffaf0e42cc6b2ee4e5095c1e89c4c2dc46a65d19ca0e2296d88c08a1192039d942bd9600b1496176749f6322d636dd307602dbab90404a9501b4d6e
+  languageName: node
+  linkType: hard
+
+"@vitest/coverage-c8@npm:^0.22.1":
+  version: 0.22.1
+  resolution: "@vitest/coverage-c8@npm:0.22.1"
+  dependencies:
+    c8: ^7.12.0
+    vitest: 0.22.1
+  checksum: 141c10127a556ff32e43c6d92a468d800d7c62c767feef1a4123e204a07b58456b410efdba720fa3035639903098dc12767602aa7dabadd40e2d60abc0b008f1
   languageName: node
   linkType: hard
 
@@ -6939,7 +6950,7 @@ resolve@^2.0.0-next.3:
   languageName: node
   linkType: hard
 
-"vitest@npm:^0.22.1":
+"vitest@npm:0.22.1, vitest@npm:^0.22.1":
   version: 0.22.1
   resolution: "vitest@npm:0.22.1"
   dependencies:
