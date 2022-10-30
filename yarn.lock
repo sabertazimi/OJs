@@ -1688,7 +1688,7 @@ __metadata:
   resolution: "@sabertazimi/ojs@workspace:."
   dependencies:
     "@dg-scripts/eslint-config": ^5.11.0
-    "@types/node": ^16.18.2
+    "@types/node": ^18.11.7
     "@vitest/coverage-c8": ^0.24.3
     c8: ^7.12.0
     ci-info: ^3.5.0
@@ -1761,17 +1761,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*":
-  version: 18.0.0
-  resolution: "@types/node@npm:18.0.0"
-  checksum: aab2b325727a2599f6d25ebe0dedf58c40fb66a51ce4ca9c0226ceb70fcda2d3afccdca29db5942eb48b158ee8585a274a1e3750c718bbd5399d7f41d62dfdcc
-  languageName: node
-  linkType: hard
-
-"@types/node@npm:^16.18.2":
-  version: 16.18.2
-  resolution: "@types/node@npm:16.18.2"
-  checksum: d21bb6614916b88242300abb23f11ae8bdaabd60c8f7c5edac21f3bf4b1f3ebfbd2a9019a664dd28e5b5730145c069074d70e7a2ab063e80a2fa9ab12de9797a
+"@types/node@npm:*, @types/node@npm:^18.11.7":
+  version: 18.11.7
+  resolution: "@types/node@npm:18.11.7"
+  checksum: 69d630825cf6fbf580d08d76a4d4836ef8c34ed4fe0842221ade87d275f517099cbfabe8e22397208e564bd24926db97699ab9db5c091383269a432b336665e2
   languageName: node
   linkType: hard
 
