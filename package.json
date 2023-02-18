@@ -41,7 +41,7 @@
   "homepage": "https://github.com/sabertazimi/OJs#readme",
   "packageManager": "yarn@3.4.1",
   "devDependencies": {
-    "@dg-scripts/eslint-config": "^5.13.0",
+    "@dg-scripts/eslint-config": "^5.13.2",
     "@types/node": "^18.13.0",
     "@vitest/coverage-c8": "^0.28.4",
     "c8": "^7.12.0",
