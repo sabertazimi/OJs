@@ -42,15 +42,15 @@
   "packageManager": "yarn@3.5.0",
   "devDependencies": {
     "@dg-scripts/eslint-config": "^5.13.4",
-    "@types/node": "^18.15.3",
-    "@vitest/coverage-c8": "^0.29.3",
+    "@types/node": "^18.15.8",
+    "@vitest/coverage-c8": "^0.29.7",
     "c8": "^7.13.0",
     "ci-info": "^3.8.0",
     "commit-and-tag-version": "^11.2.0",
     "consola": "^2.15.3",
     "eslint": "^8.36.0",
-    "prettier": "^2.8.4",
+    "prettier": "^2.8.7",
     "typescript": "^5.0.2",
-    "vitest": "^0.29.3"
+    "vitest": "^0.29.7"
   }
 }
