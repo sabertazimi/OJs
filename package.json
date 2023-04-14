@@ -47,7 +47,7 @@
     "c8": "^7.13.0",
     "ci-info": "^3.8.0",
     "commit-and-tag-version": "^11.2.1",
-    "consola": "^2.15.3",
+    "consola": "^3.0.2",
     "eslint": "^8.38.0",
     "prettier": "^2.8.7",
     "typescript": "^5.0.4",
