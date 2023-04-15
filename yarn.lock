@@ -1885,7 +1885,7 @@ __metadata:
     c8: ^7.13.0
     ci-info: ^3.8.0
     commit-and-tag-version: ^11.2.1
-    consola: ^2.15.3
+    consola: ^3.0.2
     eslint: ^8.38.0
     prettier: ^2.8.7
     typescript: ^5.0.4
@@ -2940,10 +2940,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"consola@npm:^2.15.3":
-  version: 2.15.3
-  resolution: "consola@npm:2.15.3"
-  checksum: 8ef7a09b703ec67ac5c389a372a33b6dc97eda6c9876443a60d76a3076eea0259e7f67a4e54fd5a52f97df73690822d090cf8b7e102b5761348afef7c6d03e28
+"consola@npm:^3.0.2":
+  version: 3.0.2
+  resolution: "consola@npm:3.0.2"
+  checksum: e82503d738d410e36aca1543a37fb8ca385cd38c86b8fb055086f3df223ab1c353cea4e649b46169b5b7e9a7a61997f2693a57611522331d50a7811a372a816e
   languageName: node
   linkType: hard
 
