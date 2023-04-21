@@ -1880,12 +1880,12 @@ __metadata:
   resolution: "@sabertazimi/ojs@workspace:."
   dependencies:
     "@dg-scripts/eslint-config": ^5.13.5
-    "@types/node": ^18.15.11
+    "@types/node": ^18.15.13
     "@vitest/coverage-c8": ^0.30.1
     c8: ^7.13.0
     ci-info: ^3.8.0
     commit-and-tag-version: ^11.2.1
-    consola: ^3.0.2
+    consola: ^3.1.0
     eslint: ^8.38.0
     prettier: ^2.8.7
     typescript: ^5.0.4
@@ -1953,10 +1953,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*, @types/node@npm:^18.15.11":
-  version: 18.15.11
-  resolution: "@types/node@npm:18.15.11"
-  checksum: 977b4ad04708897ff0eb049ecf82246d210939c82461922d20f7d2dcfd81bbc661582ba3af28869210f7e8b1934529dcd46bff7d448551400f9d48b9d3bddec3
+"@types/node@npm:*, @types/node@npm:^18.15.13":
+  version: 18.15.13
+  resolution: "@types/node@npm:18.15.13"
+  checksum: 79cc5a2b5f98e8973061a4260a781425efd39161a0e117a69cd089603964816c1a14025e1387b4590c8e82d05133b7b4154fa53a7dffb3877890a66145e76515
   languageName: node
   linkType: hard
 
@@ -2940,10 +2940,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"consola@npm:^3.0.2":
-  version: 3.0.2
-  resolution: "consola@npm:3.0.2"
-  checksum: e82503d738d410e36aca1543a37fb8ca385cd38c86b8fb055086f3df223ab1c353cea4e649b46169b5b7e9a7a61997f2693a57611522331d50a7811a372a816e
+"consola@npm:^3.1.0":
+  version: 3.1.0
+  resolution: "consola@npm:3.1.0"
+  checksum: b4b16b0ff6a0645fb1b820cf89dd56c8601b9ae0e2c472652bce2f5d99932ed5b38ef7ad2cfa77f4534cd6264d99cf5cf9c3c888e98cc25fbd3c87d31c824975
   languageName: node
   linkType: hard
 
