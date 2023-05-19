@@ -42,8 +42,8 @@
   "packageManager": "yarn@3.5.1",
   "devDependencies": {
     "@dg-scripts/eslint-config": "^5.13.5",
-    "@types/node": "^18.16.9",
-    "@vitest/coverage-c8": "^0.31.0",
+    "@types/node": "^18.16.13",
+    "@vitest/coverage-c8": "^0.31.1",
     "c8": "^7.13.0",
     "ci-info": "^3.8.0",
     "commit-and-tag-version": "^11.2.1",
@@ -51,6 +51,6 @@
     "eslint": "^8.40.0",
     "prettier": "^2.8.8",
     "typescript": "^5.0.4",
-    "vitest": "^0.31.0"
+    "vitest": "^0.31.1"
   }
 }
