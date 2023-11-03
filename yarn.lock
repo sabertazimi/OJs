@@ -1913,7 +1913,7 @@ __metadata:
     "@vitest/coverage-v8": ^0.34.6
     c8: ^8.0.1
     ci-info: ^4.0.0
-    commit-and-tag-version: ^11.3.0
+    commit-and-tag-version: ^12.0.0
     consola: ^3.2.3
     eslint: ^8.52.0
     prettier: ^3.0.3
@@ -2944,9 +2944,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"commit-and-tag-version@npm:^11.3.0":
-  version: 11.3.0
-  resolution: "commit-and-tag-version@npm:11.3.0"
+"commit-and-tag-version@npm:^12.0.0":
+  version: 12.0.0
+  resolution: "commit-and-tag-version@npm:12.0.0"
   dependencies:
     chalk: ^2.4.2
     conventional-changelog: 3.1.25
@@ -2959,11 +2959,11 @@ __metadata:
     figures: ^3.1.0
     find-up: ^5.0.0
     git-semver-tags: ^5.0.0
-    semver: ^7.1.1
-    yargs: ^17.0.0
+    semver: ^7.5.4
+    yargs: ^17.7.2
   bin:
     commit-and-tag-version: bin/cli.js
-  checksum: c91f71069dd320b00343fa4ef2096b3c1f463b3f149dd9983f3bda86446e1a53d4646eb72117060e412ba7bcf776db367ee9a619b6c6c6595d133de3e410b201
+  checksum: 4697c4e02b4cfaecfdad5d8bdbdb2f46f331e1b8e7c4633f859d3399f3aeae92974512a3b70e30c86bee23aca4f43df8681d99d1729d3f304a5b954ae846c9d6
   languageName: node
   linkType: hard
 
@@ -7093,7 +7093,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"semver@npm:^7.0.0, semver@npm:^7.1.1, semver@npm:^7.3.4, semver@npm:^7.3.5, semver@npm:^7.3.6, semver@npm:^7.3.7, semver@npm:^7.3.8, semver@npm:^7.5.3":
+"semver@npm:^7.0.0, semver@npm:^7.3.4, semver@npm:^7.3.5, semver@npm:^7.3.6, semver@npm:^7.3.7, semver@npm:^7.3.8, semver@npm:^7.5.3, semver@npm:^7.5.4":
   version: 7.5.4
   resolution: "semver@npm:7.5.4"
   dependencies:
@@ -8166,7 +8166,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"yargs@npm:^17.0.0, yargs@npm:^17.7.2":
+"yargs@npm:^17.7.2":
   version: 17.7.2
   resolution: "yargs@npm:17.7.2"
   dependencies:
