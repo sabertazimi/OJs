@@ -1,4 +1,4 @@
-import solution from './0500';
+import solution from './0500'
 
 /**
  * @author sabertazimi
@@ -16,12 +16,12 @@ import solution from './0500';
  */
 describe('LeetCode [0500]', () => {
   test('should AC', () => {
-    expect(solution(['omk'])).toStrictEqual([]);
-    expect(solution(['adsdf', 'sfd'])).toStrictEqual(['adsdf', 'sfd']);
-    expect(solution(['zxc', 'Peace'])).toStrictEqual(['zxc']);
+    expect(solution(['omk'])).toStrictEqual([])
+    expect(solution(['adsdf', 'sfd'])).toStrictEqual(['adsdf', 'sfd'])
+    expect(solution(['zxc', 'Peace'])).toStrictEqual(['zxc'])
     expect(solution(['Hello', 'Alaska', 'Dad', 'Peace'])).toStrictEqual([
       'Alaska',
       'Dad',
-    ]);
-  });
-});
+    ])
+  })
+})

@@ -1,4 +1,4 @@
-import solution from './0059';
+import solution from './0059'
 
 /**
  * @author sabertazimi
@@ -11,11 +11,11 @@ import solution from './0059';
  */
 describe('LeetCode [0059]', () => {
   test('should AC', () => {
-    expect(solution(1)).toStrictEqual([[1]]);
+    expect(solution(1)).toStrictEqual([[1]])
     expect(solution(3)).toStrictEqual([
       [1, 2, 3],
       [8, 9, 4],
       [7, 6, 5],
-    ]);
-  });
-});
+    ])
+  })
+})

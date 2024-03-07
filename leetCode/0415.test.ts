@@ -1,4 +1,4 @@
-import solution from './0415';
+import solution from './0415'
 
 /**
  * @author sabertazimi
@@ -12,9 +12,9 @@ import solution from './0415';
  */
 describe('LeetCode [0415]', () => {
   test('should AC', () => {
-    expect(solution('0', '0')).toStrictEqual('0');
-    expect(solution('11', '123')).toStrictEqual('134');
-    expect(solution('99', '99')).toStrictEqual('198');
-    expect(solution('456', '77')).toStrictEqual('533');
-  });
-});
+    expect(solution('0', '0')).toStrictEqual('0')
+    expect(solution('11', '123')).toStrictEqual('134')
+    expect(solution('99', '99')).toStrictEqual('198')
+    expect(solution('456', '77')).toStrictEqual('533')
+  })
+})

@@ -1,4 +1,4 @@
-import solution from './0541';
+import solution from './0541'
 
 /**
  * @author sabertazimi
@@ -14,10 +14,10 @@ import solution from './0541';
  */
 describe('LeetCode [0541]', () => {
   test('should AC', () => {
-    expect(solution('a', 2)).toStrictEqual('a');
-    expect(solution('abcd', 2)).toStrictEqual('bacd');
-    expect(solution('abcdefg', 2)).toStrictEqual('bacdfeg');
-    expect(solution('abcdefg', 8)).toStrictEqual('gfedcba');
+    expect(solution('a', 2)).toStrictEqual('a')
+    expect(solution('abcd', 2)).toStrictEqual('bacd')
+    expect(solution('abcdefg', 2)).toStrictEqual('bacdfeg')
+    expect(solution('abcdefg', 8)).toStrictEqual('gfedcba')
     expect(
       solution(
         'hyzqyljrnigxvdtneasepfahmtyhlohwxmkqcdfehybknvdmfrfvtbsovjbdhevlfxpdaovjgunjqlimjkfnqcqnajmebeddqsgl',
@@ -25,6 +25,6 @@ describe('LeetCode [0541]', () => {
       )
     ).toStrictEqual(
       'fdcqkmxwholhytmhafpesaentdvxginrjlyqzyhehybknvdmfrfvtbsovjbdhevlfxpdaovjgunjqllgsqddebemjanqcqnfkjmi'
-    );
-  });
-});
+    )
+  })
+})

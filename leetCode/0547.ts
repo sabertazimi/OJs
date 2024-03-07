@@ -1,22 +1,22 @@
 export default function findCircleNum(isConnected: number[][]): number {
-  const n = isConnected.length;
-  const visited = Array(n).fill(false);
+  const n = isConnected.length
+  const visited = Array(n).fill(false)
   const dfs = (i: number) => {
-    visited[i] = true;
+    visited[i] = true
 
     for (let j = 0; j < n; j++) {
-      if (visited[j] === false && isConnected[i][j]) dfs(j);
-    }
-  };
-
-  let count = 0;
-
-  for (let i = 0; i < n; i++) {
-    if (visited[i] === false) {
-      dfs(i);
-      count++;
+      if (visited[j] === false && isConnected[i][j]) dfs(j)
     }
   }
 
-  return count;
+  let count = 0
+
+  for (let i = 0; i < n; i++) {
+    if (visited[i] === false) {
+      dfs(i)
+      count++
+    }
+  }
+
+  return count
 }

@@ -1,4 +1,4 @@
-import solution from './0085';
+import solution from './0085'
 
 /**
  * @author sabertazimi
@@ -11,11 +11,11 @@ import solution from './0085';
  */
 describe('LeetCode [0085]', () => {
   test('should AC', () => {
-    expect(solution([])).toStrictEqual(0);
-    expect(solution([['0']])).toStrictEqual(0);
-    expect(solution([['0', '0']])).toStrictEqual(0);
-    expect(solution([['1']])).toStrictEqual(1);
-    expect(solution([['1', '1']])).toStrictEqual(2);
+    expect(solution([])).toStrictEqual(0)
+    expect(solution([['0']])).toStrictEqual(0)
+    expect(solution([['0', '0']])).toStrictEqual(0)
+    expect(solution([['1']])).toStrictEqual(1)
+    expect(solution([['1', '1']])).toStrictEqual(2)
     expect(
       solution([
         ['1', '0', '1', '0', '0'],
@@ -23,6 +23,6 @@ describe('LeetCode [0085]', () => {
         ['1', '1', '1', '1', '1'],
         ['1', '0', '0', '1', '0'],
       ])
-    ).toStrictEqual(6);
-  });
-});
+    ).toStrictEqual(6)
+  })
+})

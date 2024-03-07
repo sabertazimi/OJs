@@ -1,4 +1,4 @@
-import solution from './0556';
+import solution from './0556'
 
 /**
  * @author sabertazimi
@@ -15,9 +15,9 @@ import solution from './0556';
  */
 describe('LeetCode [0556]', () => {
   test('should AC', () => {
-    expect(solution(21)).toStrictEqual(-1);
-    expect(solution(12)).toStrictEqual(21);
-    expect(solution(158476531)).toStrictEqual(158513467);
-    expect(solution(2147483648)).toStrictEqual(-1);
-  });
-});
+    expect(solution(21)).toStrictEqual(-1)
+    expect(solution(12)).toStrictEqual(21)
+    expect(solution(158476531)).toStrictEqual(158513467)
+    expect(solution(2147483648)).toStrictEqual(-1)
+  })
+})

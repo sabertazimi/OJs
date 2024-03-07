@@ -1,4 +1,4 @@
-import solution from './0438';
+import solution from './0438'
 
 /**
  * @author sabertazimi
@@ -15,8 +15,8 @@ import solution from './0438';
  */
 describe('LeetCode [0438]', () => {
   test('should AC', () => {
-    expect(solution('abab', 'ab')).toStrictEqual([0, 1, 2]);
-    expect(solution('abab', 'abb')).toStrictEqual([1]);
-    expect(solution('cbaebabacd', 'abc')).toStrictEqual([0, 6]);
-  });
-});
+    expect(solution('abab', 'ab')).toStrictEqual([0, 1, 2])
+    expect(solution('abab', 'abb')).toStrictEqual([1])
+    expect(solution('cbaebabacd', 'abc')).toStrictEqual([0, 6])
+  })
+})

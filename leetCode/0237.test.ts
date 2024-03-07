@@ -1,6 +1,6 @@
-import solution from './0237';
-import type { ListNode } from './List';
-import { arrayToList } from './List';
+import solution from './0237'
+import type { ListNode } from './List'
+import { arrayToList } from './List'
 
 /**
  * @author sabertazimi
@@ -16,6 +16,6 @@ describe('LeetCode [0237]', () => {
   test('should AC', () => {
     expect(solution(arrayToList([1, 2, 3]) as ListNode<number>)).toStrictEqual(
       arrayToList([2, 3])
-    );
-  });
-});
+    )
+  })
+})

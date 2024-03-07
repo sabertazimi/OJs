@@ -1,6 +1,6 @@
-import solution from './0235';
-import type { TreeNode } from './Tree';
-import { arrayToTree } from './Tree';
+import solution from './0235'
+import type { TreeNode } from './Tree'
+import { arrayToTree } from './Tree'
 
 /**
  * @author sabertazimi
@@ -28,27 +28,27 @@ describe('LeetCode [0235]', () => {
       null,
       3,
       5,
-    ]) as TreeNode<number>;
+    ]) as TreeNode<number>
     expect(
       solution(
         tree,
         tree?.left as TreeNode<number>,
         tree?.right as TreeNode<number>
       )
-    ).toStrictEqual(tree);
+    ).toStrictEqual(tree)
     expect(
       solution(
         tree,
         tree?.left as TreeNode<number>,
         tree?.left?.right as TreeNode<number>
       )
-    ).toStrictEqual(tree?.left);
+    ).toStrictEqual(tree?.left)
     expect(
       solution(
         tree,
         tree?.right as TreeNode<number>,
         tree?.right?.right as TreeNode<number>
       )
-    ).toStrictEqual(tree?.right);
-  });
-});
+    ).toStrictEqual(tree?.right)
+  })
+})

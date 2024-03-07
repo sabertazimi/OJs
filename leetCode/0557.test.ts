@@ -1,4 +1,4 @@
-import solution from './0557';
+import solution from './0557'
 
 /**
  * @author sabertazimi
@@ -9,9 +9,9 @@ import solution from './0557';
  */
 describe('LeetCode [0557]', () => {
   test('should AC', () => {
-    expect(solution('God Ding')).toStrictEqual('doG gniD');
+    expect(solution('God Ding')).toStrictEqual('doG gniD')
     expect(solution("Let's take LeetCode contest")).toStrictEqual(
       "s'teL ekat edoCteeL tsetnoc"
-    );
-  });
-});
+    )
+  })
+})

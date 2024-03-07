@@ -1,4 +1,4 @@
-import solution from './0074';
+import solution from './0074'
 
 /**
  * @author sabertazimi
@@ -22,7 +22,7 @@ describe('LeetCode [0074]', () => {
         ],
         3
       )
-    ).toStrictEqual(true);
+    ).toStrictEqual(true)
     expect(
       solution(
         [
@@ -32,6 +32,6 @@ describe('LeetCode [0074]', () => {
         ],
         13
       )
-    ).toStrictEqual(false);
-  });
-});
+    ).toStrictEqual(false)
+  })
+})

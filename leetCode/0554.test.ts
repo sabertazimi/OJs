@@ -1,4 +1,4 @@
-import solution from './0554';
+import solution from './0554'
 
 /**
  * @author sabertazimi
@@ -9,7 +9,7 @@ import solution from './0554';
  */
 describe('LeetCode [0554]', () => {
   test('should AC', () => {
-    expect(solution([[1], [1], [1]])).toStrictEqual(3);
+    expect(solution([[1], [1], [1]])).toStrictEqual(3)
     expect(
       solution([
         [1, 2, 2, 1],
@@ -19,6 +19,6 @@ describe('LeetCode [0554]', () => {
         [3, 1, 2],
         [1, 3, 1, 1],
       ])
-    ).toStrictEqual(2);
-  });
-});
+    ).toStrictEqual(2)
+  })
+})

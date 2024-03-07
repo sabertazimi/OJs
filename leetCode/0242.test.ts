@@ -1,4 +1,4 @@
-import solution from './0242';
+import solution from './0242'
 
 /**
  * @author sabertazimi
@@ -12,7 +12,7 @@ import solution from './0242';
  */
 describe('LeetCode [0242]', () => {
   test('should AC', () => {
-    expect(solution('rat', 'car')).toStrictEqual(false);
-    expect(solution('anagram', 'nagaram')).toStrictEqual(true);
-  });
-});
+    expect(solution('rat', 'car')).toStrictEqual(false)
+    expect(solution('anagram', 'nagaram')).toStrictEqual(true)
+  })
+})

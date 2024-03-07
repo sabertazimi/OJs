@@ -1,4 +1,4 @@
-import solution from './0013';
+import solution from './0013'
 
 /**
  * @author sabertazimi
@@ -10,10 +10,10 @@ import solution from './0013';
  */
 describe('LeetCode [0013]', () => {
   test('should AC', () => {
-    expect(solution('III')).toStrictEqual(3);
-    expect(solution('IV')).toStrictEqual(4);
-    expect(solution('IX')).toStrictEqual(9);
-    expect(solution('LVIII')).toStrictEqual(58);
-    expect(solution('MCMXCIV')).toStrictEqual(1994);
-  });
-});
+    expect(solution('III')).toStrictEqual(3)
+    expect(solution('IV')).toStrictEqual(4)
+    expect(solution('IX')).toStrictEqual(9)
+    expect(solution('LVIII')).toStrictEqual(58)
+    expect(solution('MCMXCIV')).toStrictEqual(1994)
+  })
+})

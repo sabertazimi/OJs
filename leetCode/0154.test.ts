@@ -1,4 +1,4 @@
-import solution from './0154';
+import solution from './0154'
 
 /**
  * @author sabertazimi
@@ -18,13 +18,13 @@ import solution from './0154';
  */
 describe('LeetCode [0153]', () => {
   test('should AC', () => {
-    expect(solution([1])).toStrictEqual(1);
-    expect(solution([2, 1])).toStrictEqual(1);
-    expect(solution([2, 2])).toStrictEqual(2);
-    expect(solution([1, 3, 5])).toStrictEqual(1);
-    expect(solution([3, 4, 5, 1, 2])).toStrictEqual(1);
-    expect(solution([2, 2, 2, 0, 1])).toStrictEqual(0);
-    expect(solution([11, 13, 15, 17])).toStrictEqual(11);
-    expect(solution([4, 5, 6, 6, 7, 7, 0, 1, 1, 2, 2])).toStrictEqual(0);
-  });
-});
+    expect(solution([1])).toStrictEqual(1)
+    expect(solution([2, 1])).toStrictEqual(1)
+    expect(solution([2, 2])).toStrictEqual(2)
+    expect(solution([1, 3, 5])).toStrictEqual(1)
+    expect(solution([3, 4, 5, 1, 2])).toStrictEqual(1)
+    expect(solution([2, 2, 2, 0, 1])).toStrictEqual(0)
+    expect(solution([11, 13, 15, 17])).toStrictEqual(11)
+    expect(solution([4, 5, 6, 6, 7, 7, 0, 1, 1, 2, 2])).toStrictEqual(0)
+  })
+})

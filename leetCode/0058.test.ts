@@ -1,4 +1,4 @@
-import solution from './0058';
+import solution from './0058'
 
 /**
  * @author sabertazimi
@@ -12,8 +12,8 @@ import solution from './0058';
  */
 describe('LeetCode [0058]', () => {
   test('should AC', () => {
-    expect(solution('Hello World')).toStrictEqual(5);
-    expect(solution('   fly me   to   the moon  ')).toStrictEqual(4);
-    expect(solution('sam is still joyBoy')).toStrictEqual(6);
-  });
-});
+    expect(solution('Hello World')).toStrictEqual(5)
+    expect(solution('   fly me   to   the moon  ')).toStrictEqual(4)
+    expect(solution('sam is still joyBoy')).toStrictEqual(6)
+  })
+})

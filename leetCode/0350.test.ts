@@ -1,4 +1,4 @@
-import solution from './0350';
+import solution from './0350'
 
 /**
  * @author sabertazimi
@@ -13,7 +13,7 @@ import solution from './0350';
  */
 describe('LeetCode [0350]', () => {
   test('should AC', () => {
-    expect(solution([1, 2, 2, 1], [2, 2])).toStrictEqual([2, 2]);
-    expect(solution([4, 9, 5], [9, 4, 9, 8, 4])).toStrictEqual([9, 4]);
-  });
-});
+    expect(solution([1, 2, 2, 1], [2, 2])).toStrictEqual([2, 2])
+    expect(solution([4, 9, 5], [9, 4, 9, 8, 4])).toStrictEqual([9, 4])
+  })
+})

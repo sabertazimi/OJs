@@ -1,4 +1,4 @@
-import solution from './0171';
+import solution from './0171'
 
 /**
  * @author sabertazimi
@@ -11,9 +11,9 @@ import solution from './0171';
  */
 describe('LeetCode [0171]', () => {
   test('should AC', () => {
-    expect(solution('A')).toStrictEqual(1);
-    expect(solution('AB')).toStrictEqual(28);
-    expect(solution('ZY')).toStrictEqual(701);
-    expect(solution('FXSHRXW')).toStrictEqual(2147483647);
-  });
-});
+    expect(solution('A')).toStrictEqual(1)
+    expect(solution('AB')).toStrictEqual(28)
+    expect(solution('ZY')).toStrictEqual(701)
+    expect(solution('FXSHRXW')).toStrictEqual(2147483647)
+  })
+})

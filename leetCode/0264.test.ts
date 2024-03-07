@@ -1,4 +1,4 @@
-import solution from './0264';
+import solution from './0264'
 
 /**
  * @author sabertazimi
@@ -11,7 +11,7 @@ import solution from './0264';
  */
 describe('LeetCode [0264]', () => {
   test('should AC', () => {
-    expect(solution(1)).toStrictEqual(1);
-    expect(solution(10)).toStrictEqual(12);
-  });
-});
+    expect(solution(1)).toStrictEqual(1)
+    expect(solution(10)).toStrictEqual(12)
+  })
+})

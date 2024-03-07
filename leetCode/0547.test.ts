@@ -1,4 +1,4 @@
-import solution from './0547';
+import solution from './0547'
 
 /**
  * @author sabertazimi
@@ -25,20 +25,20 @@ describe('LeetCode [0547]', () => {
         [1, 1, 1],
         [1, 1, 1],
       ])
-    ).toStrictEqual(1);
+    ).toStrictEqual(1)
     expect(
       solution([
         [1, 1, 0],
         [1, 1, 0],
         [0, 0, 1],
       ])
-    ).toStrictEqual(2);
+    ).toStrictEqual(2)
     expect(
       solution([
         [1, 0, 0],
         [0, 1, 0],
         [0, 0, 1],
       ])
-    ).toStrictEqual(3);
-  });
-});
+    ).toStrictEqual(3)
+  })
+})

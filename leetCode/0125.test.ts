@@ -1,4 +1,4 @@
-import solution from './0125';
+import solution from './0125'
 
 /**
  * @author sabertazimi
@@ -11,8 +11,8 @@ import solution from './0125';
  */
 describe('LeetCode [0125]', () => {
   test('should AC', () => {
-    expect(solution('0P')).toStrictEqual(false);
-    expect(solution('race a car')).toStrictEqual(false);
-    expect(solution('A man, a plan, a canal: Panama')).toStrictEqual(true);
-  });
-});
+    expect(solution('0P')).toStrictEqual(false)
+    expect(solution('race a car')).toStrictEqual(false)
+    expect(solution('A man, a plan, a canal: Panama')).toStrictEqual(true)
+  })
+})

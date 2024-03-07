@@ -1,5 +1,5 @@
-import solution from './0110';
-import { arrayToTree } from './Tree';
+import solution from './0110'
+import { arrayToTree } from './Tree'
 
 /**
  * @author sabertazimi
@@ -14,12 +14,12 @@ import { arrayToTree } from './Tree';
  */
 describe('LeetCode [0110]', () => {
   test('should AC', () => {
-    expect(solution(arrayToTree([]))).toStrictEqual(true);
+    expect(solution(arrayToTree([]))).toStrictEqual(true)
     expect(solution(arrayToTree([3, 9, 20, null, null, 15, 7]))).toStrictEqual(
       true
-    );
+    )
     expect(
       solution(arrayToTree([1, 2, 2, 3, 3, null, null, 4, 4]))
-    ).toStrictEqual(false);
-  });
-});
+    ).toStrictEqual(false)
+  })
+})

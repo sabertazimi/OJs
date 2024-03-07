@@ -1,4 +1,4 @@
-import solution from './0476';
+import solution from './0476'
 
 /**
  * @author sabertazimi
@@ -13,8 +13,8 @@ import solution from './0476';
  */
 describe('LeetCode [0476]', () => {
   test('should AC', () => {
-    expect(solution(1)).toStrictEqual(0);
-    expect(solution(2)).toStrictEqual(1);
-    expect(solution(5)).toStrictEqual(2);
-  });
-});
+    expect(solution(1)).toStrictEqual(0)
+    expect(solution(2)).toStrictEqual(1)
+    expect(solution(5)).toStrictEqual(2)
+  })
+})

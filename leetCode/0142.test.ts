@@ -1,5 +1,5 @@
-import solution from './0142';
-import { arrayToList } from './List';
+import solution from './0142'
+import { arrayToList } from './List'
 
 /**
  * @author sabertazimi
@@ -15,16 +15,16 @@ import { arrayToList } from './List';
  */
 describe('LeetCode [0142]', () => {
   test('should AC', () => {
-    expect(solution(arrayToList([]))).toStrictEqual(null);
-    expect(solution(arrayToList([1]))).toStrictEqual(null);
-    expect(solution(arrayToList([1, 2, 3, 4, 5]))).toStrictEqual(null);
+    expect(solution(arrayToList([]))).toStrictEqual(null)
+    expect(solution(arrayToList([1]))).toStrictEqual(null)
+    expect(solution(arrayToList([1, 2, 3, 4, 5]))).toStrictEqual(null)
 
-    const list1 = arrayToList([1, 2]);
-    if (list1?.next) list1.next.next = list1;
-    expect(solution(list1)).toStrictEqual(list1);
+    const list1 = arrayToList([1, 2])
+    if (list1?.next) list1.next.next = list1
+    expect(solution(list1)).toStrictEqual(list1)
 
-    const list2 = arrayToList([3, 2, 0, -4]);
-    if (list2?.next?.next?.next) list2.next.next.next.next = list2.next;
-    expect(solution(list2)).toStrictEqual(list2?.next);
-  });
-});
+    const list2 = arrayToList([3, 2, 0, -4])
+    if (list2?.next?.next?.next) list2.next.next.next.next = list2.next
+    expect(solution(list2)).toStrictEqual(list2?.next)
+  })
+})

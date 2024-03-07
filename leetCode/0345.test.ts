@@ -1,4 +1,4 @@
-import solution from './0345';
+import solution from './0345'
 
 /**
  * @author sabertazimi
@@ -11,7 +11,7 @@ import solution from './0345';
  */
 describe('LeetCode [0345]', () => {
   test('should AC', () => {
-    expect(solution('hello')).toStrictEqual('holle');
-    expect(solution('leetcode')).toStrictEqual('leotcede');
-  });
-});
+    expect(solution('hello')).toStrictEqual('holle')
+    expect(solution('leetcode')).toStrictEqual('leotcede')
+  })
+})

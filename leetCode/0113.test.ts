@@ -1,5 +1,5 @@
-import solution from './0113';
-import { arrayToTree } from './Tree';
+import solution from './0113'
+import { arrayToTree } from './Tree'
 
 /**
  * @author sabertazimi
@@ -13,11 +13,11 @@ import { arrayToTree } from './Tree';
  */
 describe('LeetCode [0113]', () => {
   test('should AC', () => {
-    expect(solution(arrayToTree([]), 20)).toStrictEqual([]);
-    expect(solution(arrayToTree([1]), 1)).toStrictEqual([[1]]);
-    expect(solution(arrayToTree([1, 2]), 0)).toStrictEqual([]);
-    expect(solution(arrayToTree([1, 2, 3]), 5)).toStrictEqual([]);
-    expect(solution(arrayToTree([1, null, 2]), 3)).toStrictEqual([[1, 2]]);
+    expect(solution(arrayToTree([]), 20)).toStrictEqual([])
+    expect(solution(arrayToTree([1]), 1)).toStrictEqual([[1]])
+    expect(solution(arrayToTree([1, 2]), 0)).toStrictEqual([])
+    expect(solution(arrayToTree([1, 2, 3]), 5)).toStrictEqual([])
+    expect(solution(arrayToTree([1, null, 2]), 3)).toStrictEqual([[1, 2]])
     expect(
       solution(
         arrayToTree([5, 4, 8, 11, null, 13, 4, 7, 2, null, null, 5, 1]),
@@ -26,6 +26,6 @@ describe('LeetCode [0113]', () => {
     ).toStrictEqual([
       [5, 4, 11, 2],
       [5, 8, 4, 5],
-    ]);
-  });
-});
+    ])
+  })
+})

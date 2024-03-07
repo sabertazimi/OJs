@@ -1,52 +1,52 @@
 export default function fourSum(nums: number[], target: number): number[][] {
-  const solution: number[][] = [];
+  const solution: number[][] = []
 
   if (nums.length <= 3) {
-    return solution;
+    return solution
   }
 
-  nums.sort((a, b) => a - b);
+  nums.sort((a, b) => a - b)
 
   for (let i = 0; i < nums.length - 3; i++) {
     // Skip duplicated elements
     if (i > 0 && nums[i - 1] === nums[i]) {
-      continue;
+      continue
     }
 
     for (let j = i + 1; j < nums.length - 2; j++) {
       // Skip duplicated elements
       if (j > i + 1 && nums[j - 1] === nums[j]) {
-        continue;
+        continue
       }
 
-      let k = j + 1;
-      let l = nums.length - 1;
+      let k = j + 1
+      let l = nums.length - 1
 
       while (k < l) {
-        const sum = nums[i] + nums[j] + nums[k] + nums[l];
+        const sum = nums[i] + nums[j] + nums[k] + nums[l]
 
         if (sum === target) {
-          const cur = [];
-          cur.push(nums[i], nums[j], nums[k], nums[l]);
-          solution.push(cur);
-          k++;
-          l--;
+          const cur = []
+          cur.push(nums[i], nums[j], nums[k], nums[l])
+          solution.push(cur)
+          k++
+          l--
 
           // Skip duplicated elements
           while (k < l && nums[k - 1] === nums[k]) {
-            k++;
+            k++
           }
           while (k < l && nums[l] === nums[l + 1]) {
-            l--;
+            l--
           }
         } else if (sum < target) {
-          k++;
+          k++
         } else {
-          l--;
+          l--
         }
       }
     }
   }
 
-  return solution;
+  return solution
 }

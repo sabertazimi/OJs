@@ -1,4 +1,4 @@
-import solution from './0220';
+import solution from './0220'
 
 /**
  * @author sabertazimi
@@ -12,16 +12,16 @@ import solution from './0220';
  */
 describe('LeetCode [0220]', () => {
   test('should AC', () => {
-    expect(solution([0], 0, 0)).toStrictEqual(false);
-    expect(solution([1], 0, 1)).toStrictEqual(false);
-    expect(solution([1], 1, 1)).toStrictEqual(false);
-    expect(solution([1, 2, 1], 0, 1)).toStrictEqual(false);
-    expect(solution([1, 2, 3, 1], 3, 0)).toStrictEqual(true);
-    expect(solution([1, 0, 0, 1], 1, 0)).toStrictEqual(true);
-    expect(solution([1, 0, 1, 1], 1, 2)).toStrictEqual(true);
-    expect(solution([-1, 0, 1, 1], 1, 2)).toStrictEqual(true);
-    expect(solution([1, 5, 9, 1, 5, 9], 2, 3)).toStrictEqual(false);
-    expect(solution([1, 5, 9, 1, 5, 9], 2, 4)).toStrictEqual(true);
-    expect(solution([8, 7, 15, 1, 6, 1, 9, 15], 1, 3)).toStrictEqual(true);
-  });
-});
+    expect(solution([0], 0, 0)).toStrictEqual(false)
+    expect(solution([1], 0, 1)).toStrictEqual(false)
+    expect(solution([1], 1, 1)).toStrictEqual(false)
+    expect(solution([1, 2, 1], 0, 1)).toStrictEqual(false)
+    expect(solution([1, 2, 3, 1], 3, 0)).toStrictEqual(true)
+    expect(solution([1, 0, 0, 1], 1, 0)).toStrictEqual(true)
+    expect(solution([1, 0, 1, 1], 1, 2)).toStrictEqual(true)
+    expect(solution([-1, 0, 1, 1], 1, 2)).toStrictEqual(true)
+    expect(solution([1, 5, 9, 1, 5, 9], 2, 3)).toStrictEqual(false)
+    expect(solution([1, 5, 9, 1, 5, 9], 2, 4)).toStrictEqual(true)
+    expect(solution([8, 7, 15, 1, 6, 1, 9, 15], 1, 3)).toStrictEqual(true)
+  })
+})

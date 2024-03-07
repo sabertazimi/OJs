@@ -1,28 +1,28 @@
 export default function largestRectangleArea(heights: number[]): number {
-  heights.unshift(0);
-  heights.push(0);
-  let res = 0;
+  heights.unshift(0)
+  heights.push(0)
+  let res = 0
 
   // Record indices of elements with increase height
-  const increaseStack = [];
-  increaseStack.push(0);
+  const increaseStack = []
+  increaseStack.push(0)
 
   for (let i = 1, top = 0; i < heights.length; i++) {
     while (
       // eslint-disable-next-line no-cond-assign
       heights[i] < heights[(top = increaseStack[increaseStack.length - 1])]
     ) {
-      increaseStack.pop();
+      increaseStack.pop()
       res = Math.max(
         res,
         heights[top] * (i - increaseStack[increaseStack.length - 1] - 1)
-      );
+      )
     }
 
     // heights[i] >= heights[increaseStack.top()]
     // Push index of higher element to stack
-    increaseStack.push(i);
+    increaseStack.push(i)
   }
 
-  return res;
+  return res
 }

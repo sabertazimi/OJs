@@ -1,4 +1,4 @@
-import solution from './0078';
+import solution from './0078'
 
 /**
  * @author sabertazimi
@@ -13,7 +13,7 @@ import solution from './0078';
  */
 describe('LeetCode [0078]', () => {
   test('should AC', () => {
-    expect(solution([0])).toStrictEqual([[0], []]);
+    expect(solution([0])).toStrictEqual([[0], []])
     expect(solution([1, 2, 3])).toStrictEqual([
       [1, 2, 3],
       [1, 2],
@@ -23,6 +23,6 @@ describe('LeetCode [0078]', () => {
       [2],
       [3],
       [],
-    ]);
-  });
-});
+    ])
+  })
+})

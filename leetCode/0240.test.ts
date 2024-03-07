@@ -1,4 +1,4 @@
-import solution from './0240';
+import solution from './0240'
 
 /**
  * @author sabertazimi
@@ -24,7 +24,7 @@ describe('LeetCode [0240]', () => {
         ],
         5
       )
-    ).toStrictEqual(true);
+    ).toStrictEqual(true)
     expect(
       solution(
         [
@@ -36,6 +36,6 @@ describe('LeetCode [0240]', () => {
         ],
         20
       )
-    ).toStrictEqual(false);
-  });
-});
+    ).toStrictEqual(false)
+  })
+})

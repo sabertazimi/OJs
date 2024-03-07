@@ -1,4 +1,4 @@
-import solution from './0383';
+import solution from './0383'
 
 /**
  * @author sabertazimi
@@ -12,8 +12,8 @@ import solution from './0383';
  */
 describe('LeetCode [0383]', () => {
   test('should AC', () => {
-    expect(solution('a', 'b')).toStrictEqual(false);
-    expect(solution('aa', 'ab')).toStrictEqual(false);
-    expect(solution('aa', 'aab')).toStrictEqual(true);
-  });
-});
+    expect(solution('a', 'b')).toStrictEqual(false)
+    expect(solution('aa', 'ab')).toStrictEqual(false)
+    expect(solution('aa', 'aab')).toStrictEqual(true)
+  })
+})

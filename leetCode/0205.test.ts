@@ -1,4 +1,4 @@
-import solution from './0205';
+import solution from './0205'
 
 /**
  * @author sabertazimi
@@ -16,14 +16,14 @@ import solution from './0205';
  */
 describe('LeetCode [0205]', () => {
   test('should AC', () => {
-    expect(solution('a', 'a')).toStrictEqual(true);
-    expect(solution('a', 'b')).toStrictEqual(true);
-    expect(solution('ab', 'b')).toStrictEqual(false);
-    expect(solution('foo', 'bar')).toStrictEqual(false);
-    expect(solution('foo', 'bar')).toStrictEqual(false);
-    expect(solution('egg', 'add')).toStrictEqual(true);
-    expect(solution('badc', 'bada')).toStrictEqual(false);
-    expect(solution('paper', 'title')).toStrictEqual(true);
-    expect(solution('32767', '65535')).toStrictEqual(false);
-  });
-});
+    expect(solution('a', 'a')).toStrictEqual(true)
+    expect(solution('a', 'b')).toStrictEqual(true)
+    expect(solution('ab', 'b')).toStrictEqual(false)
+    expect(solution('foo', 'bar')).toStrictEqual(false)
+    expect(solution('foo', 'bar')).toStrictEqual(false)
+    expect(solution('egg', 'add')).toStrictEqual(true)
+    expect(solution('badc', 'bada')).toStrictEqual(false)
+    expect(solution('paper', 'title')).toStrictEqual(true)
+    expect(solution('32767', '65535')).toStrictEqual(false)
+  })
+})

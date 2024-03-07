@@ -1,4 +1,4 @@
-import solution from './0344';
+import solution from './0344'
 
 /**
  * @author sabertazimi
@@ -17,7 +17,7 @@ describe('LeetCode [0344]', () => {
       'l',
       'e',
       'h',
-    ]);
+    ])
     expect(solution(['H', 'a', 'n', 'n', 'a', 'h'])).toStrictEqual([
       'h',
       'a',
@@ -25,6 +25,6 @@ describe('LeetCode [0344]', () => {
       'n',
       'a',
       'H',
-    ]);
-  });
-});
+    ])
+  })
+})

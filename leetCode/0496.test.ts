@@ -1,4 +1,4 @@
-import solution from './0496';
+import solution from './0496'
 
 /**
  * @author sabertazimi
@@ -20,7 +20,7 @@ import solution from './0496';
  */
 describe('LeetCode [0496]', () => {
   test('should AC', () => {
-    expect(solution([2, 4], [1, 2, 3, 4])).toStrictEqual([3, -1]);
-    expect(solution([4, 1, 2], [1, 3, 4, 2])).toStrictEqual([-1, 3, -1]);
-  });
-});
+    expect(solution([2, 4], [1, 2, 3, 4])).toStrictEqual([3, -1])
+    expect(solution([4, 1, 2], [1, 3, 4, 2])).toStrictEqual([-1, 3, -1])
+  })
+})

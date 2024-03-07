@@ -1,4 +1,4 @@
-import solution from './0389';
+import solution from './0389'
 
 /**
  * @author sabertazimi
@@ -13,9 +13,9 @@ import solution from './0389';
  */
 describe('LeetCode [0389]', () => {
   test('should AC', () => {
-    expect(solution('', 'y')).toStrictEqual('y');
-    expect(solution('a', 'aa')).toStrictEqual('a');
-    expect(solution('ae', 'aea')).toStrictEqual('a');
-    expect(solution('abcd', 'abcde')).toStrictEqual('e');
-  });
-});
+    expect(solution('', 'y')).toStrictEqual('y')
+    expect(solution('a', 'aa')).toStrictEqual('a')
+    expect(solution('ae', 'aea')).toStrictEqual('a')
+    expect(solution('abcd', 'abcde')).toStrictEqual('e')
+  })
+})

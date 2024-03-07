@@ -1,4 +1,4 @@
-import solution from './0020';
+import solution from './0020'
 
 /**
  * @author sabertazimi
@@ -14,11 +14,11 @@ import solution from './0020';
  */
 describe('LeetCode [0020]', () => {
   test('should AC', () => {
-    expect(solution('(')).toStrictEqual(false);
-    expect(solution('()')).toStrictEqual(true);
-    expect(solution('(]')).toStrictEqual(false);
-    expect(solution('([)]')).toStrictEqual(false);
-    expect(solution('{[]}')).toStrictEqual(true);
-    expect(solution('()[]{}')).toStrictEqual(true);
-  });
-});
+    expect(solution('(')).toStrictEqual(false)
+    expect(solution('()')).toStrictEqual(true)
+    expect(solution('(]')).toStrictEqual(false)
+    expect(solution('([)]')).toStrictEqual(false)
+    expect(solution('{[]}')).toStrictEqual(true)
+    expect(solution('()[]{}')).toStrictEqual(true)
+  })
+})

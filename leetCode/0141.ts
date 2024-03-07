@@ -1,7 +1,7 @@
-import type { ListNode } from './List';
+import type { ListNode } from './List'
 
 export default function hasCycle(head: ListNode<number> | null): boolean {
-  if (head === null || head.next === null) return false;
+  if (head === null || head.next === null) return false
 
   // 龟兔赛跑
   for (
@@ -11,9 +11,9 @@ export default function hasCycle(head: ListNode<number> | null): boolean {
       fast = fast.next.next as ListNode<number>
   ) {
     if (fast === null || fast.next === null) {
-      return false;
+      return false
     }
   }
 
-  return true;
+  return true
 }

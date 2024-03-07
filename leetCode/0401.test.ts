@@ -1,4 +1,4 @@
-import solution from './0401';
+import solution from './0401'
 
 /**
  * @author sabertazimi
@@ -12,8 +12,8 @@ import solution from './0401';
  */
 describe('LeetCode [0401]', () => {
   test('should AC', () => {
-    expect(solution(0)).toStrictEqual(['0:00']);
-    expect(solution(9)).toStrictEqual([]);
+    expect(solution(0)).toStrictEqual(['0:00'])
+    expect(solution(9)).toStrictEqual([])
     expect(solution(1)).toStrictEqual([
       '0:01',
       '0:02',
@@ -25,6 +25,6 @@ describe('LeetCode [0401]', () => {
       '2:00',
       '4:00',
       '8:00',
-    ]);
-  });
-});
+    ])
+  })
+})

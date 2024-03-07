@@ -1,4 +1,4 @@
-import solution from './0459';
+import solution from './0459'
 
 /**
  * @author sabertazimi
@@ -11,13 +11,13 @@ import solution from './0459';
  */
 describe('LeetCode [0459]', () => {
   test('should AC', () => {
-    expect(solution('a')).toStrictEqual(false);
-    expect(solution('ab')).toStrictEqual(false);
-    expect(solution('aa')).toStrictEqual(true);
-    expect(solution('aba')).toStrictEqual(false);
-    expect(solution('abab')).toStrictEqual(true);
-    expect(solution('ababba')).toStrictEqual(false);
-    expect(solution('abaababaab')).toStrictEqual(true);
-    expect(solution('abcabcabcabc')).toStrictEqual(true);
-  });
-});
+    expect(solution('a')).toStrictEqual(false)
+    expect(solution('ab')).toStrictEqual(false)
+    expect(solution('aa')).toStrictEqual(true)
+    expect(solution('aba')).toStrictEqual(false)
+    expect(solution('abab')).toStrictEqual(true)
+    expect(solution('ababba')).toStrictEqual(false)
+    expect(solution('abaababaab')).toStrictEqual(true)
+    expect(solution('abcabcabcabc')).toStrictEqual(true)
+  })
+})

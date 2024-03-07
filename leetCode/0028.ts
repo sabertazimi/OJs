@@ -1,3 +1,3 @@
 export default function strStr(haystack: string, needle: string): number {
-  return haystack.indexOf(needle);
+  return haystack.indexOf(needle)
 }

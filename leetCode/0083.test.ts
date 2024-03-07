@@ -1,5 +1,5 @@
-import solution from './0083';
-import { arrayToList } from './List';
+import solution from './0083'
+import { arrayToList } from './List'
 
 /**
  * @author sabertazimi
@@ -13,11 +13,11 @@ import { arrayToList } from './List';
  */
 describe('LeetCode [0083]', () => {
   test('should AC', () => {
-    expect(solution(arrayToList([]))).toStrictEqual(arrayToList([]));
-    expect(solution(arrayToList([1, 2]))).toStrictEqual(arrayToList([1, 2]));
-    expect(solution(arrayToList([1, 1, 2]))).toStrictEqual(arrayToList([1, 2]));
+    expect(solution(arrayToList([]))).toStrictEqual(arrayToList([]))
+    expect(solution(arrayToList([1, 2]))).toStrictEqual(arrayToList([1, 2]))
+    expect(solution(arrayToList([1, 1, 2]))).toStrictEqual(arrayToList([1, 2]))
     expect(solution(arrayToList([1, 1, 2, 3, 3]))).toStrictEqual(
       arrayToList([1, 2, 3])
-    );
-  });
-});
+    )
+  })
+})

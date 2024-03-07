@@ -13,17 +13,17 @@ export default function intToRoman(num: number): string {
     [5, 'V'],
     [4, 'IV'],
     [1, 'I'],
-  ]);
-  let roman = '';
-  let left = num;
+  ])
+  let roman = ''
+  let left = num
 
   for (const [num, str] of map.entries()) {
     if (left >= num) {
-      const times = Math.floor(left / num);
-      roman += str.repeat(times);
-      left -= num * times;
+      const times = Math.floor(left / num)
+      roman += str.repeat(times)
+      left -= num * times
     }
   }
 
-  return roman;
+  return roman
 }

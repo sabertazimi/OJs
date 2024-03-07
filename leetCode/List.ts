@@ -1,42 +1,42 @@
-import consola from 'consola';
+import consola from 'consola'
 
 class ListNode<T> {
-  val: T;
-  next: ListNode<T> | null;
+  val: T
+  next: ListNode<T> | null
 
   constructor(val: T, next?: ListNode<T> | null) {
-    this.val = val;
-    this.next = next === undefined ? null : next;
+    this.val = val
+    this.next = next === undefined ? null : next
   }
 }
 
 const arrayToList = <T>(nodes: T[]): ListNode<T> | null => {
   if (nodes.length === 0) {
-    return null;
+    return null
   }
 
-  let list = new ListNode(nodes[nodes.length - 1]);
+  let list = new ListNode(nodes[nodes.length - 1])
 
   for (let i = nodes.length - 2; i >= 0; i--) {
-    const current = new ListNode(nodes[i], list);
-    list = current;
+    const current = new ListNode(nodes[i], list)
+    list = current
   }
 
-  return list;
-};
+  return list
+}
 
 const printList = <T>(list: ListNode<T> | null): void => {
-  let output = '';
+  let output = ''
 
   for (let node = list; node !== null; node = node.next) {
-    output += `[${node.val}]`;
+    output += `[${node.val}]`
 
     if (node.next !== null) {
-      output += ' -> ';
+      output += ' -> '
     }
   }
 
-  consola.info(output);
-};
+  consola.info(output)
+}
 
-export { ListNode, arrayToList, printList };
+export { ListNode, arrayToList, printList }

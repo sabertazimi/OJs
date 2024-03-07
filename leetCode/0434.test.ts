@@ -1,4 +1,4 @@
-import solution from './0434';
+import solution from './0434'
 
 /**
  * @author sabertazimi
@@ -11,9 +11,9 @@ import solution from './0434';
  */
 describe('LeetCode [0434]', () => {
   test('should AC', () => {
-    expect(solution('')).toStrictEqual(0);
-    expect(solution('Hello')).toStrictEqual(1);
-    expect(solution("love live! mu'sic forever")).toStrictEqual(4);
-    expect(solution('Hello, my name is John')).toStrictEqual(5);
-  });
-});
+    expect(solution('')).toStrictEqual(0)
+    expect(solution('Hello')).toStrictEqual(1)
+    expect(solution("love live! mu'sic forever")).toStrictEqual(4)
+    expect(solution('Hello, my name is John')).toStrictEqual(5)
+  })
+})

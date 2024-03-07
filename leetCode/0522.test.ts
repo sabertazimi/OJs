@@ -1,4 +1,4 @@
-import solution from './0522';
+import solution from './0522'
 
 /**
  * @author sabertazimi
@@ -12,8 +12,8 @@ import solution from './0522';
  */
 describe('LeetCode [0522]', () => {
   test('should AC', () => {
-    expect(solution(['aaa', 'aaa', 'aa'])).toStrictEqual(-1);
-    expect(solution(['aba', 'cdc', 'eae'])).toStrictEqual(3);
-    expect(solution(['aabbcc', 'aabbcc', 'cb', 'abc'])).toStrictEqual(2);
-  });
-});
+    expect(solution(['aaa', 'aaa', 'aa'])).toStrictEqual(-1)
+    expect(solution(['aba', 'cdc', 'eae'])).toStrictEqual(3)
+    expect(solution(['aabbcc', 'aabbcc', 'cb', 'abc'])).toStrictEqual(2)
+  })
+})

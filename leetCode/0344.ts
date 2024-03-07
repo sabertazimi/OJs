@@ -1,4 +1,4 @@
 export default function reverseString(s: string[]): string[] {
-  s.reverse();
-  return s;
+  s.reverse()
+  return s
 }

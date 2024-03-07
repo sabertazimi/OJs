@@ -1,5 +1,5 @@
-import solution from './0437';
-import { arrayToTree } from './Tree';
+import solution from './0437'
+import { arrayToTree } from './Tree'
 
 /**
  * @author sabertazimi
@@ -16,12 +16,12 @@ describe('LeetCode [0437]', () => {
   test('should AC', () => {
     expect(
       solution(arrayToTree([10, 5, -3, 3, 2, null, 11, 3, -2, null, 1]), 8)
-    ).toStrictEqual(3);
+    ).toStrictEqual(3)
     expect(
       solution(
         arrayToTree([5, 4, 8, 11, null, 13, 4, 7, 2, null, null, 5, 1]),
         22
       )
-    ).toStrictEqual(3);
-  });
-});
+    ).toStrictEqual(3)
+  })
+})

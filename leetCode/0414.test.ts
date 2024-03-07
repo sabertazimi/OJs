@@ -1,4 +1,4 @@
-import solution from './0414';
+import solution from './0414'
 
 /**
  * @author sabertazimi
@@ -12,8 +12,8 @@ import solution from './0414';
  */
 describe('LeetCode [0414]', () => {
   test('should AC', () => {
-    expect(solution([1, 2])).toStrictEqual(2);
-    expect(solution([3, 2, 1])).toStrictEqual(1);
-    expect(solution([2, 2, 3, 1])).toStrictEqual(1);
-  });
-});
+    expect(solution([1, 2])).toStrictEqual(2)
+    expect(solution([3, 2, 1])).toStrictEqual(1)
+    expect(solution([2, 2, 3, 1])).toStrictEqual(1)
+  })
+})

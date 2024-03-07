@@ -1,4 +1,4 @@
-import solution from './0290';
+import solution from './0290'
 
 /**
  * @author sabertazimi
@@ -13,10 +13,10 @@ import solution from './0290';
  */
 describe('LeetCode [0290]', () => {
   test('should AC', () => {
-    expect(solution('aaaa', 'dog dog dog')).toStrictEqual(false);
-    expect(solution('aaaa', 'dog cat cat dog')).toStrictEqual(false);
-    expect(solution('abba', 'dog dog dog dog')).toStrictEqual(false);
-    expect(solution('abba', 'dog cat cat fish')).toStrictEqual(false);
-    expect(solution('abba', 'dog cat cat dog')).toStrictEqual(true);
-  });
-});
+    expect(solution('aaaa', 'dog dog dog')).toStrictEqual(false)
+    expect(solution('aaaa', 'dog cat cat dog')).toStrictEqual(false)
+    expect(solution('abba', 'dog dog dog dog')).toStrictEqual(false)
+    expect(solution('abba', 'dog cat cat fish')).toStrictEqual(false)
+    expect(solution('abba', 'dog cat cat dog')).toStrictEqual(true)
+  })
+})
