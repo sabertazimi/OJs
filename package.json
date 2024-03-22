@@ -41,10 +41,10 @@
     "url": "https://github.com/sabertazimi/OJs/issues"
   },
   "homepage": "https://github.com/sabertazimi/OJs#readme",
-  "packageManager": "pnpm@8.15.4",
+  "packageManager": "pnpm@8.15.5",
   "devDependencies": {
     "@dg-scripts/eslint-config": "^5.14.3",
-    "@types/node": "^20.11.28",
+    "@types/node": "^20.11.30",
     "@vitest/coverage-v8": "^1.4.0",
     "c8": "^9.1.0",
     "ci-info": "^4.0.0",
@@ -52,7 +52,7 @@
     "consola": "^3.2.3",
     "eslint": "^8.57.0",
     "prettier": "^3.2.5",
-    "typescript": "^5.4.2",
+    "typescript": "^5.4.3",
     "vitest": "^1.4.0"
   }
 }
