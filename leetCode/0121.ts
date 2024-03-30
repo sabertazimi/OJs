@@ -1,5 +1,6 @@
 export default function maxProfit(prices: number[]): number {
-  if (prices.length < 2) return 0
+  if (prices.length < 2)
+    return 0
 
   let res = 0
 

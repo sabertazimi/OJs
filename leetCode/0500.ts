@@ -8,7 +8,8 @@ export default function findWords(words: string[]): string[] {
     let row = 0
 
     while (row < rows.length) {
-      if (rows[row].includes(normalizedWord[0])) break
+      if (rows[row].includes(normalizedWord[0]))
+        break
       row++
     }
 
@@ -19,7 +20,8 @@ export default function findWords(words: string[]): string[] {
       }
     }
 
-    if (flag) result.push(word)
+    if (flag)
+      result.push(word)
   }
 
   return result

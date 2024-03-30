@@ -1,5 +1,6 @@
 export default function maxProfit(k: number, prices: number[]): number {
-  if (prices.length < 2) return 0
+  if (prices.length < 2)
+    return 0
 
   // DP[i][0][K]: in the end of i-th day, hold zero stock, already sell K times.
   // DP[i][1][K]: in the end of i-th day, hold one stock, already sell K times.
@@ -9,8 +10,8 @@ export default function maxProfit(k: number, prices: number[]): number {
   // newDP0[K] = Math.max(oldDP0[K], oldDP1[K - 1] + prices[i]);
   // newDP1[K] = Math.max(oldDP1[K], oldDP0[K] - prices[i]);
   // solution is the max of DP[N][0][K].
-  const dp0 = Array(k + 1).fill(0)
-  const dp1 = Array(k + 1).fill(-prices[0])
+  const dp0 = Array.from<number>({ length: k + 1 }).fill(0)
+  const dp1 = Array.from<number>({ length: k + 1 }).fill(-prices[0])
 
   for (let i = 1; i < prices.length; i++) {
     for (let j = 0; j < k + 1; j++) {

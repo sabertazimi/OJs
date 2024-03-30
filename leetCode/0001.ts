@@ -1,7 +1,6 @@
 export default function twoSum(nums: number[], target: number): number[] {
-  if (nums.length <= 1) {
+  if (nums.length <= 1)
     return []
-  }
 
   const indices = new Map<number, number>()
   const solution: number[] = []

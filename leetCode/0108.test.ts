@@ -12,11 +12,11 @@ import { arrayToTree } from './Tree'
  * A height-balanced binary tree is a binary tree
  * in which the depth of the two subtrees of every node never differs by more than one.
  */
-describe('LeetCode [0108]', () => {
-  test('should AC', () => {
+describe('leetCode [0108]', () => {
+  it('should AC', () => {
     expect(solution([1, 3])).toStrictEqual(arrayToTree([3, 1]))
     expect(solution([-10, -3, 0, 5, 9])).toStrictEqual(
-      arrayToTree([0, -3, 9, -10, null, 5])
+      arrayToTree([0, -3, 9, -10, null, 5]),
     )
   })
 })

@@ -12,8 +12,8 @@ import solution from './0300'
  * an array by deleting some or no elements without changing the order of the remaining elements.
  * For example, [3,6,2,7] is a subsequence of the array [0,3,1,6,2,2,7].
  */
-describe('LeetCode [0300]', () => {
-  test('should AC', () => {
+describe('leetCode [0300]', () => {
+  it('should AC', () => {
     expect(solution([])).toStrictEqual(0)
     expect(solution([0, 1, 0, 3, 2, 3])).toStrictEqual(4)
     expect(solution([10, 9, 2, 5, 3, 7, 101, 18])).toStrictEqual(4)

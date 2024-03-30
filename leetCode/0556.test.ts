@@ -13,8 +13,8 @@ import solution from './0556'
  * Note that the returned integer should fit in 32-bit integer,
  * if there is a valid answer but it does not fit in 32-bit integer, return -1.
  */
-describe('LeetCode [0556]', () => {
-  test('should AC', () => {
+describe('leetCode [0556]', () => {
+  it('should AC', () => {
     expect(solution(21)).toStrictEqual(-1)
     expect(solution(12)).toStrictEqual(21)
     expect(solution(158476531)).toStrictEqual(158513467)

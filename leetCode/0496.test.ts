@@ -18,8 +18,8 @@ import solution from './0496'
  * Return an array ans of length nums1.length
  * such that ans[i] is the next greater element as described above.
  */
-describe('LeetCode [0496]', () => {
-  test('should AC', () => {
+describe('leetCode [0496]', () => {
+  it('should AC', () => {
     expect(solution([2, 4], [1, 2, 3, 4])).toStrictEqual([3, -1])
     expect(solution([4, 1, 2], [1, 3, 4, 2])).toStrictEqual([-1, 3, -1])
   })

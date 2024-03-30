@@ -10,8 +10,8 @@ import solution from './0217'
  * return true if any value appears at least twice in the array,
  * and return false if every element is distinct.
  */
-describe('LeetCode [0217]', () => {
-  test('should AC', () => {
+describe('leetCode [0217]', () => {
+  it('should AC', () => {
     expect(solution([1])).toStrictEqual(false)
     expect(solution([1, 2, 3, 1])).toStrictEqual(true)
     expect(solution([1, 2, 3, 4])).toStrictEqual(false)

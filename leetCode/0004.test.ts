@@ -10,8 +10,8 @@ import solution from './0004'
  * return the median of the two sorted arrays.
  * The overall run time complexity should be O(log (m+n)).
  */
-describe('LeetCode [0004]', () => {
-  test('should AC', () => {
+describe('leetCode [0004]', () => {
+  it('should AC', () => {
     expect(solution([], [1])).toStrictEqual(1)
     expect(solution([2], [])).toStrictEqual(2)
     expect(solution([0, 0], [0, 0])).toStrictEqual(0)

@@ -12,8 +12,8 @@ import solution from './0020'
  * Open brackets must be closed by the same type of brackets.
  * Open brackets must be closed in the correct order.
  */
-describe('LeetCode [0020]', () => {
-  test('should AC', () => {
+describe('leetCode [0020]', () => {
+  it('should AC', () => {
     expect(solution('(')).toStrictEqual(false)
     expect(solution('()')).toStrictEqual(true)
     expect(solution('(]')).toStrictEqual(false)

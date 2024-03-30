@@ -11,8 +11,8 @@ import solution from './0476'
  * For example, The integer 5 is "101" in binary and its complement is "010" which is the integer 2.
  * Given an integer num, return its complement.
  */
-describe('LeetCode [0476]', () => {
-  test('should AC', () => {
+describe('leetCode [0476]', () => {
+  it('should AC', () => {
     expect(solution(1)).toStrictEqual(0)
     expect(solution(2)).toStrictEqual(1)
     expect(solution(5)).toStrictEqual(2)

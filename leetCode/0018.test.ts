@@ -13,8 +13,8 @@ import solution from './0018'
  * nums[a] + nums[b] + nums[c] + nums[d] == target
  * You may return the answer in any order.
  */
-describe('LeetCode [0018]', () => {
-  test('should AC', () => {
+describe('leetCode [0018]', () => {
+  it('should AC', () => {
     expect(solution([], 0)).toStrictEqual([])
     expect(solution([0], 0)).toStrictEqual([])
     expect(solution([1, 2, 3], 0)).toStrictEqual([])
@@ -34,7 +34,7 @@ describe('LeetCode [0018]', () => {
         [-1, -1, 1, 1],
         [-1, 0, 0, 1],
         [0, 0, 0, 0],
-      ]
+      ],
     )
   })
 })

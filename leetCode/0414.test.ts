@@ -10,8 +10,8 @@ import solution from './0414'
  * return the third maximum number in this array.
  * If the third maximum does not exist, return the maximum number.
  */
-describe('LeetCode [0414]', () => {
-  test('should AC', () => {
+describe('leetCode [0414]', () => {
+  it('should AC', () => {
     expect(solution([1, 2])).toStrictEqual(2)
     expect(solution([3, 2, 1])).toStrictEqual(1)
     expect(solution([2, 2, 3, 1])).toStrictEqual(1)

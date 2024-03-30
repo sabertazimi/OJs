@@ -11,8 +11,8 @@ import solution from './0016'
  * Return the sum of the three integers.
  * You may assume that each input would have exactly one solution.
  */
-describe('LeetCode [0016]', () => {
-  test('should AC', () => {
+describe('leetCode [0016]', () => {
+  it('should AC', () => {
     expect(solution([0, 0, 0], 1)).toStrictEqual(0)
     expect(solution([-1, 2, 1, -4], 1)).toStrictEqual(2)
     expect(solution([-1, 2, 1, -4], 2)).toStrictEqual(2)

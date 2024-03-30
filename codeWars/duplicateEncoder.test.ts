@@ -6,8 +6,8 @@ import solution from './duplicateEncoder'
  * @description duplicate-encoder
  * @see {@link https://www.codewars.com/kata/duplicate-encoder/train/typescript/}
  */
-describe('CodeWars [Duplicate Encoder]', () => {
-  test('should AC', () => {
+describe('codeWars [Duplicate Encoder]', () => {
+  it('should AC', () => {
     expect(solution('din')).toStrictEqual('(((')
     expect(solution('recede')).toStrictEqual('()()()')
     expect(solution('Success')).toStrictEqual(')())())')

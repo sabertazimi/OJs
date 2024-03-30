@@ -11,8 +11,8 @@ import solution from './0409'
  * Letters are case sensitive,
  * for example, "Aa" is not considered a palindrome here.
  */
-describe('LeetCode [0409]', () => {
-  test('should AC', () => {
+describe('leetCode [0409]', () => {
+  it('should AC', () => {
     expect(solution('a')).toStrictEqual(1)
     expect(solution('bb')).toStrictEqual(2)
     expect(solution('abccccdd')).toStrictEqual(7)

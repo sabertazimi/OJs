@@ -12,8 +12,8 @@ import solution from './0137'
  * You must implement a solution with a linear runtime complexity
  * and use only constant extra space.
  */
-describe('LeetCode [0137]', () => {
-  test('should AC', () => {
+describe('leetCode [0137]', () => {
+  it('should AC', () => {
     expect(solution([1])).toStrictEqual(1)
     expect(solution([1, 1])).toStrictEqual(1)
     expect(solution([2, 2, 3, 2])).toStrictEqual(3)

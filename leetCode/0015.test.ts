@@ -11,8 +11,8 @@ import solution from './0015'
  * such that i != j, i != k, and j != k, and nums[i] + nums[j] + nums[k] == 0.
  * Notice that the solution set must not contain duplicate triplets.
  */
-describe('LeetCode [0015]', () => {
-  test('should AC', () => {
+describe('leetCode [0015]', () => {
+  it('should AC', () => {
     expect(solution([])).toStrictEqual([])
     expect(solution([0])).toStrictEqual([])
     expect(solution([1, 2, 3])).toStrictEqual([])

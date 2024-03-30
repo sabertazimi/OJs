@@ -11,14 +11,14 @@ import { arrayToList } from './List'
  * remove all the nodes of the linked list that has Node.val == val,
  * and return the new head.
  */
-describe('LeetCode [0203]', () => {
-  test('should AC', () => {
+describe('leetCode [0203]', () => {
+  it('should AC', () => {
     expect(solution(arrayToList([]), 1)).toStrictEqual(arrayToList([]))
     expect(solution(arrayToList([7, 7, 7, 7]), 7)).toStrictEqual(
-      arrayToList([])
+      arrayToList([]),
     )
     expect(solution(arrayToList([1, 2, 6, 3, 4, 5, 6]), 6)).toStrictEqual(
-      arrayToList([1, 2, 3, 4, 5])
+      arrayToList([1, 2, 3, 4, 5]),
     )
   })
 })

@@ -2,16 +2,16 @@ import type { TreeNode } from './Tree'
 import { traversal } from './Tree'
 
 export default function postorderTraversal(
-  root: TreeNode<number> | null
+  root: TreeNode<number> | null,
 ): number[] {
   const res: number[] = []
 
   traversal(
     root,
-    node => {
+    (node) => {
       res.push(node)
     },
-    'post'
+    'post',
   )
 
   return res

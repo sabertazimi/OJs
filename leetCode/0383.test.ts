@@ -10,8 +10,8 @@ import solution from './0383'
  * return true if ransomNote can be constructed from magazine and false otherwise.
  * Each letter in magazine can only be used once in ransomNote.
  */
-describe('LeetCode [0383]', () => {
-  test('should AC', () => {
+describe('leetCode [0383]', () => {
+  it('should AC', () => {
     expect(solution('a', 'b')).toStrictEqual(false)
     expect(solution('aa', 'ab')).toStrictEqual(false)
     expect(solution('aa', 'aab')).toStrictEqual(true)

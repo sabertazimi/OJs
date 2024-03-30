@@ -10,12 +10,12 @@ import { arrayToTree } from './Tree'
  * Given the root of a binary tree,
  * return the sum of all left leaves.
  */
-describe('LeetCode [0404]', () => {
-  test('should AC', () => {
+describe('leetCode [0404]', () => {
+  it('should AC', () => {
     expect(solution(arrayToTree([0]))).toStrictEqual(0)
     expect(solution(arrayToTree([1]))).toStrictEqual(0)
     expect(solution(arrayToTree([3, 9, 20, null, null, 15, 7]))).toStrictEqual(
-      24
+      24,
     )
   })
 })

@@ -10,15 +10,18 @@ import { arrayToTree } from './Tree'
  * Given the root of a binary tree,
  * return the postorder traversal of its nodes' values.
  */
-describe('LeetCode [0145]', () => {
-  test('should AC', () => {
+describe('leetCode [0145]', () => {
+  it('should AC', () => {
     expect(solution(arrayToTree([]))).toStrictEqual([])
     expect(solution(arrayToTree([1]))).toStrictEqual([1])
     expect(solution(arrayToTree([1, 2]))).toStrictEqual([2, 1])
     expect(solution(arrayToTree([1, null, 2]))).toStrictEqual([2, 1])
     expect(solution(arrayToTree([1, null, 2, 3]))).toStrictEqual([3, 2, 1])
     expect(solution(arrayToTree([1, 2, 3, null, 5]))).toStrictEqual([
-      5, 2, 3, 1,
+      5,
+      2,
+      3,
+      1,
     ])
   })
 })

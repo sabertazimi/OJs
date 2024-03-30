@@ -1,7 +1,6 @@
 export default function countAndSay(n: number): string {
-  if (n === 1) {
+  if (n === 1)
     return '1'
-  }
 
   const prevSay = countAndSay(n - 1)
   let curSay = ''

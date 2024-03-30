@@ -5,9 +5,8 @@ export default function longestCommonPrefix(stringArray: string[]): string {
     for (let i = 0; i < stringArray.length; i++) {
       const str = stringArray[i]
 
-      if (str.length <= len || firstString[len] !== str[len]) {
+      if (str.length <= len || firstString[len] !== str[len])
         return str.slice(0, len)
-      }
     }
   }
 

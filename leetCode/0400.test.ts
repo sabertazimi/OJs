@@ -10,8 +10,8 @@ import solution from './0400'
  * return the nth digit of the infinite integer sequence
  * [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, ...].
  */
-describe('LeetCode [0400]', () => {
-  test('should AC', () => {
+describe('leetCode [0400]', () => {
+  it('should AC', () => {
     expect(solution(3)).toStrictEqual(3)
     expect(solution(10)).toStrictEqual(1)
     expect(solution(11)).toStrictEqual(0)

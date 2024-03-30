@@ -7,8 +7,8 @@ import solution from './0554'
  * @description brick-wall
  * @see {@link https://leetcode-cn.com/problems/brick-wall/}
  */
-describe('LeetCode [0554]', () => {
-  test('should AC', () => {
+describe('leetCode [0554]', () => {
+  it('should AC', () => {
     expect(solution([[1], [1], [1]])).toStrictEqual(3)
     expect(
       solution([
@@ -18,7 +18,7 @@ describe('LeetCode [0554]', () => {
         [2, 4],
         [3, 1, 2],
         [1, 3, 1, 1],
-      ])
+      ]),
     ).toStrictEqual(2)
   })
 })

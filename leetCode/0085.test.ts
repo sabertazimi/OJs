@@ -9,8 +9,8 @@ import solution from './0085'
  * Given a rows x cols binary matrix filled with 0's and 1's,
  * find the largest rectangle containing only 1's and return its area.
  */
-describe('LeetCode [0085]', () => {
-  test('should AC', () => {
+describe('leetCode [0085]', () => {
+  it('should AC', () => {
     expect(solution([])).toStrictEqual(0)
     expect(solution([['0']])).toStrictEqual(0)
     expect(solution([['0', '0']])).toStrictEqual(0)
@@ -22,7 +22,7 @@ describe('LeetCode [0085]', () => {
         ['1', '0', '1', '1', '1'],
         ['1', '1', '1', '1', '1'],
         ['1', '0', '0', '1', '0'],
-      ])
+      ]),
     ).toStrictEqual(6)
   })
 })

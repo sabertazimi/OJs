@@ -9,8 +9,8 @@ import solution from './0119'
  * Given an integer rowIndex,
  * return the row Index (0-indexed) row of the Pascal's triangle.
  */
-describe('LeetCode [0119]', () => {
-  test('should AC', () => {
+describe('leetCode [0119]', () => {
+  it('should AC', () => {
     expect(solution(0)).toStrictEqual([1])
     expect(solution(1)).toStrictEqual([1, 1])
     expect(solution(3)).toStrictEqual([1, 3, 3, 1])

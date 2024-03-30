@@ -10,8 +10,8 @@ import solution from './0169'
  * The majority element is the element that appears more than ⌊n / 2⌋ times.
  * You may assume that the majority element always exists in the array.
  */
-describe('LeetCode [0169]', () => {
-  test('should AC', () => {
+describe('leetCode [0169]', () => {
+  it('should AC', () => {
     expect(solution([3, 2, 3])).toStrictEqual(3)
     expect(solution([2, 2, 1, 1, 1, 2, 2])).toStrictEqual(2)
   })

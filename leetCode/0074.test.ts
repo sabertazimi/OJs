@@ -11,8 +11,8 @@ import solution from './0074'
  * Integers in each row are sorted from left to right.
  * The first integer of each row is greater than the last integer of the previous row.
  */
-describe('LeetCode [0074]', () => {
-  test('should AC', () => {
+describe('leetCode [0074]', () => {
+  it('should AC', () => {
     expect(
       solution(
         [
@@ -20,8 +20,8 @@ describe('LeetCode [0074]', () => {
           [10, 11, 16, 20],
           [23, 30, 34, 60],
         ],
-        3
-      )
+        3,
+      ),
     ).toStrictEqual(true)
     expect(
       solution(
@@ -30,8 +30,8 @@ describe('LeetCode [0074]', () => {
           [10, 11, 16, 20],
           [23, 30, 34, 60],
         ],
-        13
-      )
+        13,
+      ),
     ).toStrictEqual(false)
   })
 })

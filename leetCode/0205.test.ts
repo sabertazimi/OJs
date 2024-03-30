@@ -14,8 +14,8 @@ import solution from './0205'
  * No two characters may map to the same character,
  * but a character may map to itself.
  */
-describe('LeetCode [0205]', () => {
-  test('should AC', () => {
+describe('leetCode [0205]', () => {
+  it('should AC', () => {
     expect(solution('a', 'a')).toStrictEqual(true)
     expect(solution('a', 'b')).toStrictEqual(true)
     expect(solution('ab', 'b')).toStrictEqual(false)

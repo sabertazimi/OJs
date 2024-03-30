@@ -15,7 +15,7 @@ export default function largestRectangleArea(heights: number[]): number {
       increaseStack.pop()
       res = Math.max(
         res,
-        heights[top] * (i - increaseStack[increaseStack.length - 1] - 1)
+        heights[top] * (i - increaseStack[increaseStack.length - 1] - 1),
       )
     }
 

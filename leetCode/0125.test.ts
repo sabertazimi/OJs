@@ -9,8 +9,8 @@ import solution from './0125'
  * Given a string s, determine if it is a palindrome,
  * considering only alphanumeric characters and ignoring cases.
  */
-describe('LeetCode [0125]', () => {
-  test('should AC', () => {
+describe('leetCode [0125]', () => {
+  it('should AC', () => {
     expect(solution('0P')).toStrictEqual(false)
     expect(solution('race a car')).toStrictEqual(false)
     expect(solution('A man, a plan, a canal: Panama')).toStrictEqual(true)

@@ -11,8 +11,8 @@ import solution from './0405'
  * All the letters in the answer string should be lowercase characters,
  * and there should not be any leading zeros in the answer except for the zero itself.
  */
-describe('LeetCode [0405]', () => {
-  test('should AC', () => {
+describe('leetCode [0405]', () => {
+  it('should AC', () => {
     expect(solution(0)).toStrictEqual('0')
     expect(solution(26)).toStrictEqual('1a')
     expect(solution(-1)).toStrictEqual('ffffffff')

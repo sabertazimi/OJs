@@ -13,8 +13,8 @@ import solution from './0167'
  * The tests are generated such that there is exactly one solution.
  * You may not use the same element twice.
  */
-describe('LeetCode [0167]', () => {
-  test('should AC', () => {
+describe('leetCode [0167]', () => {
+  it('should AC', () => {
     expect(solution([-1, 0], -1)).toStrictEqual([1, 2])
     expect(solution([2, 4, 6], 11)).toStrictEqual([])
     expect(solution([2, 3, 4], 6)).toStrictEqual([1, 3])

@@ -9,8 +9,8 @@ import solution from './0171'
  * Given a string columnTitle that represents the column title as appear in an Excel sheet,
  * return its corresponding column number.
  */
-describe('LeetCode [0171]', () => {
-  test('should AC', () => {
+describe('leetCode [0171]', () => {
+  it('should AC', () => {
     expect(solution('A')).toStrictEqual(1)
     expect(solution('AB')).toStrictEqual(28)
     expect(solution('ZY')).toStrictEqual(701)

@@ -10,8 +10,8 @@ import solution from './0242'
  * return true if t is an anagram of s,
  * and false otherwise.
  */
-describe('LeetCode [0242]', () => {
-  test('should AC', () => {
+describe('leetCode [0242]', () => {
+  it('should AC', () => {
     expect(solution('rat', 'car')).toStrictEqual(false)
     expect(solution('anagram', 'nagaram')).toStrictEqual(true)
   })

@@ -16,8 +16,8 @@ import solution from './0154'
  * return the minimum element of this array.
  * You must write an algorithm that runs in O(log n) time.
  */
-describe('LeetCode [0153]', () => {
-  test('should AC', () => {
+describe('leetCode [0153]', () => {
+  it('should AC', () => {
     expect(solution([1])).toStrictEqual(1)
     expect(solution([2, 1])).toStrictEqual(1)
     expect(solution([2, 2])).toStrictEqual(2)

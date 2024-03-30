@@ -11,8 +11,8 @@ import { arrayToTree } from './Tree'
  * return the bottom-up level order traversal of its nodes' values.
  * (i.e., from left to right, level by level from leaf to root).
  */
-describe('LeetCode [0107]', () => {
-  test('should AC', () => {
+describe('leetCode [0107]', () => {
+  it('should AC', () => {
     expect(solution(arrayToTree([]))).toStrictEqual([])
     expect(solution(arrayToTree([1]))).toStrictEqual([[1]])
     expect(solution(arrayToTree([3, 9, 20, null, null, 15, 7]))).toStrictEqual([

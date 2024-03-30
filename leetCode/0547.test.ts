@@ -17,28 +17,28 @@ import solution from './0547'
  * and isConnected[i][j] = 0 otherwise.
  * Return the total number of provinces.
  */
-describe('LeetCode [0547]', () => {
-  test('should AC', () => {
+describe('leetCode [0547]', () => {
+  it('should AC', () => {
     expect(
       solution([
         [1, 1, 1],
         [1, 1, 1],
         [1, 1, 1],
-      ])
+      ]),
     ).toStrictEqual(1)
     expect(
       solution([
         [1, 1, 0],
         [1, 1, 0],
         [0, 0, 1],
-      ])
+      ]),
     ).toStrictEqual(2)
     expect(
       solution([
         [1, 0, 0],
         [0, 1, 0],
         [0, 0, 1],
-      ])
+      ]),
     ).toStrictEqual(3)
   })
 })

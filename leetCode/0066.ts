@@ -7,9 +7,8 @@ export default function plusOne(digits: number[]): number[] {
     carry = digits[i] === 0
   }
 
-  if (carry) {
+  if (carry)
     digits.unshift(1)
-  }
 
   return digits
 }

@@ -1,4 +1,4 @@
-const squareNum = (n: number): number => {
+function squareNum(n: number): number {
   let sum = 0
 
   while (n) {
@@ -18,9 +18,8 @@ export default function isHappy(n: number): boolean {
     fast = squareNum(squareNum(fast))
   } while (slow !== fast)
 
-  if (slow === 1) {
+  if (slow === 1)
     return true
-  } else {
+  else
     return false
-  }
 }

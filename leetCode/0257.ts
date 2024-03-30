@@ -1,7 +1,7 @@
 import type { TreeNode } from './Tree'
 
 export default function binaryTreePaths(
-  root: TreeNode<number> | null
+  root: TreeNode<number> | null,
 ): string[] {
   const paths: string[] = []
 
@@ -11,18 +11,15 @@ export default function binaryTreePaths(
       return
     }
 
-    if (root.left) {
+    if (root.left)
       dfs(root.left, `${path}->${root.left.val.toString()}`)
-    }
 
-    if (root.right) {
+    if (root.right)
       dfs(root.right, `${path}->${root.right.val.toString()}`)
-    }
   }
 
-  if (root === null) {
+  if (root === null)
     return paths
-  }
 
   dfs(root, root.val.toString())
   return paths

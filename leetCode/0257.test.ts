@@ -11,8 +11,8 @@ import { arrayToTree } from './Tree'
  * return all root-to-leaf paths in any order.
  * A leaf is a node with no children.
  */
-describe('LeetCode [0257]', () => {
-  test('should AC', () => {
+describe('leetCode [0257]', () => {
+  it('should AC', () => {
     expect(solution(arrayToTree([]))).toStrictEqual([])
     expect(solution(arrayToTree([1]))).toStrictEqual(['1'])
     expect(solution(arrayToTree([1, 2, 3, null, 5]))).toStrictEqual([

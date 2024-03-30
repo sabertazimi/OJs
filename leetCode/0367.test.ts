@@ -10,8 +10,8 @@ import solution from './0367'
  * write a function which returns True if num is a perfect square else False.
  * Follow up: Do not use any built-in library function such as sqrt.
  */
-describe('LeetCode [0367]', () => {
-  test('should AC', () => {
+describe('leetCode [0367]', () => {
+  it('should AC', () => {
     expect(solution(14)).toStrictEqual(false)
     expect(solution(16)).toStrictEqual(true)
   })

@@ -15,8 +15,8 @@ import solution from './0475'
  * return the minimum radius standard of heaters so that those heaters could cover all houses.
  * Notice that all the heaters follow your radius standard, and the warm radius will the same.
  */
-describe('LeetCode [0475]', () => {
-  test('should AC', () => {
+describe('leetCode [0475]', () => {
+  it('should AC', () => {
     expect(solution([1, 5], [2])).toStrictEqual(3)
     expect(solution([1, 2, 3], [2])).toStrictEqual(1)
     expect(solution([1, 2, 3, 4], [1, 4])).toStrictEqual(1)

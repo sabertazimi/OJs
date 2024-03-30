@@ -10,8 +10,8 @@ import solution from './0123'
  * Find the maximum profit you can achieve.
  * You may complete at most two transactions.
  */
-describe('LeetCode [0123]', () => {
-  test('should AC', () => {
+describe('leetCode [0123]', () => {
+  it('should AC', () => {
     expect(solution([1])).toStrictEqual(0)
     expect(solution([7, 6, 4, 3, 1])).toStrictEqual(0)
     expect(solution([1, 2, 3, 4, 5])).toStrictEqual(4)

@@ -10,8 +10,8 @@ import solution from './0401'
  * and the 6 LED on the bottom represent the minutes (0-59). Each LED represents a zero or one,
  * with the least significant bit on the right.
  */
-describe('LeetCode [0401]', () => {
-  test('should AC', () => {
+describe('leetCode [0401]', () => {
+  it('should AC', () => {
     expect(solution(0)).toStrictEqual(['0:00'])
     expect(solution(9)).toStrictEqual([])
     expect(solution(1)).toStrictEqual([

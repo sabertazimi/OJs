@@ -9,8 +9,8 @@ import solution from './0014'
  * Write a function to find the longest common prefix string amongst an array of strings.
  * If there is no common prefix, return an empty string "".
  */
-describe('LeetCode [0014]', () => {
-  test('should AC', () => {
+describe('leetCode [0014]', () => {
+  it('should AC', () => {
     expect(solution([])).toStrictEqual('')
     expect(solution(['flower', 'flow', 'flight'])).toStrictEqual('fl')
     expect(solution(['dog', 'raceCar', 'car'])).toStrictEqual('')

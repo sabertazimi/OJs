@@ -12,11 +12,11 @@ import { arrayToTree } from './Tree'
  * and postorder is the postorder traversal of the same tree,
  * construct and return the binary tree.
  */
-describe('LeetCode [0106]', () => {
-  test('should AC', () => {
+describe('leetCode [0106]', () => {
+  it('should AC', () => {
     expect(solution([-1], [-1])).toStrictEqual(arrayToTree([-1]))
     expect(solution([9, 3, 15, 20, 7], [9, 15, 7, 20, 3])).toStrictEqual(
-      arrayToTree([3, 9, 20, null, null, 15, 7])
+      arrayToTree([3, 9, 20, null, null, 15, 7]),
     )
   })
 })

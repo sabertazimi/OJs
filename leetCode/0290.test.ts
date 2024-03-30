@@ -11,8 +11,8 @@ import solution from './0290'
  * Here follow means a full match,
  * such that there is a bijection between a letter in pattern and a non-empty word in s.
  */
-describe('LeetCode [0290]', () => {
-  test('should AC', () => {
+describe('leetCode [0290]', () => {
+  it('should AC', () => {
     expect(solution('aaaa', 'dog dog dog')).toStrictEqual(false)
     expect(solution('aaaa', 'dog cat cat dog')).toStrictEqual(false)
     expect(solution('abba', 'dog dog dog dog')).toStrictEqual(false)

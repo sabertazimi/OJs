@@ -10,8 +10,8 @@ import solution from './0415'
  * num1 and num2 represented as string,
  * return the sum of num1 and num2 as a string.
  */
-describe('LeetCode [0415]', () => {
-  test('should AC', () => {
+describe('leetCode [0415]', () => {
+  it('should AC', () => {
     expect(solution('0', '0')).toStrictEqual('0')
     expect(solution('11', '123')).toStrictEqual('134')
     expect(solution('99', '99')).toStrictEqual('198')

@@ -2,7 +2,7 @@ export default function merge(
   nums1: number[],
   m: number,
   nums2: number[],
-  n: number
+  n: number,
 ): number[] {
   const sortedNums = nums1
     .slice(0, m)

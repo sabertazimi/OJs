@@ -6,11 +6,15 @@ export default function twoSum(numbers: number[], target: number): number[] {
 
   while (lo < hi) {
     const mid = lo + ((hi - lo) >> 1)
-    if (numbers[lo] + numbers[mid] > target) hi = mid - 1
-    else if (numbers[hi] + numbers[mid] < target) lo = mid + 1
-    else if (numbers[lo] + numbers[hi] < target) lo++
-    else if (numbers[lo] + numbers[hi] > target) hi--
-    else {
+    if (numbers[lo] + numbers[mid] > target) {
+      hi = mid - 1
+    } else if (numbers[hi] + numbers[mid] < target) {
+      lo = mid + 1
+    } else if (numbers[lo] + numbers[hi] < target) {
+      lo++
+    } else if (numbers[lo] + numbers[hi] > target) {
+      hi--
+    } else {
       res.push(lo + 1, hi + 1)
       break
     }

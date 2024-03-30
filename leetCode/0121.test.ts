@@ -13,8 +13,8 @@ import solution from './0121'
  * Return the maximum profit you can achieve from this transaction.
  * If you cannot achieve any profit, return 0.
  */
-describe('LeetCode [0121]', () => {
-  test('should AC', () => {
+describe('leetCode [0121]', () => {
+  it('should AC', () => {
     expect(solution([1])).toStrictEqual(0)
     expect(solution([7, 6, 4, 3, 1])).toStrictEqual(0)
     expect(solution([7, 1, 5, 3, 6, 4])).toStrictEqual(5)

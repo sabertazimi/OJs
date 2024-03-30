@@ -5,7 +5,8 @@ export default function findCircleNum(isConnected: number[][]): number {
     visited[i] = true
 
     for (let j = 0; j < n; j++) {
-      if (visited[j] === false && isConnected[i][j]) dfs(j)
+      if (visited[j] === false && isConnected[i][j])
+        dfs(j)
     }
   }
 
