@@ -1,5 +1,5 @@
 export default function generateMatrix(n: number): number[][] {
-  const solution = Array.from(Array(n), () => Array(n))
+  const solution = Array.from(Array(n), () => Array.from<number>({ length: n }))
 
   for (let i = 0, k = 1; k <= n * n; i++) {
     // 1. left to right

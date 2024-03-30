@@ -10,8 +10,8 @@ import solution from './0387'
  * find the first non-repeating character in it and return its index.
  * If it does not exist, return -1.
  */
-describe('LeetCode [0387]', () => {
-  test('should AC', () => {
+describe('leetCode [0387]', () => {
+  it('should AC', () => {
     expect(solution('aabb')).toStrictEqual(-1)
     expect(solution('leetcode')).toStrictEqual(0)
     expect(solution('LoveLeetcode')).toStrictEqual(2)

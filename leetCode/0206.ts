@@ -1,9 +1,10 @@
 import type { ListNode } from './List'
 
 export default function reverseList(
-  head: ListNode<number> | null
+  head: ListNode<number> | null,
 ): ListNode<number> | null {
-  if (head === null || head.next === null) return head
+  if (head === null || head.next === null)
+    return head
 
   let prev: ListNode<number> | null = null
   let current: ListNode<number> | null = head

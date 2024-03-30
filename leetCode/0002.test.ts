@@ -14,26 +14,26 @@ import { arrayToList } from './List'
  * You may assume the two numbers do not contain any leading zero,
  * except the number 0 itself.
  */
-describe('LeetCode [0002]', () => {
-  test('should AC', () => {
+describe('leetCode [0002]', () => {
+  it('should AC', () => {
     expect(solution(arrayToList([]), arrayToList([]))).toStrictEqual(null)
     expect(solution(arrayToList([0]), arrayToList([0]))).toStrictEqual(
-      arrayToList([0])
+      arrayToList([0]),
     )
     expect(solution(arrayToList([1, 2]), arrayToList([]))).toStrictEqual(
-      arrayToList([1, 2])
+      arrayToList([1, 2]),
     )
     expect(solution(arrayToList([]), arrayToList([2, 3]))).toStrictEqual(
-      arrayToList([2, 3])
+      arrayToList([2, 3]),
     )
     expect(
-      solution(arrayToList([2, 4, 3]), arrayToList([5, 6, 4]))
+      solution(arrayToList([2, 4, 3]), arrayToList([5, 6, 4])),
     ).toStrictEqual(arrayToList([7, 0, 8]))
     expect(
-      solution(arrayToList([9, 9, 9, 9, 9, 9, 9]), arrayToList([9, 9, 9, 9]))
+      solution(arrayToList([9, 9, 9, 9, 9, 9, 9]), arrayToList([9, 9, 9, 9])),
     ).toStrictEqual(arrayToList([8, 9, 9, 9, 0, 0, 0, 1]))
     expect(
-      solution(arrayToList([9, 9, 9, 9]), arrayToList([9, 9, 9, 9, 9, 9, 9]))
+      solution(arrayToList([9, 9, 9, 9]), arrayToList([9, 9, 9, 9, 9, 9, 9])),
     ).toStrictEqual(arrayToList([8, 9, 9, 9, 0, 0, 0, 1]))
   })
 })

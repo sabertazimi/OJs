@@ -18,12 +18,17 @@ import solution from './0088'
  * and the last n elements are set to 0 and should be ignored.
  * nums2 has a length of n.
  */
-describe('LeetCode [0088]', () => {
-  test('should AC', () => {
+describe('leetCode [0088]', () => {
+  it('should AC', () => {
     expect(solution([1], 1, [], 0)).toStrictEqual([1])
     expect(solution([0], 0, [1], 1)).toStrictEqual([1])
     expect(solution([1, 2, 3, 0, 0, 0], 3, [2, 5, 6], 3)).toStrictEqual([
-      1, 2, 2, 3, 5, 6,
+      1,
+      2,
+      2,
+      3,
+      5,
+      6,
     ])
   })
 })

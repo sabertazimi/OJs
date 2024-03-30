@@ -13,8 +13,8 @@ import solution from './0438'
  * by rearranging the letters of a different word or phrase,
  * typically using all the original letters exactly once.
  */
-describe('LeetCode [0438]', () => {
-  test('should AC', () => {
+describe('leetCode [0438]', () => {
+  it('should AC', () => {
     expect(solution('abab', 'ab')).toStrictEqual([0, 1, 2])
     expect(solution('abab', 'abb')).toStrictEqual([1])
     expect(solution('cbaebabacd', 'abc')).toStrictEqual([0, 6])

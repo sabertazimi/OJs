@@ -1,6 +1,6 @@
 export default function findRadius(
   houses: number[],
-  heaters: number[]
+  heaters: number[],
 ): number {
   let radius = 0
   let index = 0
@@ -10,11 +10,10 @@ export default function findRadius(
 
   for (const house of houses) {
     while (
-      index + 1 < heaters.length &&
-      Math.abs(heaters[index + 1] - house) <= Math.abs(heaters[index] - house)
-    ) {
+      index + 1 < heaters.length
+      && Math.abs(heaters[index + 1] - house) <= Math.abs(heaters[index] - house)
+    )
       index++
-    }
 
     radius = Math.max(radius, Math.abs(heaters[index] - house))
   }

@@ -1,10 +1,7 @@
 import type { ListNode } from './List'
 import { TreeNode } from './Tree'
 
-const getMiddle = (
-  left: ListNode<number>,
-  right: ListNode<number> | null
-): ListNode<number> => {
+function getMiddle(left: ListNode<number>, right: ListNode<number> | null): ListNode<number> {
   let slow = left
   let fast = left
 
@@ -17,11 +14,9 @@ const getMiddle = (
   return slow
 }
 
-const listToBST = (
-  left: ListNode<number>,
-  right: ListNode<number> | null
-): TreeNode<number> | null => {
-  if (left === right) return null
+function listToBST(left: ListNode<number>, right: ListNode<number> | null): TreeNode<number> | null {
+  if (left === right)
+    return null
   const middle = getMiddle(left, right)
   const node = new TreeNode(middle.val)
   node.left = listToBST(left, middle)
@@ -30,8 +25,9 @@ const listToBST = (
 }
 
 export default function sortedListToBST(
-  head: ListNode<number> | null
+  head: ListNode<number> | null,
 ): TreeNode<number> | null {
-  if (head === null) return null
+  if (head === null)
+    return null
   return listToBST(head, null)
 }

@@ -2,19 +2,16 @@ import { ListNode } from './List'
 
 export default function addTwoNumbers(
   l1: ListNode<number> | null,
-  l2: ListNode<number> | null
+  l2: ListNode<number> | null,
 ): ListNode<number> | null {
-  if (l1 === null && l2 === null) {
+  if (l1 === null && l2 === null)
     return null
-  }
 
-  if (l1 === null) {
+  if (l1 === null)
     return l2
-  }
 
-  if (l2 === null) {
+  if (l2 === null)
     return l1
-  }
 
   let c1: ListNode<number> | null = l1
   let c2: ListNode<number> | null = l2
@@ -40,7 +37,8 @@ export default function addTwoNumbers(
   }
 
   // Note that can have carry at the last digit
-  if (sum === 1) tail.next = new ListNode(1)
+  if (sum === 1)
+    tail.next = new ListNode(1)
 
   return head.next
 }

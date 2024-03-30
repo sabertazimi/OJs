@@ -11,11 +11,13 @@ export default function nextGreaterElement(n: number): number {
       left = i
       right = stack.pop() as number
     }
-    if (exist) break
+    if (exist)
+      break
     stack.push(i)
   }
 
-  if (exist === false) return -1
+  if (exist === false)
+    return -1
 
   // 158476531 => 158576431
   const digit = digits[left]
@@ -28,7 +30,7 @@ export default function nextGreaterElement(n: number): number {
       .slice(0, left + 1)
       .concat(digits.slice(left + 1).reverse())
       .join(''),
-    10
+    10,
   )
   return result > 2 ** 31 - 1 ? -1 : result
 }

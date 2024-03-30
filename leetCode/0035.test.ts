@@ -11,8 +11,8 @@ import solution from './0035'
  * If not, return the index where it would be if it were inserted in order.
  * You must write an algorithm with O(log n) runtime complexity.
  */
-describe('LeetCode [0035]', () => {
-  test('should AC', () => {
+describe('leetCode [0035]', () => {
+  it('should AC', () => {
     expect(solution([1], 0)).toStrictEqual(0)
     expect(solution([1], 1)).toStrictEqual(0)
     expect(solution([1], 2)).toStrictEqual(1)

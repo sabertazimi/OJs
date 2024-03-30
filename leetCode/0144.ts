@@ -2,16 +2,16 @@ import type { TreeNode } from './Tree'
 import { traversal } from './Tree'
 
 export default function preorderTraversal(
-  root: TreeNode<number> | null
+  root: TreeNode<number> | null,
 ): number[] {
   const res: number[] = []
 
   traversal(
     root,
-    node => {
+    (node) => {
       res.push(node)
     },
-    'pre'
+    'pre',
   )
 
   return res

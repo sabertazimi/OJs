@@ -8,8 +8,8 @@ import solution from './0012'
  * @see {@link https://leetcode-cn.com/problems/integer-to-roman/}
  * Roman numerals are represented by seven different symbols: I, V, X, L, C, D and M.
  */
-describe('LeetCode [0012]', () => {
-  test('should AC', () => {
+describe('leetCode [0012]', () => {
+  it('should AC', () => {
     expect(solution(1)).toStrictEqual('I')
     expect(solution(2)).toStrictEqual('II')
     expect(solution(3)).toStrictEqual('III')

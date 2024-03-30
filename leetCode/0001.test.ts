@@ -12,8 +12,8 @@ import solution from './0001'
  * and you may not use the same element twice.
  * You can return the answer in any order.
  */
-describe('LeetCode [0001]', () => {
-  test('should AC', () => {
+describe('leetCode [0001]', () => {
+  it('should AC', () => {
     expect(solution([], 0)).toStrictEqual([])
     expect(solution([2, 7], 2)).toStrictEqual([])
     expect(solution([3, 3], 6)).toStrictEqual([0, 1])

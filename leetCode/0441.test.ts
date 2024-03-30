@@ -11,8 +11,8 @@ import solution from './0441'
  * The last row of the staircase may be incomplete.
  * Given the integer n, return the number of complete rows of the staircase you will build.
  */
-describe('LeetCode [0441]', () => {
-  test('should AC', () => {
+describe('leetCode [0441]', () => {
+  it('should AC', () => {
     expect(solution(5)).toStrictEqual(2)
     expect(solution(8)).toStrictEqual(3)
   })

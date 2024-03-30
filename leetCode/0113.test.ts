@@ -11,8 +11,8 @@ import { arrayToTree } from './Tree'
  * return true if the tree has a root-to-leaf path
  * such that adding up all the values along the path equals targetSum.
  */
-describe('LeetCode [0113]', () => {
-  test('should AC', () => {
+describe('leetCode [0113]', () => {
+  it('should AC', () => {
     expect(solution(arrayToTree([]), 20)).toStrictEqual([])
     expect(solution(arrayToTree([1]), 1)).toStrictEqual([[1]])
     expect(solution(arrayToTree([1, 2]), 0)).toStrictEqual([])
@@ -21,8 +21,8 @@ describe('LeetCode [0113]', () => {
     expect(
       solution(
         arrayToTree([5, 4, 8, 11, null, 13, 4, 7, 2, null, null, 5, 1]),
-        22
-      )
+        22,
+      ),
     ).toStrictEqual([
       [5, 4, 11, 2],
       [5, 8, 4, 5],

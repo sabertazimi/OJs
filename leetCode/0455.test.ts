@@ -15,8 +15,8 @@ import solution from './0455'
  * and the child i will be content.
  * Your goal is to maximize the number of your content children and output the maximum number.
  */
-describe('LeetCode [0455]', () => {
-  test('should AC', () => {
+describe('leetCode [0455]', () => {
+  it('should AC', () => {
     expect(solution([1, 2, 3], [1, 1])).toStrictEqual(1)
     expect(solution([1, 2], [1, 2, 3])).toStrictEqual(2)
   })

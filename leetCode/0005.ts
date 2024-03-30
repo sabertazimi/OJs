@@ -2,12 +2,11 @@ export default function longestPalindrome(s: string): string {
   const n = s.length
   let longestBegin = 0
   let maxLen = 1
-  const dp = Array.from(Array(1000), () => Array(1000))
+  const dp = Array.from(Array(1000), () => Array.from<boolean>({ length: 1000 }).fill(false))
 
   // Single character is palindrome
-  for (let i = 0; i < n; i++) {
+  for (let i = 0; i < n; i++)
     dp[i][i] = true
-  }
 
   // Two repeat characters is palindrome
   for (let i = 0; i < n - 1; i++) {

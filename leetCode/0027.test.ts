@@ -18,8 +18,8 @@ import solution from './0027'
  * Do not allocate extra space for another array.
  * You must do this by modifying the input array in-place with O(1) extra memory.
  */
-describe('LeetCode [0027]', () => {
-  test('should AC', () => {
+describe('leetCode [0027]', () => {
+  it('should AC', () => {
     expect(solution([3, 2, 2, 3], 3)).toStrictEqual(2)
     expect(solution([0, 1, 2, 2, 3, 0, 4, 2], 2)).toStrictEqual(5)
   })

@@ -13,8 +13,8 @@ import solution from './0066'
  * You may assume the integer does not contain any leading zero,
  * except the number 0 itself.
  */
-describe('LeetCode [0066]', () => {
-  test('should AC', () => {
+describe('leetCode [0066]', () => {
+  it('should AC', () => {
     expect(solution([0])).toStrictEqual([1])
     expect(solution([1, 2, 3])).toStrictEqual([1, 2, 4])
     expect(solution([4, 3, 2, 1])).toStrictEqual([4, 3, 2, 2])

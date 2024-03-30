@@ -9,8 +9,8 @@ import solution from './0344'
  * Write a function that reverses a string.
  * The input string is given as an array of characters s.
  */
-describe('LeetCode [0344]', () => {
-  test('should AC', () => {
+describe('leetCode [0344]', () => {
+  it('should AC', () => {
     expect(solution(['h', 'e', 'l', 'l', 'o'])).toStrictEqual([
       'o',
       'l',

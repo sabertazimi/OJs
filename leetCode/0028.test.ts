@@ -9,8 +9,8 @@ import solution from './0028'
  * Return the index of the first occurrence of needle in haystack,
  * or -1 if needle is not part of haystack.
  */
-describe('LeetCode [0028]', () => {
-  test('should AC', () => {
+describe('leetCode [0028]', () => {
+  it('should AC', () => {
     expect(solution('', '')).toStrictEqual(0)
     expect(solution('aaaaa', 'bba')).toStrictEqual(-1)
     expect(solution('hello', 'll')).toStrictEqual(2)

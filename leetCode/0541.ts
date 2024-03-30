@@ -1,5 +1,6 @@
 export default function reverseStr(s: string, k: number): string {
-  if (k > s.length) return s.split('').reverse().join('')
+  if (k > s.length)
+    return s.split('').reverse().join('')
 
   const result = s.split('')
 

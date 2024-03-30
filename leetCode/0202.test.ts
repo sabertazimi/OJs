@@ -13,8 +13,8 @@ import solution from './0202'
  * or it loops endlessly in a cycle which does not include 1.
  * Those numbers for which this process ends in 1 are happy.
  */
-describe('LeetCode [0202]', () => {
-  test('should AC', () => {
+describe('leetCode [0202]', () => {
+  it('should AC', () => {
     expect(solution(1)).toStrictEqual(true)
     expect(solution(2)).toStrictEqual(false)
     expect(solution(19)).toStrictEqual(true)

@@ -13,22 +13,22 @@ import solution from './0447'
  * the distance between i and k (the order of the tuple matters).
  * Return the number of boomerangs.
  */
-describe('LeetCode [0447]', () => {
-  test('should AC', () => {
+describe('leetCode [0447]', () => {
+  it('should AC', () => {
     expect(solution([[1, 1]])).toStrictEqual(0)
     expect(
       solution([
         [0, 0],
         [1, 0],
         [2, 0],
-      ])
+      ]),
     ).toStrictEqual(2)
     expect(
       solution([
         [1, 1],
         [2, 2],
         [3, 3],
-      ])
+      ]),
     ).toStrictEqual(2)
     expect(
       solution([
@@ -37,7 +37,7 @@ describe('LeetCode [0447]', () => {
         [-1, 0],
         [0, 1],
         [0, -1],
-      ])
+      ]),
     ).toStrictEqual(20)
   })
 })

@@ -8,19 +8,19 @@ import { arrayToTree } from './Tree'
  * @description same-tree
  * @see {@link https://leetcode-cn.com/problems/same-tree/}
  */
-describe('LeetCode [0100]', () => {
-  test('should AC', () => {
+describe('leetCode [0100]', () => {
+  it('should AC', () => {
     expect(
-      solution(arrayToTree([1, 2]), arrayToTree([1, null, 2]))
+      solution(arrayToTree([1, 2]), arrayToTree([1, null, 2])),
     ).toStrictEqual(false)
     expect(
-      solution(arrayToTree([1, null, 2]), arrayToTree([1, 2]))
+      solution(arrayToTree([1, null, 2]), arrayToTree([1, 2])),
     ).toStrictEqual(false)
     expect(
-      solution(arrayToTree([1, 2, 1]), arrayToTree([1, 1, 2]))
+      solution(arrayToTree([1, 2, 1]), arrayToTree([1, 1, 2])),
     ).toStrictEqual(false)
     expect(
-      solution(arrayToTree([1, 2, 3]), arrayToTree([1, 2, 3]))
+      solution(arrayToTree([1, 2, 3]), arrayToTree([1, 2, 3])),
     ).toStrictEqual(true)
   })
 })

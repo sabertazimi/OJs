@@ -9,8 +9,8 @@ import solution from './0059'
  * Given a positive integer n,
  * generate an n x n matrix filled with elements from 1 to n2 in spiral order.
  */
-describe('LeetCode [0059]', () => {
-  test('should AC', () => {
+describe('leetCode [0059]', () => {
+  it('should AC', () => {
     expect(solution(1)).toStrictEqual([[1]])
     expect(solution(3)).toStrictEqual([
       [1, 2, 3],

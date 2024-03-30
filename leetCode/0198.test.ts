@@ -15,8 +15,8 @@ import solution from './0198'
  * Given an integer array nums representing the amount of money of each house,
  * return the maximum amount of money you can rob tonight without alerting the police.
  */
-describe('LeetCode [0198]', () => {
-  test('should AC', () => {
+describe('leetCode [0198]', () => {
+  it('should AC', () => {
     expect(solution([1])).toStrictEqual(1)
     expect(solution([3])).toStrictEqual(3)
     expect(solution([1, 2, 3, 1])).toStrictEqual(4)

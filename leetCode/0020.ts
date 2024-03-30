@@ -1,7 +1,6 @@
 export default function isValid(s: string): boolean {
-  if (s.length % 2 === 1) {
+  if (s.length % 2 === 1)
     return false
-  }
 
   const pairs = new Map([
     [')', '('],
@@ -15,9 +14,8 @@ export default function isValid(s: string): boolean {
     const ch = s[i]
 
     if (pairs.has(ch)) {
-      if (tokens.length === 0 || tokens[tokens.length - 1] !== pairs.get(ch)) {
+      if (tokens.length === 0 || tokens[tokens.length - 1] !== pairs.get(ch))
         return false
-      }
 
       tokens.pop()
     } else {

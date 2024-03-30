@@ -11,8 +11,8 @@ import solution from './0122'
  * You may complete as many transactions as you like
  * (i.e., buy one and sell one share of the stock multiple times).
  */
-describe('LeetCode [0122]', () => {
-  test('should AC', () => {
+describe('leetCode [0122]', () => {
+  it('should AC', () => {
     expect(solution([1, 2, 3, 4, 5])).toStrictEqual(4)
     expect(solution([7, 6, 4, 3, 1])).toStrictEqual(0)
     expect(solution([7, 1, 5, 3, 6, 4])).toStrictEqual(7)

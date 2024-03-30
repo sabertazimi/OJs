@@ -10,8 +10,8 @@ import solution from './0118'
  * In Pascal's triangle,
  * each number is the sum of the two numbers directly above it as shown:
  */
-describe('LeetCode [0118]', () => {
-  test('should AC', () => {
+describe('leetCode [0118]', () => {
+  it('should AC', () => {
     expect(solution(1)).toStrictEqual([[1]])
     expect(solution(5)).toStrictEqual([
       [1],

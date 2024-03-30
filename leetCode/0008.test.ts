@@ -8,8 +8,8 @@ import solution from './0008'
  * @see {@link https://leetcode-cn.com/problems/string-to-integer-atoi/}
  * Implement the myAtoi(string s) function, which converts a string to a 32-bit signed integer.
  */
-describe('LeetCode [0008]', () => {
-  test('should AC', () => {
+describe('leetCode [0008]', () => {
+  it('should AC', () => {
     expect(solution('42')).toStrictEqual(42)
     expect(solution('-42')).toStrictEqual(-42)
     expect(solution('4193 with words')).toStrictEqual(4193)

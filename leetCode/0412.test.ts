@@ -12,8 +12,8 @@ import solution from './0412'
  * answer[i] == "Buzz" if i is divisible by 5.
  * answer[i] == i if non of the above conditions are true.
  */
-describe('LeetCode [0412]', () => {
-  test('should AC', () => {
+describe('leetCode [0412]', () => {
+  it('should AC', () => {
     expect(solution(3)).toStrictEqual(['1', '2', 'Fizz'])
     expect(solution(5)).toStrictEqual(['1', '2', 'Fizz', '4', 'Buzz'])
     expect(solution(15)).toStrictEqual([

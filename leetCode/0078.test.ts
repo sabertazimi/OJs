@@ -11,8 +11,8 @@ import solution from './0078'
  * The solution set must not contain duplicate subsets.
  * Return the solution in any order.
  */
-describe('LeetCode [0078]', () => {
-  test('should AC', () => {
+describe('leetCode [0078]', () => {
+  it('should AC', () => {
     expect(solution([0])).toStrictEqual([[0], []])
     expect(solution([1, 2, 3])).toStrictEqual([
       [1, 2, 3],

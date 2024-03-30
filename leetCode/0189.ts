@@ -1,5 +1,6 @@
 export default function rotate(nums: number[], k: number): number[] {
-  if (nums.length < 2 || k === 0) return nums
+  if (nums.length < 2 || k === 0)
+    return nums
   const rotate = k % nums.length
   const rotatedNums = [
     ...nums.slice(nums.length - rotate),

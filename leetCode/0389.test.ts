@@ -11,8 +11,8 @@ import solution from './0389'
  * and then add one more letter at a random position.
  * Return the letter that was added to t.
  */
-describe('LeetCode [0389]', () => {
-  test('should AC', () => {
+describe('leetCode [0389]', () => {
+  it('should AC', () => {
     expect(solution('', 'y')).toStrictEqual('y')
     expect(solution('a', 'aa')).toStrictEqual('a')
     expect(solution('ae', 'aea')).toStrictEqual('a')

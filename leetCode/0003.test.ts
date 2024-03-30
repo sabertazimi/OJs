@@ -9,8 +9,8 @@ import solution from './0003'
  * Given a string `s`,
  * find the length of the longest substring without repeating characters.
  */
-describe('LeetCode [0003]', () => {
-  test('should AC', () => {
+describe('leetCode [0003]', () => {
+  it('should AC', () => {
     expect(solution('')).toStrictEqual(0)
     expect(solution('bbbbb')).toStrictEqual(1)
     expect(solution('abcabcbb')).toStrictEqual(3)

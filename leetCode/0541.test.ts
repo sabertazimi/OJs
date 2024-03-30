@@ -12,8 +12,8 @@ import solution from './0541'
  * If there are less than 2k but greater than or equal to k characters,
  * then reverse the first k characters and left the other as original.
  */
-describe('LeetCode [0541]', () => {
-  test('should AC', () => {
+describe('leetCode [0541]', () => {
+  it('should AC', () => {
     expect(solution('a', 2)).toStrictEqual('a')
     expect(solution('abcd', 2)).toStrictEqual('bacd')
     expect(solution('abcdefg', 2)).toStrictEqual('bacdfeg')
@@ -21,10 +21,10 @@ describe('LeetCode [0541]', () => {
     expect(
       solution(
         'hyzqyljrnigxvdtneasepfahmtyhlohwxmkqcdfehybknvdmfrfvtbsovjbdhevlfxpdaovjgunjqlimjkfnqcqnajmebeddqsgl',
-        39
-      )
+        39,
+      ),
     ).toStrictEqual(
-      'fdcqkmxwholhytmhafpesaentdvxginrjlyqzyhehybknvdmfrfvtbsovjbdhevlfxpdaovjgunjqllgsqddebemjanqcqnfkjmi'
+      'fdcqkmxwholhytmhafpesaentdvxginrjlyqzyhehybknvdmfrfvtbsovjbdhevlfxpdaovjgunjqllgsqddebemjanqcqnfkjmi',
     )
   })
 })

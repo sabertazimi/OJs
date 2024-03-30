@@ -17,8 +17,8 @@ import solution from './0463'
  * The grid is rectangular, width and height don't exceed 100.
  * Determine the perimeter of the island.
  */
-describe('LeetCode [0463]', () => {
-  test('should AC', () => {
+describe('leetCode [0463]', () => {
+  it('should AC', () => {
     expect(solution([[1]])).toStrictEqual(4)
     expect(solution([[1, 0]])).toStrictEqual(4)
     expect(
@@ -27,7 +27,7 @@ describe('LeetCode [0463]', () => {
         [1, 1, 1, 0],
         [0, 1, 0, 0],
         [1, 1, 0, 0],
-      ])
+      ]),
     ).toStrictEqual(16)
   })
 })

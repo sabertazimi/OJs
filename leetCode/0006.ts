@@ -1,5 +1,6 @@
 export default function convert(s: string, numRows: number): string {
-  if (numRows === 1) return s
+  if (numRows === 1)
+    return s
 
   const n = s.length
   const cycleLen = 2 * numRows - 2
@@ -11,9 +12,8 @@ export default function convert(s: string, numRows: number): string {
   for (let i = 0; i < numRows; i++) {
     for (let j = 0; j + i < n; j += cycleLen) {
       ret += s[j + i]
-      if (i !== 0 && i !== numRows - 1 && j + cycleLen - i < n) {
+      if (i !== 0 && i !== numRows - 1 && j + cycleLen - i < n)
         ret += s[j + cycleLen - i]
-      }
     }
   }
 

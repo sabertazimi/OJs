@@ -9,8 +9,8 @@ import solution from './0459'
  * Given a string s, check if it can be constructed by
  * taking a substring of it and appending multiple copies of the substring together.
  */
-describe('LeetCode [0459]', () => {
-  test('should AC', () => {
+describe('leetCode [0459]', () => {
+  it('should AC', () => {
     expect(solution('a')).toStrictEqual(false)
     expect(solution('ab')).toStrictEqual(false)
     expect(solution('aa')).toStrictEqual(true)

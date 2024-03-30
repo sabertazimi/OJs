@@ -11,22 +11,22 @@ import { arrayToList } from './List'
  * return the node at which the two lists intersect.
  * If the two linked lists have no intersection at all, return null.
  */
-describe('LeetCode [0160]', () => {
-  test('should AC', () => {
+describe('leetCode [0160]', () => {
+  it('should AC', () => {
     expect(solution(arrayToList([]), arrayToList([]))).toStrictEqual(
-      arrayToList([])
+      arrayToList([]),
     )
     expect(solution(arrayToList([]), arrayToList([1]))).toStrictEqual(
-      arrayToList([])
+      arrayToList([]),
     )
     expect(solution(arrayToList([1]), arrayToList([]))).toStrictEqual(
-      arrayToList([])
+      arrayToList([]),
     )
     expect(solution(arrayToList([1]), arrayToList([2]))).toStrictEqual(
-      arrayToList([])
+      arrayToList([]),
     )
     expect(solution(arrayToList([2, 6, 4]), arrayToList([1, 5]))).toStrictEqual(
-      arrayToList([])
+      arrayToList([]),
     )
 
     const list = arrayToList([1])
@@ -34,12 +34,14 @@ describe('LeetCode [0160]', () => {
 
     const list1 = arrayToList([1, 9, 1, 2, 4])
     const list2 = arrayToList([3])
-    if (list1?.next?.next && list2) list2.next = list1.next.next.next
+    if (list1?.next?.next && list2)
+      list2.next = list1.next.next.next
     expect(solution(list1, list2)).toStrictEqual(arrayToList([2, 4]))
 
     const list3 = arrayToList([4, 1, 8, 4, 5])
     const list4 = arrayToList([5, 6, 1])
-    if (list3?.next && list4?.next?.next) list4.next.next.next = list3.next.next
+    if (list3?.next && list4?.next?.next)
+      list4.next.next.next = list3.next.next
     expect(solution(list3, list4)).toStrictEqual(arrayToList([8, 4, 5]))
   })
 })

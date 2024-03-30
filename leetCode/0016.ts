@@ -2,7 +2,7 @@ import { MAX_INT } from './utils'
 
 export default function threeSumClosest(
   nums: number[],
-  target: number
+  target: number,
 ): number {
   let solution = 0
   let distance = MAX_INT
@@ -16,9 +16,8 @@ export default function threeSumClosest(
     while (j < k) {
       const curSum = nums[i] + nums[j] + nums[k]
 
-      if (curSum === target) {
+      if (curSum === target)
         return curSum
-      }
 
       const curDistance = Math.abs(target - curSum)
 
@@ -27,11 +26,10 @@ export default function threeSumClosest(
         solution = curSum
       }
 
-      if (curSum < target) {
+      if (curSum < target)
         j++
-      } else {
+      else
         k--
-      }
     }
   }
 

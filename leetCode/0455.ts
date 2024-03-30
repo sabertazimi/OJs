@@ -5,7 +5,8 @@ export default function findContentChildren(g: number[], s: number[]): number {
   let res = 0
 
   for (let i = 0; res < g.length && i < s.length; i++) {
-    if (g[res] <= s[i]) res++
+    if (g[res] <= s[i])
+      res++
   }
 
   return res

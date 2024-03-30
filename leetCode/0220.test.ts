@@ -10,8 +10,8 @@ import solution from './0220'
  * return true if there are two distinct indices i and j in the array
  * such that abs(nums[i] - nums[j]) <= t and abs(i - j) <= k.
  */
-describe('LeetCode [0220]', () => {
-  test('should AC', () => {
+describe('leetCode [0220]', () => {
+  it('should AC', () => {
     expect(solution([0], 0, 0)).toStrictEqual(false)
     expect(solution([1], 0, 1)).toStrictEqual(false)
     expect(solution([1], 1, 1)).toStrictEqual(false)

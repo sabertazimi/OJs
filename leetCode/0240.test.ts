@@ -11,8 +11,8 @@ import solution from './0240'
  * Integers in each row are sorted in ascending from left to right.
  * Integers in each column are sorted in ascending from top to bottom.
  */
-describe('LeetCode [0240]', () => {
-  test('should AC', () => {
+describe('leetCode [0240]', () => {
+  it('should AC', () => {
     expect(
       solution(
         [
@@ -22,8 +22,8 @@ describe('LeetCode [0240]', () => {
           [10, 13, 14, 17, 24],
           [18, 21, 23, 26, 30],
         ],
-        5
-      )
+        5,
+      ),
     ).toStrictEqual(true)
     expect(
       solution(
@@ -34,8 +34,8 @@ describe('LeetCode [0240]', () => {
           [10, 13, 14, 17, 24],
           [18, 21, 23, 26, 30],
         ],
-        20
-      )
+        20,
+      ),
     ).toStrictEqual(false)
   })
 })

@@ -8,8 +8,8 @@ import solution from './0070'
  * @see {@link https://leetcode-cn.com/problems/climbing-stairs/}
  * Fibonacci sequence
  */
-describe('LeetCode [0070]', () => {
-  test('should AC', () => {
+describe('leetCode [0070]', () => {
+  it('should AC', () => {
     expect(solution(1)).toStrictEqual(1)
     expect(solution(2)).toStrictEqual(2)
     expect(solution(3)).toStrictEqual(3)

@@ -12,10 +12,10 @@ import { arrayToList } from './List'
  * You will not be given access to the head of the list,
  * instead you will be given access to the node to be deleted directly.
  */
-describe('LeetCode [0237]', () => {
-  test('should AC', () => {
+describe('leetCode [0237]', () => {
+  it('should AC', () => {
     expect(solution(arrayToList([1, 2, 3]) as ListNode<number>)).toStrictEqual(
-      arrayToList([2, 3])
+      arrayToList([2, 3]),
     )
   })
 })

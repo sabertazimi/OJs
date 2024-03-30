@@ -12,8 +12,8 @@ import solution from './0162'
  * You may imagine that nums[-1] = nums[n] = -∞.
  * You must write an algorithm that runs in O(log n) time.
  */
-describe('LeetCode [0162]', () => {
-  test('should AC', () => {
+describe('leetCode [0162]', () => {
+  it('should AC', () => {
     expect(solution([1])).toStrictEqual(0)
     expect(solution([1, 2])).toStrictEqual(1)
     expect(solution([2, 1])).toStrictEqual(0)

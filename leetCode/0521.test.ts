@@ -17,8 +17,8 @@ import solution from './0521'
  * because you can delete the underlined characters in "aebdc" to get "abc".
  * Other subsequences of "aebdc" include "aebdc", "aeb", and "" (empty string).
  */
-describe('LeetCode [0521]', () => {
-  test('should AC', () => {
+describe('leetCode [0521]', () => {
+  it('should AC', () => {
     expect(solution('aaa', 'aaa')).toStrictEqual(-1)
     expect(solution('aaa', 'bbb')).toStrictEqual(3)
     expect(solution('aba', 'cdc')).toStrictEqual(3)

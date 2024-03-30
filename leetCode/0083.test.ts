@@ -11,13 +11,13 @@ import { arrayToList } from './List'
  * delete all duplicates such that each element appears only once.
  * Return the linked list sorted as well.
  */
-describe('LeetCode [0083]', () => {
-  test('should AC', () => {
+describe('leetCode [0083]', () => {
+  it('should AC', () => {
     expect(solution(arrayToList([]))).toStrictEqual(arrayToList([]))
     expect(solution(arrayToList([1, 2]))).toStrictEqual(arrayToList([1, 2]))
     expect(solution(arrayToList([1, 1, 2]))).toStrictEqual(arrayToList([1, 2]))
     expect(solution(arrayToList([1, 1, 2, 3, 3]))).toStrictEqual(
-      arrayToList([1, 2, 3])
+      arrayToList([1, 2, 3]),
     )
   })
 })

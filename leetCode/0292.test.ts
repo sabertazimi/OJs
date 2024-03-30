@@ -15,8 +15,8 @@ import solution from './0292'
  * return true if you can win the game assuming both you and your friend play optimally,
  * otherwise return false.
  */
-describe('LeetCode [0292]', () => {
-  test('should AC', () => {
+describe('leetCode [0292]', () => {
+  it('should AC', () => {
     expect(solution(1)).toStrictEqual(true)
     expect(solution(2)).toStrictEqual(true)
     expect(solution(4)).toStrictEqual(false)

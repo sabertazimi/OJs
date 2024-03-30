@@ -10,8 +10,8 @@ import { arrayToList } from './List'
  * Given the head of a singly linked list,
  * return true if it is a palindrome.
  */
-describe('LeetCode [0234]', () => {
-  test('should AC', () => {
+describe('leetCode [0234]', () => {
+  it('should AC', () => {
     expect(solution(arrayToList([]))).toStrictEqual(true)
     expect(solution(arrayToList([1]))).toStrictEqual(true)
     expect(solution(arrayToList([1, 2]))).toStrictEqual(false)

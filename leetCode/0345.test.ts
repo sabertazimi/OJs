@@ -9,8 +9,8 @@ import solution from './0345'
  * Given a string s, reverse only all the vowels in the string and return it.
  * The vowels are 'a', 'e', 'i', 'o', and 'u', and they can appear in both cases.
  */
-describe('LeetCode [0345]', () => {
-  test('should AC', () => {
+describe('leetCode [0345]', () => {
+  it('should AC', () => {
     expect(solution('hello')).toStrictEqual('holle')
     expect(solution('leetcode')).toStrictEqual('leotcede')
   })

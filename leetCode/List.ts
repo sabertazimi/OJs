@@ -10,10 +10,9 @@ class ListNode<T> {
   }
 }
 
-const arrayToList = <T>(nodes: T[]): ListNode<T> | null => {
-  if (nodes.length === 0) {
+function arrayToList<T>(nodes: T[]): ListNode<T> | null {
+  if (nodes.length === 0)
     return null
-  }
 
   let list = new ListNode(nodes[nodes.length - 1])
 
@@ -25,15 +24,14 @@ const arrayToList = <T>(nodes: T[]): ListNode<T> | null => {
   return list
 }
 
-const printList = <T>(list: ListNode<T> | null): void => {
+function printList<T>(list: ListNode<T> | null): void {
   let output = ''
 
   for (let node = list; node !== null; node = node.next) {
-    output += `[${node.val}]`
+    output += `[${String(node.val)}]`
 
-    if (node.next !== null) {
+    if (node.next !== null)
       output += ' -> '
-    }
   }
 
   consola.info(output)

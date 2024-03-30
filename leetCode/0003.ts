@@ -1,5 +1,6 @@
 export default function lengthOfLongestSubstring(s: string): number {
-  if (s.length === 0) return 0
+  if (s.length === 0)
+    return 0
 
   let maxLen = 0
 
@@ -11,7 +12,8 @@ export default function lengthOfLongestSubstring(s: string): number {
   ) {
     const ch = s.charAt(hi)
     const index = map.get(ch)
-    if (index !== undefined && lo <= index) lo = index + 1
+    if (index !== undefined && lo <= index)
+      lo = index + 1
     map.set(ch, hi)
     maxLen = Math.max(maxLen, hi - lo + 1)
   }

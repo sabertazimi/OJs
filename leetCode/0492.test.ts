@@ -16,8 +16,8 @@ import solution from './0492'
  * Return an array [L, W] where L and W
  * are the length and width of the web page you designed in sequence.
  */
-describe('LeetCode [0492]', () => {
-  test('should AC', () => {
+describe('leetCode [0492]', () => {
+  it('should AC', () => {
     expect(solution(4)).toStrictEqual([2, 2])
     expect(solution(37)).toStrictEqual([37, 1])
     expect(solution(122122)).toStrictEqual([427, 286])
