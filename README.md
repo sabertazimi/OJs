@@ -3,7 +3,7 @@
 [![Author](https://img.shields.io/badge/author-sabertaz-lightgrey?style=for-the-badge)](https://github.com/sabertazimi)
 [![LICENSE](https://img.shields.io/github/license/sabertazimi/OJs?style=for-the-badge)](https://raw.githubusercontent.com/sabertazimi/OJs/main/LICENSE)
 
-[![Code Lines](https://img.shields.io/tokei/lines/github/sabertazimi/OJs?style=for-the-badge&logo=visualstudiocode)](https://github.com/sabertazimi/OJs)
+[![Code Lines](https://tokei.rs/b1/github/sabertazimi/OJs?style=for-the-badge&logo=visualstudiocode)](https://github.com/sabertazimi/OJs)
 [![Jest Coverage](https://img.shields.io/codecov/c/github/sabertazimi/OJs?logo=codecov&style=for-the-badge)](https://codecov.io/gh/sabertazimi/OJs)
 [![CI](https://img.shields.io/github/actions/workflow/status/sabertazimi/OJs/ci.yml?branch=main&style=for-the-badge&logo=github)](https://github.com/sabertazimi/OJs/actions/workflows/ci.yml)
 
