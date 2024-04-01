@@ -1,6 +1,18 @@
 # Changelog
 
-All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
+
+## [2.4.1](https://github.com/sabertazimi/OJs/compare/v2.4.0...v2.4.1) (2024-04-01)
+
+
+### :rocket: Building Work
+
+* change release tool ([1d35d26](https://github.com/sabertazimi/OJs/commit/1d35d26bc91a91f160efcdaf9a07a0d145d40514))
+
+
+### :wrench: Testing
+
+* **vitest:** drop CJS configuration file ([c037d8e](https://github.com/sabertazimi/OJs/commit/c037d8eed54d95c57dd7d58db3f7cbc7423ca6d7))
 
 ## [2.4.0](https://github.com/sabertazimi/OJs/compare/v2.3.0...v2.4.0) (2022-04-30)
 
