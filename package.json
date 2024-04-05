@@ -42,7 +42,7 @@
   },
   "devDependencies": {
     "@dg-scripts/eslint-config": "^5.17.0",
-    "@types/node": "^20.12.4",
+    "@types/node": "^20.12.5",
     "@vitest/coverage-v8": "^1.4.0",
     "c8": "^9.1.0",
     "ci-info": "^4.0.0",
