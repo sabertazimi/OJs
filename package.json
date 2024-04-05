@@ -41,14 +41,14 @@
     "test:watch": "vitest"
   },
   "devDependencies": {
-    "@dg-scripts/eslint-config": "^5.17.0",
+    "@dg-scripts/eslint-config": "^5.20.1",
     "@types/node": "^20.12.5",
     "@vitest/coverage-v8": "^1.4.0",
     "c8": "^9.1.0",
     "ci-info": "^4.0.0",
     "commit-and-tag-version": "^12.2.0",
     "consola": "^3.2.3",
-    "eslint": "^9.0.0",
+    "eslint": "^8.57.0",
     "prettier": "^3.2.5",
     "typescript": "^5.4.4",
     "vitest": "^1.4.0"
