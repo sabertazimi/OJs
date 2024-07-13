@@ -10,7 +10,7 @@ importers:
     devDependencies:
       '@dg-scripts/eslint-config':
         specifier: ^5.21.1
-        version: 5.21.1(@typescript-eslint/parser@7.7.0(eslint@8.57.0)(typescript@5.5.3))(@vue/compiler-sfc@3.4.21)(eslint@8.57.0)(prettier@3.3.2)(typescript@5.5.3)(vitest@1.6.0(@types/node@20.14.10)(jsdom@23.2.0))
+        version: 5.21.1(@typescript-eslint/parser@7.7.0(eslint@8.57.0)(typescript@5.5.3))(@vue/compiler-sfc@3.4.21)(eslint@8.57.0)(prettier@3.3.3)(typescript@5.5.3)(vitest@1.6.0(@types/node@20.14.10)(jsdom@23.2.0))
       '@types/node':
         specifier: ^20.14.10
         version: 20.14.10
@@ -33,8 +33,8 @@ importers:
         specifier: ^8.57.0
         version: 8.57.0
       prettier:
-        specifier: ^3.3.2
-        version: 3.3.2
+        specifier: ^3.3.3
+        version: 3.3.3
       typescript:
         specifier: ^5.5.3
         version: 5.5.3
@@ -2179,8 +2179,8 @@ packages:
     resolution: {integrity: sha512-GbK2cP9nraSSUF9N2XwUwqfzlAFlMNYYl+ShE/V+H8a9uNl/oUqB1w2EL54Jh0OlyRSd8RfWYJ3coVS4TROP2w==}
     engines: {node: '>=6.0.0'}
 
-  prettier@3.3.2:
-    resolution: {integrity: sha512-rAVeHYMcv8ATV5d508CFdn+8/pHPpXeIid1DdrPwXnaAdH7cqjVbpJaT5eq4yRAFU/lsbwYwSF/n5iNrdJHPQA==}
+  prettier@3.3.3:
+    resolution: {integrity: sha512-i2tDNA0O5IrMO757lfrdQZCc2jPNDVntV0m/+4whiDfWaTKfMNgR7Qz0NAeGz/nRqF4m5/6CLzbP4/liHt12Ew==}
     engines: {node: '>=14'}
     hasBin: true
 
@@ -2890,7 +2890,7 @@ snapshots:
       picocolors: 1.0.0
       sisteransi: 1.0.5
 
-  '@dg-scripts/eslint-config@5.21.1(@typescript-eslint/parser@7.7.0(eslint@8.57.0)(typescript@5.5.3))(@vue/compiler-sfc@3.4.21)(eslint@8.57.0)(prettier@3.3.2)(typescript@5.5.3)(vitest@1.6.0(@types/node@20.14.10)(jsdom@23.2.0))':
+  '@dg-scripts/eslint-config@5.21.1(@typescript-eslint/parser@7.7.0(eslint@8.57.0)(typescript@5.5.3))(@vue/compiler-sfc@3.4.21)(eslint@8.57.0)(prettier@3.3.3)(typescript@5.5.3)(vitest@1.6.0(@types/node@20.14.10)(jsdom@23.2.0))':
     dependencies:
       '@antfu/eslint-config': 2.15.0(@eslint-react/eslint-plugin@1.5.9(@typescript-eslint/parser@7.7.0(eslint@8.57.0)(typescript@5.5.3))(eslint@8.57.0)(typescript@5.5.3))(@vue/compiler-sfc@3.4.21)(eslint-plugin-format@0.1.1(eslint@8.57.0))(eslint-plugin-react-hooks@4.6.0(eslint@8.57.0))(eslint-plugin-react-refresh@0.4.6(eslint@8.57.0))(eslint@8.57.0)(typescript@5.5.3)(vitest@1.6.0(@types/node@20.14.10)(jsdom@23.2.0))
       '@eslint-react/eslint-plugin': 1.5.9(@typescript-eslint/parser@7.7.0(eslint@8.57.0)(typescript@5.5.3))(eslint@8.57.0)(typescript@5.5.3)
@@ -2903,7 +2903,7 @@ snapshots:
       eslint-plugin-security: 3.0.0
       eslint-plugin-testing-library: 6.2.2(eslint@8.57.0)(typescript@5.5.3)
       local-pkg: 0.5.0
-      prettier: 3.3.2
+      prettier: 3.3.3
       typescript: 5.5.3
     transitivePeerDependencies:
       - '@typescript-eslint/parser'
@@ -4120,7 +4120,7 @@ snapshots:
       eslint: 8.57.0
       eslint-formatting-reporter: 0.0.0(eslint@8.57.0)
       eslint-parser-plain: 0.1.0
-      prettier: 3.3.2
+      prettier: 3.3.3
       synckit: 0.9.0
 
   eslint-plugin-import-x@0.5.0(eslint@8.57.0)(typescript@5.5.3):
@@ -5233,7 +5233,7 @@ snapshots:
     dependencies:
       fast-diff: 1.3.0
 
-  prettier@3.3.2: {}
+  prettier@3.3.3: {}
 
   pretty-format@29.7.0:
     dependencies:
