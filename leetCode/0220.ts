@@ -21,13 +21,15 @@ export default function containsNearbyAlmostDuplicate(
     if (
       map.has(bucket - 1)
       && Math.abs(num - (map.get(bucket - 1) as number)) <= t
-    )
+    ) {
       return true
+    }
     if (
       map.has(bucket + 1)
       && Math.abs(num - (map.get(bucket + 1) as number)) <= t
-    )
+    ) {
       return true
+    }
 
     // Every bucket has at most one element due to line 18.
     map.set(bucket, num)

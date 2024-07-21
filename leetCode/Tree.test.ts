@@ -98,7 +98,7 @@ describe('segmentTree', () => {
           vi.fn(() => 0),
           0,
         ),
-    ).toThrow(Error('Data is empty'))
+    ).toThrow(new Error('Data is empty'))
   })
 
   it('should construct from [number array] correctly', () => {
