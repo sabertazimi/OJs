@@ -1,6 +1,11 @@
 import consola from 'consola'
 import { ListNode, arrayToList, printList } from './List'
 
+interface LogFn {
+  (message: any, ...args: any[]): void
+  raw: (...args: any[]) => void
+}
+
 describe('list', () => {
   it('should construct `null` list from empty array', () => {
     const list = arrayToList([])
@@ -46,7 +51,7 @@ describe('list', () => {
   it('should print correctly', () => {
     const mockConsolaInfo = vi
       .spyOn(consola, 'info')
-      .mockImplementation(() => {})
+      .mockImplementation((() => {}) as unknown as LogFn)
     printList(arrayToList([1, 2, 3, 4, 5]))
     expect(mockConsolaInfo).toHaveBeenCalledTimes(1)
     mockConsolaInfo.mockRestore()
