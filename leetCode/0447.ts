@@ -9,7 +9,7 @@ export default function numberOfBoomerangs(points: number[][]): number {
       const dx = points[i][0] - points[j][0]
       const dy = points[i][1] - points[j][1]
       const distance = dx * dx + dy * dy
-      map.set(distance, (map.get(distance) || 0) + 1)
+      map.set(distance, (map.get(distance) ?? 0) + 1)
     }
 
     // Find left 2 points

@@ -2,7 +2,7 @@ export default function countPrimes(n: number): number {
   if (n <= 1)
     return 0
 
-  const prime = Array(n).fill(true)
+  const prime = Array<boolean>(n).fill(true)
   prime[0] = false
   prime[1] = false
 

@@ -12,8 +12,9 @@ export default function findRadius(
     while (
       index + 1 < heaters.length
       && Math.abs(heaters[index + 1] - house) <= Math.abs(heaters[index] - house)
-    )
+    ) {
       index++
+    }
 
     radius = Math.max(radius, Math.abs(heaters[index] - house))
   }

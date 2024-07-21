@@ -10,8 +10,9 @@ export default function readBinaryWatch(turnedOn: number): string[] {
         h.toString(2).split('0').join('').length
         + m.toString(2).split('0').join('').length
         === turnedOn
-      )
+      ) {
         result.push(`${h}:${m < 10 ? '0' : ''}${m}`)
+      }
     }
   }
 

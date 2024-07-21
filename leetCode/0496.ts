@@ -13,6 +13,6 @@ export default function nextGreaterElement(
   }
 
   const result: number[] = []
-  for (const num of nums1) result.push(greaterMap.get(num) || -1)
+  for (const num of nums1) result.push(greaterMap.get(num) ?? -1)
   return result
 }
