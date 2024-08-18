@@ -10,13 +10,13 @@ importers:
     devDependencies:
       '@dg-scripts/eslint-config':
         specifier: ^5.21.3
-        version: 5.21.3(@vue/compiler-sfc@3.4.21)(eslint@8.57.0)(prettier@3.3.3)(typescript@5.5.4)(vitest@2.0.5(@types/node@20.14.15)(jsdom@23.2.0))
+        version: 5.21.3(@vue/compiler-sfc@3.4.21)(eslint@8.57.0)(prettier@3.3.3)(typescript@5.5.4)(vitest@2.0.5(@types/node@20.16.0)(jsdom@23.2.0))
       '@types/node':
-        specifier: ^20.14.15
-        version: 20.14.15
+        specifier: ^20.16.0
+        version: 20.16.0
       '@vitest/coverage-v8':
         specifier: ^2.0.5
-        version: 2.0.5(vitest@2.0.5(@types/node@20.14.15)(jsdom@23.2.0))
+        version: 2.0.5(vitest@2.0.5(@types/node@20.16.0)(jsdom@23.2.0))
       c8:
         specifier: ^10.1.2
         version: 10.1.2
@@ -40,7 +40,7 @@ importers:
         version: 5.5.4
       vitest:
         specifier: ^2.0.5
-        version: 2.0.5(@types/node@20.14.15)(jsdom@23.2.0)
+        version: 2.0.5(@types/node@20.16.0)(jsdom@23.2.0)
 
 packages:
 
@@ -558,8 +558,8 @@ packages:
   '@types/minimist@1.2.5':
     resolution: {integrity: sha512-hov8bUuiLiyFPGyFPE1lwWhmzYbirOXQNNo40+y3zow8aFVTeyn3VWL0VFFfdNddA8S4Vf0Tc062rzyNr7Paag==}
 
-  '@types/node@20.14.15':
-    resolution: {integrity: sha512-Fz1xDMCF/B00/tYSVMlmK7hVeLh7jE5f3B7X1/hmV0MJBwE27KlS7EvD/Yp+z1lm8mVhwV5w+n8jOZG8AfTlKw==}
+  '@types/node@20.16.0':
+    resolution: {integrity: sha512-vDxceJcoZhIVh67S568bm1UGZO0DX0hpplJZxzeXMKwIPLn190ec5RRxQ69BKhX44SUGIxxgMdDY557lGLKprQ==}
 
   '@types/normalize-package-data@2.4.4':
     resolution: {integrity: sha512-37i+OaWTh9qeK4LSHPsyRC7NahnGotNuZvjLSgcPzblpHB3rrCJxAOgI5gCdKm7coonsaX1Of0ILiTcnZjbfxA==}
@@ -2639,8 +2639,8 @@ packages:
     engines: {node: '>=0.8.0'}
     hasBin: true
 
-  undici-types@5.26.5:
-    resolution: {integrity: sha512-JlCMO+ehdEIKqlFxk6IfVoAUVmgz7cU7zD/h9XZ0qzeosSHmUJVOzSQvvYSYWXkFXC+IfLKSIffhv0sVZup6pA==}
+  undici-types@6.19.6:
+    resolution: {integrity: sha512-e/vggGopEfTKSvj4ihnOLTsqhrKRN3LeO6qSN/GxohhuRv8qH9bNQ4B8W7e/vFL+0XTnmHPB4/kegunZGA4Org==}
 
   unist-util-stringify-position@2.0.3:
     resolution: {integrity: sha512-3faScn5I+hy9VleOq/qNbAd6pAx7iH5jYBMS9I1HgQVijz/4mv5Bvw5iw1sC/90CODiKo81G/ps8AJrISn687g==}
@@ -2851,7 +2851,7 @@ snapshots:
       '@jridgewell/gen-mapping': 0.3.5
       '@jridgewell/trace-mapping': 0.3.25
 
-  '@antfu/eslint-config@2.23.1(@eslint-react/eslint-plugin@1.5.28(eslint@8.57.0)(typescript@5.5.4))(@vue/compiler-sfc@3.4.21)(eslint-plugin-format@0.1.2(eslint@8.57.0))(eslint-plugin-react-hooks@4.6.2(eslint@8.57.0))(eslint-plugin-react-refresh@0.4.8(eslint@8.57.0))(eslint@8.57.0)(typescript@5.5.4)(vitest@2.0.5(@types/node@20.14.15)(jsdom@23.2.0))':
+  '@antfu/eslint-config@2.23.1(@eslint-react/eslint-plugin@1.5.28(eslint@8.57.0)(typescript@5.5.4))(@vue/compiler-sfc@3.4.21)(eslint-plugin-format@0.1.2(eslint@8.57.0))(eslint-plugin-react-hooks@4.6.2(eslint@8.57.0))(eslint-plugin-react-refresh@0.4.8(eslint@8.57.0))(eslint@8.57.0)(typescript@5.5.4)(vitest@2.0.5(@types/node@20.16.0)(jsdom@23.2.0))':
     dependencies:
       '@antfu/eslint-plugin-unused-imports': 4.0.0(@typescript-eslint/eslint-plugin@8.0.0-alpha.40(@typescript-eslint/parser@8.0.0-alpha.40(eslint@8.57.0)(typescript@5.5.4))(eslint@8.57.0)(typescript@5.5.4))(eslint@8.57.0)
       '@antfu/install-pkg': 0.3.3
@@ -2876,7 +2876,7 @@ snapshots:
       eslint-plugin-regexp: 2.6.0(eslint@8.57.0)
       eslint-plugin-toml: 0.11.1(eslint@8.57.0)
       eslint-plugin-unicorn: 54.0.0(eslint@8.57.0)
-      eslint-plugin-vitest: 0.5.4(@typescript-eslint/eslint-plugin@8.0.0-alpha.40(@typescript-eslint/parser@8.0.0-alpha.40(eslint@8.57.0)(typescript@5.5.4))(eslint@8.57.0)(typescript@5.5.4))(eslint@8.57.0)(typescript@5.5.4)(vitest@2.0.5(@types/node@20.14.15)(jsdom@23.2.0))
+      eslint-plugin-vitest: 0.5.4(@typescript-eslint/eslint-plugin@8.0.0-alpha.40(@typescript-eslint/parser@8.0.0-alpha.40(eslint@8.57.0)(typescript@5.5.4))(eslint@8.57.0)(typescript@5.5.4))(eslint@8.57.0)(typescript@5.5.4)(vitest@2.0.5(@types/node@20.16.0)(jsdom@23.2.0))
       eslint-plugin-vue: 9.27.0(eslint@8.57.0)
       eslint-plugin-yml: 1.14.0(eslint@8.57.0)
       eslint-processor-vue-blocks: 0.1.2(@vue/compiler-sfc@3.4.21)(eslint@8.57.0)
@@ -2958,9 +2958,9 @@ snapshots:
       picocolors: 1.0.1
       sisteransi: 1.0.5
 
-  '@dg-scripts/eslint-config@5.21.3(@vue/compiler-sfc@3.4.21)(eslint@8.57.0)(prettier@3.3.3)(typescript@5.5.4)(vitest@2.0.5(@types/node@20.14.15)(jsdom@23.2.0))':
+  '@dg-scripts/eslint-config@5.21.3(@vue/compiler-sfc@3.4.21)(eslint@8.57.0)(prettier@3.3.3)(typescript@5.5.4)(vitest@2.0.5(@types/node@20.16.0)(jsdom@23.2.0))':
     dependencies:
-      '@antfu/eslint-config': 2.23.1(@eslint-react/eslint-plugin@1.5.28(eslint@8.57.0)(typescript@5.5.4))(@vue/compiler-sfc@3.4.21)(eslint-plugin-format@0.1.2(eslint@8.57.0))(eslint-plugin-react-hooks@4.6.2(eslint@8.57.0))(eslint-plugin-react-refresh@0.4.8(eslint@8.57.0))(eslint@8.57.0)(typescript@5.5.4)(vitest@2.0.5(@types/node@20.14.15)(jsdom@23.2.0))
+      '@antfu/eslint-config': 2.23.1(@eslint-react/eslint-plugin@1.5.28(eslint@8.57.0)(typescript@5.5.4))(@vue/compiler-sfc@3.4.21)(eslint-plugin-format@0.1.2(eslint@8.57.0))(eslint-plugin-react-hooks@4.6.2(eslint@8.57.0))(eslint-plugin-react-refresh@0.4.8(eslint@8.57.0))(eslint@8.57.0)(typescript@5.5.4)(vitest@2.0.5(@types/node@20.16.0)(jsdom@23.2.0))
       '@eslint-react/eslint-plugin': 1.5.28(eslint@8.57.0)(typescript@5.5.4)
       '@eslint/eslintrc': 3.1.0
       eslint: 8.57.0
@@ -3383,9 +3383,9 @@ snapshots:
 
   '@types/minimist@1.2.5': {}
 
-  '@types/node@20.14.15':
+  '@types/node@20.16.0':
     dependencies:
-      undici-types: 5.26.5
+      undici-types: 6.19.6
 
   '@types/normalize-package-data@2.4.4': {}
 
@@ -3605,7 +3605,7 @@ snapshots:
 
   '@ungap/structured-clone@1.2.0': {}
 
-  '@vitest/coverage-v8@2.0.5(vitest@2.0.5(@types/node@20.14.15)(jsdom@23.2.0))':
+  '@vitest/coverage-v8@2.0.5(vitest@2.0.5(@types/node@20.16.0)(jsdom@23.2.0))':
     dependencies:
       '@ampproject/remapping': 2.3.0
       '@bcoe/v8-coverage': 0.2.3
@@ -3619,7 +3619,7 @@ snapshots:
       std-env: 3.7.0
       test-exclude: 7.0.1
       tinyrainbow: 1.2.0
-      vitest: 2.0.5(@types/node@20.14.15)(jsdom@23.2.0)
+      vitest: 2.0.5(@types/node@20.16.0)(jsdom@23.2.0)
     transitivePeerDependencies:
       - supports-color
 
@@ -4478,13 +4478,13 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  eslint-plugin-vitest@0.5.4(@typescript-eslint/eslint-plugin@8.0.0-alpha.40(@typescript-eslint/parser@8.0.0-alpha.40(eslint@8.57.0)(typescript@5.5.4))(eslint@8.57.0)(typescript@5.5.4))(eslint@8.57.0)(typescript@5.5.4)(vitest@2.0.5(@types/node@20.14.15)(jsdom@23.2.0)):
+  eslint-plugin-vitest@0.5.4(@typescript-eslint/eslint-plugin@8.0.0-alpha.40(@typescript-eslint/parser@8.0.0-alpha.40(eslint@8.57.0)(typescript@5.5.4))(eslint@8.57.0)(typescript@5.5.4))(eslint@8.57.0)(typescript@5.5.4)(vitest@2.0.5(@types/node@20.16.0)(jsdom@23.2.0)):
     dependencies:
       '@typescript-eslint/utils': 7.16.1(eslint@8.57.0)(typescript@5.5.4)
       eslint: 8.57.0
     optionalDependencies:
       '@typescript-eslint/eslint-plugin': 8.0.0-alpha.40(@typescript-eslint/parser@8.0.0-alpha.40(eslint@8.57.0)(typescript@5.5.4))(eslint@8.57.0)(typescript@5.5.4)
-      vitest: 2.0.5(@types/node@20.14.15)(jsdom@23.2.0)
+      vitest: 2.0.5(@types/node@20.16.0)(jsdom@23.2.0)
     transitivePeerDependencies:
       - supports-color
       - typescript
@@ -5717,7 +5717,7 @@ snapshots:
   uglify-js@3.17.4:
     optional: true
 
-  undici-types@5.26.5: {}
+  undici-types@6.19.6: {}
 
   unist-util-stringify-position@2.0.3:
     dependencies:
@@ -5753,13 +5753,13 @@ snapshots:
       spdx-correct: 3.2.0
       spdx-expression-parse: 3.0.1
 
-  vite-node@2.0.5(@types/node@20.14.15):
+  vite-node@2.0.5(@types/node@20.16.0):
     dependencies:
       cac: 6.7.14
       debug: 4.3.5
       pathe: 1.1.2
       tinyrainbow: 1.2.0
-      vite: 5.1.4(@types/node@20.14.15)
+      vite: 5.1.4(@types/node@20.16.0)
     transitivePeerDependencies:
       - '@types/node'
       - less
@@ -5770,16 +5770,16 @@ snapshots:
       - supports-color
       - terser
 
-  vite@5.1.4(@types/node@20.14.15):
+  vite@5.1.4(@types/node@20.16.0):
     dependencies:
       esbuild: 0.19.12
       postcss: 8.4.35
       rollup: 4.12.0
     optionalDependencies:
-      '@types/node': 20.14.15
+      '@types/node': 20.16.0
       fsevents: 2.3.3
 
-  vitest@2.0.5(@types/node@20.14.15)(jsdom@23.2.0):
+  vitest@2.0.5(@types/node@20.16.0)(jsdom@23.2.0):
     dependencies:
       '@ampproject/remapping': 2.3.0
       '@vitest/expect': 2.0.5
@@ -5797,11 +5797,11 @@ snapshots:
       tinybench: 2.8.0
       tinypool: 1.0.0
       tinyrainbow: 1.2.0
-      vite: 5.1.4(@types/node@20.14.15)
-      vite-node: 2.0.5(@types/node@20.14.15)
+      vite: 5.1.4(@types/node@20.16.0)
+      vite-node: 2.0.5(@types/node@20.16.0)
       why-is-node-running: 2.3.0
     optionalDependencies:
-      '@types/node': 20.14.15
+      '@types/node': 20.16.0
       jsdom: 23.2.0
     transitivePeerDependencies:
       - less
