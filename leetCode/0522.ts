@@ -22,12 +22,12 @@ export default function findLongestUncommonSubsequenceLength(
       if (
         i !== j
         && (strings[i] === strings[j]
-        || isSubsequence(
-          strings[j],
-          strings[i],
-          strings[j].length,
-          strings[i].length,
-        ))
+          || isSubsequence(
+            strings[j],
+            strings[i],
+            strings[j].length,
+            strings[i].length,
+          ))
       ) {
         uniq = false
         break

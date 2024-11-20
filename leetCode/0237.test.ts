@@ -1,5 +1,5 @@
-import solution from './0237'
 import type { ListNode } from './List'
+import solution from './0237'
 import { arrayToList } from './List'
 
 /**

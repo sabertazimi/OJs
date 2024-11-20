@@ -1,4 +1,4 @@
-import { SegmentTree, TreeNode, arrayToTree, traversal } from './Tree'
+import { arrayToTree, SegmentTree, traversal, TreeNode } from './Tree'
 
 describe('tree', () => {
   it('should construct `null` tree from empty array', () => {
