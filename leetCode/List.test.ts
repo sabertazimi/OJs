@@ -1,5 +1,5 @@
 import consola from 'consola'
-import { ListNode, arrayToList, printList } from './List'
+import { arrayToList, ListNode, printList } from './List'
 
 interface LogFn {
   (message: any, ...args: any[]): void

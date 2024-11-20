@@ -1,5 +1,5 @@
-import solution from './0235'
 import type { TreeNode } from './Tree'
+import solution from './0235'
 import { arrayToTree } from './Tree'
 
 /**

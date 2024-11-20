@@ -1,6 +1,6 @@
 export default function findCircleNum(isConnected: number[][]): number {
   const n = isConnected.length
-  const visited = Array(n).fill(false)
+  const visited = Array.from<boolean>({ length: n }).fill(false)
   const dfs = (i: number) => {
     visited[i] = true
 

@@ -187,4 +187,4 @@ class SegmentTree<T> {
   }
 }
 
-export { TreeNode, SegmentTree, arrayToTree, traversal }
+export { arrayToTree, SegmentTree, traversal, TreeNode }

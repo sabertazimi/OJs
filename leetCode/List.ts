@@ -37,4 +37,4 @@ function printList<T>(list: ListNode<T> | null): void {
   consola.info(output)
 }
 
-export { ListNode, arrayToList, printList }
+export { arrayToList, ListNode, printList }
