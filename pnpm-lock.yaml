@@ -27,8 +27,8 @@ importers:
         specifier: ^12.5.0
         version: 12.5.0
       consola:
-        specifier: ^3.2.3
-        version: 3.2.3
+        specifier: ^3.3.0
+        version: 3.3.0
       eslint:
         specifier: ^9.17.0
         version: 9.17.0
@@ -887,8 +887,8 @@ packages:
   confbox@0.1.8:
     resolution: {integrity: sha512-RMtmw0iFkeR4YV+fUOSucriAQNb9g8zFR52MWCtl+cCZOFRNL6zeB395vPzFhEjjn4fMxXudmELnl/KF/WrK6w==}
 
-  consola@3.2.3:
-    resolution: {integrity: sha512-I5qxpzLv+sJhTVEoLYNcTW+bThDCPsit0vLNKShZx6rLtpilNpmmeTPaeqJb9ZE9dV3DGaeby6Vuhrw38WjeyQ==}
+  consola@3.3.0:
+    resolution: {integrity: sha512-kxltocVQCwQNFvw40dlVRYeAkAvtYjMFZYNlOcsF5wExPpGwPxMwgx4IfDJvBRPtBpnQwItd5WkTaR0ZwT/TmQ==}
     engines: {node: ^14.18.0 || >=16.10.0}
 
   conventional-changelog-angular@6.0.0:
@@ -3655,7 +3655,7 @@ snapshots:
 
   confbox@0.1.8: {}
 
-  consola@3.2.3: {}
+  consola@3.3.0: {}
 
   conventional-changelog-angular@6.0.0:
     dependencies:
