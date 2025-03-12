@@ -6,8 +6,7 @@ export default function maximalRectangle(matrix: string[][]): number {
 
   const m = matrix.length
   const n = matrix[0].length
-  const heights = Array.from(Array.from({ length: m }), () =>
-    Array.from(Array.from({ length: n }), () => 0))
+  const heights = Array.from<number>({ length: m }).map(() => Array.from<number>({ length: n }).fill(0))
 
   // Use dynamic programming to calculate heights of `m` histograms
   for (let i = 0; i < m; i++) {
